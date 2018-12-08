@@ -1,0 +1,51 @@
+# This output was generated with AUGUSTUS (version 3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer and L. Romoth.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /usr/share/augustus/config/ ...
+# Using protein profile unknown
+# --[0..189]--> unknown_A (13) <--[0..2]--> unknown_B (46) <--[0..1]--> unknown_C (84) <--[0..1]--> unknown_D (18) <--[0..1]--> unknown_E (41) <--[0..1]--> unknown_F (45) <--[1..30]--> unknown_G (57) <--[0..3]--> unknown_H (13) <--[0..2]--> unknown_I (21) <--[0..1]--> unknown_J (28) <--[0..6]--> unknown_K (32) <--[0..1]--> unknown_L (34) <--[0..28]--> unknown_M (78) <--[3..6]--> unknown_N (101) <--[3..16]--> unknown_O (121) <--[0..5]--> unknown_P (18) <--[0..3]--> unknown_Q (41) <--[3..313]--
+# fly version. Using default transition matrix.
+# Looks like ./tmp/jcf7180007573917E_nipponium_1228642633_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 20986, name = jcf7180007573917) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+jcf7180007573917	AUGUSTUS	gene	1	10505	0.01	-	.	g1
+jcf7180007573917	AUGUSTUS	transcript	1	10505	0.01	-	.	g1.t1
+jcf7180007573917	AUGUSTUS	intron	1	3770	0.07	-	.	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007573917	AUGUSTUS	intron	3849	7850	0.09	-	.	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007573917	AUGUSTUS	intron	8594	10347	0.44	-	.	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007573917	AUGUSTUS	CDS	3771	3848	0.17	-	0	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007573917	AUGUSTUS	exon	3771	3848	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007573917	AUGUSTUS	CDS	7851	8593	0.92	-	2	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007573917	AUGUSTUS	exon	7851	8593	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007573917	AUGUSTUS	CDS	10348	10432	0.44	-	0	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007573917	AUGUSTUS	exon	10348	10505	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007573917	AUGUSTUS	start_codon	10430	10432	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007573917	AUGUSTUS	tss	10505	10505	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atgcacttcgtttcgtgccaccggcgacctcatcgtagatcattacgcctgagtcatccactgcttaaagtcaataggg
+# acgcagatcctggtgaacgtggtattcacgcattcagttcatcaccggctaattcatctcgcctttggttcccctgcatcgatgcttcggaaccatgt
+# acttggaagatcgaaattactgtcccggaagaatacgtggctgttgcaccgggcgaattgttagacgctccactgtatactcaagatttagcgcataa
+# aacctatcatttctatctggctcaaccggtgtccgcaccgcatataggcatcgcaattggtgcatttgacattttttcagatgaacaaatcaatgttg
+# gtggttctttaagcggaggtggccatgctcagtctagcaataactcttctgctacactgagttcttcaaatcttagtggagctgctattacaggcagt
+# gcacgtcgtctcagtgcaacatattttgctccaaaagggctgaacggttcaaatgaatcggctgctgttatttcgacatattccagctcacgagctgc
+# gaataatccggctacggaaaagaattctctcatggagacttcaactgaacgttcgcttaaggaaggccttatacggtacacaatgcagccgttggccg
+# acatgctggagtactacgagtctttgcttgctgctgaatttccgtttgaaagtttaaaatttgtctttgttgatggagcctacgacgcagagttccaa
+# tcgtatgcatctctgattattattcctgtcgaactgttgcactcttcgcgcatgatagaacagttgagcatatttcttctgatcgattttacagtgga
+# gtattattctcacaggcagcgccagattggcgtaagaaagaag]
+# protein sequence = [MHFVSCHRRPHRRSLRLSHPLLKVNRDADPGERGIHAFSSSPANSSRLWFPCIDASEPCTWKIEITVPEEYVAVAPGE
+# LLDAPLYTQDLAHKTYHFYLAQPVSAPHIGIAIGAFDIFSDEQINVGGSLSGGGHAQSSNNSSATLSSSNLSGAAITGSARRLSATYFAPKGLNGSNE
+# SAAVISTYSSSRAANNPATEKNSLMETSTERSLKEGLIRYTMQPLADMLEYYESLLAAEFPFESLKFVFVDGAYDAEFQSYASLIIIPVELLHSSRMI
+# EQLSIFLLIDFTVEYYSHRQRQIGVRKK]
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --codingseq=1 --proteinprofile=./metazoa_odb9/prfl/EOG091G00Z3.prfl --predictionStart=0  --predictionEnd=28588  --species=fly ./tmp/jcf7180007573917E_nipponium_1228642633_.temp

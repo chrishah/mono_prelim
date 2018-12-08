@@ -1,0 +1,3 @@
+total 20M
+-rwxrwxrwx 1 170 Dez  8 23:38 HOWTO
+-rwxrwxrwx 1 20M Dez  8 23:38 gyrodactylus_salaris.PRJNA244375.WBPS12.genomic.fa.gz

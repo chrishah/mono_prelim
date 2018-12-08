@@ -1,0 +1,5 @@
+total 1,6M
+-rwxrwxrwx 1 1,7K Feb 13  2017 species.info
+-rwxrwxrwx 1  37K Feb 13  2017 metazoa_33208_OrthoDB9_orthogroup_info.txt.gz
+-rwxrwxrwx 1 1,5M Feb 13  2017 ogs.id.info
+-rwxrwxrwx 1  161 Feb 13  2017 changelog

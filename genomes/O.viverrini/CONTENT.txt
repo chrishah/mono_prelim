@@ -1,0 +1,3 @@
+total 170M
+-rwxrwxrwx 1  174 Dez  8 23:43 HOWTO
+-rwxrwxrwx 1 170M Dez  8 23:44 opisthorchis_viverrini.PRJNA222628.WBPS12.genomic.fa.gz

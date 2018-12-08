@@ -1,0 +1,11 @@
+#assemble from J. Vorel
+
+
+#download metazoa reference set
+wget -qO- https://busco.ezlab.org/datasets/metazoa_odb9.tar.gz | tar -xvz
+
+#run BUSCO
+fasta=roche_minion_illum.genome.scf.filter.fasta
+prefix=E_nipponium
+docker run -it --rm --net=host -v $(pwd):/home/working -w /home/working chrishah/busco-docker:v3.0.2 run_BUSCO.py --in $fasta --out $prefix -l ./metazoa_odb9 --mode genome -c 6 2>&1 | tee busco.log
+

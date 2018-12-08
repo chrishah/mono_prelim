@@ -1,0 +1,3 @@
+total 251M
+-rwxrwxrwx 1  172 Dez  8 23:47 HOWOT
+-rwxrwxrwx 1 251M Dez  8 23:48 schmidtea_mediterranea.PRJNA12585.WBPS12.genomic.fa.gz

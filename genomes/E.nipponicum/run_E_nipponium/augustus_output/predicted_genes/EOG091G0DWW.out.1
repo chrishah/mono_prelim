@@ -1,0 +1,38 @@
+# This output was generated with AUGUSTUS (version 3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer and L. Romoth.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /usr/share/augustus/config/ ...
+# Using protein profile unknown
+# --[16..134]--> unknown_B (11) <--[11..27]--> unknown_D (16) <--[1..7]--> unknown_E (22) <--[1..30]--> unknown_F (41) <--[8..62]--> unknown_G (14) <--[1..9]--> unknown_H (38) <--[8..20]--> unknown_J (16) <--[1..14]--> unknown_K (14) <--[9..18]--> unknown_M (20) <--[3..19]--> unknown_N (28) <--[1..2]--> unknown_O (74) <--[0..1]--> unknown_P (13) <--[11..20]--> unknown_R (17) <--[3..9]--> unknown_S (37) <--[0..3]--> unknown_T (6) <--[2..8]--> unknown_U (39) <--[2..17]--
+# fly version. Using default transition matrix.
+# Looks like ./tmp/jcf7180007712704E_nipponium_1228642633_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 20689, name = jcf7180007712704) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+jcf7180007712704	AUGUSTUS	gene	848	5225	0.01	-	.	g1
+jcf7180007712704	AUGUSTUS	transcript	848	5225	0.01	-	.	g1.t1
+jcf7180007712704	AUGUSTUS	tts	848	848	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007712704	AUGUSTUS	exon	848	4048	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007712704	AUGUSTUS	stop_codon	2628	2630	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007712704	AUGUSTUS	CDS	2628	2861	0.07	-	0	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007712704	AUGUSTUS	start_codon	2859	2861	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007712704	AUGUSTUS	exon	4190	4759	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007712704	AUGUSTUS	exon	5115	5225	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+jcf7180007712704	AUGUSTUS	tss	5225	5225	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atgatgagggaaatatcgtaccgaaacgttgccagtcaacgaagattagaacgtaactcactcctagtggttaatctga
+# acgatgttgaagccttcggaagaaagggacgaatccgcacccggctaatcaaacttgatgcgtacttggaaattgggatcgatcggacctttgcgaaa
+# cctatattgcaaatcgacagcccgcgaacgcaaatggcggagattctacaaggctga]
+# protein sequence = [MMREISYRNVASQRRLERNSLLVVNLNDVEAFGRKGRIRTRLIKLDAYLEIGIDRTFAKPILQIDSPRTQMAEILQG]
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --codingseq=1 --proteinprofile=./metazoa_odb9/prfl/EOG091G0DWW.prfl --predictionStart=0  --predictionEnd=30474  --species=fly ./tmp/jcf7180007712704E_nipponium_1228642633_.temp

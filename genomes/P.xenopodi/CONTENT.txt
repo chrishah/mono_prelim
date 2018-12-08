@@ -1,0 +1,3 @@
+total 180M
+-rwxrwxrwx 1  174 Dez  8 23:40 HOWTO
+-rwxrwxrwx 1 180M Dez  8 23:41 protopolystoma_xenopodis.PRJEB1201.WBPS12.genomic.fa.gz

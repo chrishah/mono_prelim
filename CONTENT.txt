@@ -1,0 +1,4 @@
+total 5,0K
+-rwxrwxrwx 1  13 Dez  8 23:26 README.md
+-rwxrwxrwx 1 827 Dez  8 23:28 cleanup.sh
+drwxrwxrwx 1 472 Dez  8 23:36 genomes

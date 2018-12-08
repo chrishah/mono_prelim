@@ -1,0 +1,3 @@
+total 37M
+-rwxrwxrwx 1 156 Dez  8 23:44 HOWTO
+-rwxrwxrwx 1 37M Dez  8 23:45 taenia_solium.PRJNA170813.WBPS12.genomic.fa.gz

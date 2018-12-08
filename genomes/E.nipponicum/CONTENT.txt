@@ -1,0 +1,7 @@
+total 1,1G
+-rwxrwxrwx 1 1,1G Dez  8 21:15 roche_minion_illum.genome.scf.filter.fasta
+drwxrwxrwx 1 4,0K Dez  8 23:30 metazoa_odb9
+-rwxrwxrwx 1  411 Dez  8 23:32 HOWTO
+drwxrwxrwx 1  240 Dez  8 23:41 tmp
+drwxrwxrwx 1  384 Dez  8 23:41 run_E_nipponium
+-rwxrwxrwx 1 2,2K Dez  8 23:47 busco.log

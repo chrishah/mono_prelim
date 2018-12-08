@@ -1,0 +1,3 @@
+total 48M
+-rwxrwxrwx 1 168 Dez  8 23:45 HOWTO
+-rwxrwxrwx 1 48M Dez  8 23:45 hymenolepis_microstoma.PRJEB124.WBPS12.genomic.fa.gz

@@ -1,0 +1,3 @@
+total 560K
+-rwxrwxrwx 1 516K Dez  8 23:41 tblastn_E_nipponium.tsv
+-rwxrwxrwx 1  44K Dez  8 23:41 coordinates_E_nipponium.tsv

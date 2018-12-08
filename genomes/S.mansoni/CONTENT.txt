@@ -1,0 +1,3 @@
+total 115M
+-rwxrwxrwx 1  166 Dez  8 23:42 HOWTO
+-rwxrwxrwx 1 115M Dez  8 23:42 schistosoma_mansoni.PRJEA36577.WBPS12.genomic.fa.gz

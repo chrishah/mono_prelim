@@ -1,0 +1,11 @@
+total 3,5M
+-rwxrwxrwx 1  23K Feb 13  2017 scores_cutoff
+-rwxrwxrwx 1 1,8K Feb 13  2017 mia_ogs.dbg
+-rwxrwxrwx 1  35K Feb 13  2017 lengths_cutoff
+-rwxrwxrwx 1  677 Feb 13  2017 debug.py
+-rwxrwxrwx 1 2,8M Feb 13  2017 ancestral_variants
+-rwxrwxrwx 1 281K Feb 13  2017 ancestral
+-rwxrwxrwx 1  114 Feb 13  2017 dataset.cfg
+drwxrwxrwx 1 176K Dez  8 23:28 hmms
+drwxrwxrwx 1 4,0K Dez  8 23:28 info
+drwxrwxrwx 1 164K Dez  8 23:28 prfl
