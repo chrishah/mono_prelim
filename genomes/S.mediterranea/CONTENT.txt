@@ -1,6 +1,6 @@
 total 258M
--rw-rw-r-- 1 251M Dec  9 11:21 schmidtea_mediterranea.PRJNA12585.WBPS12.genomic.fa.gz
--rw-rw-r-- 1  864 Dec  9 17:17 HOWTO
--rw-rw-r-- 1  38K Dec  9 19:56 busco.log
--rw-rw-r-- 1  172 Dec 10 08:49 HOWOT
--rw-rw-r-- 1 6.9M Dec 10 09:05 run_S_mediterranea.tar.gz
+-rwxrwxrwx 1  172 Dez 10 00:16 HOWOT
+-rwxrwxrwx 1 251M Dez 10 00:22 schmidtea_mediterranea.PRJNA12585.WBPS12.genomic.fa.gz
+-rwxrwxrwx 1 6,9M Dez 10 00:22 run_S_mediterranea.tar.gz
+-rwxrwxrwx 1  864 Dez 10 09:15 HOWTO
+-rwxrwxrwx 1  38K Dez 10 09:15 busco.log

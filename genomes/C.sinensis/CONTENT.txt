@@ -1,5 +1,5 @@
 total 172M
--rw-rw-r-- 1  615 Dec  9 15:36 HOWTO
--rw-rw-r-- 1 163M Dec  9 15:38 clonorchis_sinensis.PRJDA72781.WBPS12.genomic.fa.gz
--rw-rw-r-- 1  31K Dec  9 18:48 busco.log
--rw-rw-r-- 1 8.5M Dec 10 08:53 run_C_sinensis.tar.gz
+-rwxrwxrwx 1 8,5M Dez 10 00:18 run_C_sinensis.tar.gz
+-rwxrwxrwx 1 163M Dez 10 00:20 clonorchis_sinensis.PRJDA72781.WBPS12.genomic.fa.gz
+-rwxrwxrwx 1  615 Dez 10 09:15 HOWTO
+-rwxrwxrwx 1  31K Dez 10 09:15 busco.log

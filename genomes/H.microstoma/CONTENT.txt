@@ -1,5 +1,5 @@
 total 54M
--rw-rw-r-- 1  48M Dec  9 11:17 hymenolepis_microstoma.PRJEB124.WBPS12.genomic.fa.gz
--rw-rw-r-- 1  621 Dec  9 11:19 HOWTO
--rw-rw-r-- 1  15K Dec  9 12:48 busco.log
--rw-rw-r-- 1 6.3M Dec 10 08:58 run_H_microstoma.tar.gz
+-rwxrwxrwx 1 6,3M Dez 10 00:25 run_H_microstoma.tar.gz
+-rwxrwxrwx 1  48M Dez 10 00:25 hymenolepis_microstoma.PRJEB124.WBPS12.genomic.fa.gz
+-rwxrwxrwx 1  621 Dez 10 09:15 HOWTO
+-rwxrwxrwx 1  15K Dez 10 09:15 busco.log

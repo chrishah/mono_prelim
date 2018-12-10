@@ -1,3 +1,5 @@
-total 20K
--rw-rw-r-- 1 375 Dec 10 08:49 HOWTO
--rw-rw-r-- 1 14K Dec 10 08:49 busco.log
+total 30M
+-rwxrwxrwx 1  24M Dez  9 23:21 Gbul_v1a_scaffolds_GapClosed2.fa.gz
+-rwxrwxrwx 1  375 Dez 10 00:17 HOWTO
+-rwxrwxrwx 1  14K Dez 10 00:17 busco.log
+-rwxrwxrwx 1 6,0M Dez 10 08:42 run_G_bullatarudis.tar.gz

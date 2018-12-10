@@ -1,12 +1,11 @@
-wget ftp://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/releases/WBPS12/species/schistosoma_mansoni/PRJEA36577/schistosoma_mansoni.PRJEA36577.WBPS12.genomic.fa.gz
-
+wget ftp://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/releases/WBPS12/species/macrostomum_lignano/PRJNA284736/macrostomum_lignano.PRJNA284736.WBPS12.genomic.fa.gz
 
 #download metazoa reference set
 wget -qO- https://busco.ezlab.org/datasets/metazoa_odb9.tar.gz | tar -xvz
 
 #run BUSCO
-fasta=schistosoma_mansoni.PRJEA36577.WBPS12.genomic.fa.gz
-prefix=S_mansoni
+gunzip macrostomum_lignano.PRJNA284736.WBPS12.genomic.fa.gz
+fasta=macrostomum_lignano.PRJNA284736.WBPS12.genomic.fa
+prefix=M_lignano
 docker run -it --rm --net=host -v $(pwd):/home/working -w /home/working chrishah/busco-docker:v3.0.2 run_BUSCO.py --in $fasta --out $prefix -l ./metazoa_odb9 --mode genome -c 6 2>&1 | tee busco.log
-
 

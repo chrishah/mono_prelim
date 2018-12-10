@@ -1,5 +1,5 @@
 total 121M
--rw-rw-r-- 1 115M Dec  8 23:55 schistosoma_mansoni.PRJEA36577.WBPS12.genomic.fa.gz
--rw-rw-r-- 1  559 Dec  9 00:04 HOWTO
--rw-rw-r-- 1  34K Dec  9 03:10 busco.log
--rw-rw-r-- 1 6.0M Dec 10 09:03 run_S_mansoni.tar.gz
+-rwxrwxrwx 1 6,0M Dez 10 00:17 run_S_mansoni.tar.gz
+-rwxrwxrwx 1 115M Dez 10 00:18 schistosoma_mansoni.PRJEA36577.WBPS12.genomic.fa.gz
+-rwxrwxrwx 1  559 Dez 10 09:15 HOWTO
+-rwxrwxrwx 1  34K Dez 10 09:15 busco.log
