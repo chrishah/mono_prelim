@@ -1,3 +1,0 @@
-total 163M
--rwxrwxrwx 1  166 Dez  8 23:39 HOWTO
--rwxrwxrwx 1 163M Dez  8 23:40 clonorchis_sinensis.PRJDA72781.WBPS12.genomic.fa.gz

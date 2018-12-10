@@ -1,3 +1,5 @@
-total 35M
--rwxrwxrwx 1 170 Dez  8 23:46 HOWTO
--rwxrwxrwx 1 35M Dez  8 23:46 echinococcus_granulosus.PRJEB121.WBPS12.genomic.fa.gz
+total 41M
+-rw-rw-r-- 1  35M Dec  8 23:55 echinococcus_granulosus.PRJEB121.WBPS12.genomic.fa.gz
+-rw-rw-r-- 1  625 Dec  9 00:14 HOWTO
+-rw-rw-r-- 1  15K Dec  9 01:26 busco.log
+-rw-rw-r-- 1 6.7M Dec 10 08:54 run_E_granulosus.tar.gz

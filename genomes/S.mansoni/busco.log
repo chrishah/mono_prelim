@@ -1,0 +1,297 @@
+INFO	****************** Start a BUSCO 3.0.2 analysis, current time: 12/09/2018 00:14:15 ******************
+INFO	Configuration loaded from /usr/src/busco/config/config.ini
+INFO	Init tools...
+INFO	Check dependencies...
+INFO	Check input file...
+INFO	To reproduce this run: python /usr/bin/run_BUSCO.py -i schistosoma_mansoni.PRJEA36577.WBPS12.genomic.fa -o S_mansoni -l ./metazoa_odb9/ -m genome -c 2 -sp fly
+INFO	Mode is: genome
+INFO	The lineage dataset is: metazoa_odb9 (eukaryota)
+INFO	Temp directory is ./tmp/
+INFO	****** Phase 1 of 2, initial predictions ******
+INFO	****** Step 1/3, current time: 12/09/2018 00:14:19 ******
+INFO	Create blast database...
+INFO	[makeblastdb]	Building a new DB, current time: 12/09/2018 00:14:19
+INFO	[makeblastdb]	New DB name:   /home/working/tmp/S_mansoni_4274343240
+INFO	[makeblastdb]	New DB title:  schistosoma_mansoni.PRJEA36577.WBPS12.genomic.fa
+INFO	[makeblastdb]	Sequence type: Nucleotide
+INFO	[makeblastdb]	Keep MBits: T
+INFO	[makeblastdb]	Maximum file size: 1000000000B
+INFO	[makeblastdb]	Adding sequences from FASTA; added 320 sequences in 4.52296 seconds.
+INFO	[makeblastdb]	1 of 1 task(s) completed at 12/09/2018 00:14:24
+INFO	Running tblastn, writing output to /home/working/run_S_mansoni/blast_output/tblastn_S_mansoni.tsv...
+INFO	[tblastn]	1 of 1 task(s) completed at 12/09/2018 00:27:52
+INFO	****** Step 2/3, current time: 12/09/2018 00:27:52 ******
+INFO	Maximum number of candidate contig per BUSCO limited to: 3
+INFO	Getting coordinates for candidate regions...
+INFO	Pre-Augustus scaffold extraction...
+INFO	Running Augustus prediction using fly as species:
+INFO	[augustus]	Please find all logs related to Augustus errors here: /home/working/run_S_mansoni/augustus_output/augustus.log
+INFO	[augustus]	86 of 854 task(s) completed at 12/09/2018 00:47:02
+INFO	[augustus]	171 of 854 task(s) completed at 12/09/2018 00:57:07
+INFO	[augustus]	257 of 854 task(s) completed at 12/09/2018 01:05:43
+INFO	[augustus]	342 of 854 task(s) completed at 12/09/2018 01:11:55
+INFO	[augustus]	428 of 854 task(s) completed at 12/09/2018 01:18:32
+INFO	[augustus]	513 of 854 task(s) completed at 12/09/2018 01:24:22
+INFO	[augustus]	598 of 854 task(s) completed at 12/09/2018 01:28:25
+INFO	[augustus]	684 of 854 task(s) completed at 12/09/2018 01:32:11
+INFO	[augustus]	769 of 854 task(s) completed at 12/09/2018 01:35:29
+INFO	[augustus]	854 of 854 task(s) completed at 12/09/2018 01:39:23
+INFO	Extracting predicted proteins...
+INFO	****** Step 3/3, current time: 12/09/2018 01:39:25 ******
+INFO	Running HMMER to confirm orthology of predicted proteins:
+INFO	[hmmsearch]	52 of 518 task(s) completed at 12/09/2018 01:39:26
+INFO	[hmmsearch]	104 of 518 task(s) completed at 12/09/2018 01:39:26
+INFO	[hmmsearch]	156 of 518 task(s) completed at 12/09/2018 01:39:27
+INFO	[hmmsearch]	208 of 518 task(s) completed at 12/09/2018 01:39:28
+INFO	[hmmsearch]	259 of 518 task(s) completed at 12/09/2018 01:39:28
+INFO	[hmmsearch]	311 of 518 task(s) completed at 12/09/2018 01:39:29
+INFO	[hmmsearch]	363 of 518 task(s) completed at 12/09/2018 01:39:29
+INFO	[hmmsearch]	415 of 518 task(s) completed at 12/09/2018 01:39:29
+INFO	[hmmsearch]	467 of 518 task(s) completed at 12/09/2018 01:39:30
+INFO	[hmmsearch]	518 of 518 task(s) completed at 12/09/2018 01:39:30
+INFO	Results:
+INFO	C:25.8%[S:24.7%,D:1.1%],F:3.3%,M:70.9%,n:978
+INFO	253 Complete BUSCOs (C)
+INFO	242 Complete and single-copy BUSCOs (S)
+INFO	11 Complete and duplicated BUSCOs (D)
+INFO	32 Fragmented BUSCOs (F)
+INFO	693 Missing BUSCOs (M)
+INFO	978 Total BUSCO groups searched
+INFO	****** Phase 2 of 2, predictions using species specific training ******
+INFO	****** Step 1/3, current time: 12/09/2018 01:39:30 ******
+INFO	Extracting missing and fragmented buscos from the ancestral_variants file...
+INFO	Running tblastn, writing output to /home/working/run_S_mansoni/blast_output/tblastn_S_mansoni_missing_and_frag_rerun.tsv...
+INFO	[tblastn]	1 of 1 task(s) completed at 12/09/2018 02:41:53
+INFO	Maximum number of candidate contig per BUSCO limited to: 3
+INFO	Getting coordinates for candidate regions...
+INFO	****** Step 2/3, current time: 12/09/2018 02:41:53 ******
+INFO	Training Augustus using Single-Copy Complete BUSCOs:
+INFO	Converting predicted genes to short genbank files at 12/09/2018 02:41:53...
+INFO	All files converted to short genbank files, now running the training scripts at 12/09/2018 02:44:08...
+INFO	Pre-Augustus scaffold extraction...
+INFO	Re-running Augustus with the new metaparameters, number of target BUSCOs: 725
+INFO	[augustus]	65 of 642 task(s) completed at 12/09/2018 02:47:09
+INFO	[augustus]	129 of 642 task(s) completed at 12/09/2018 02:50:02
+INFO	[augustus]	193 of 642 task(s) completed at 12/09/2018 02:52:47
+INFO	[augustus]	257 of 642 task(s) completed at 12/09/2018 02:55:05
+INFO	[augustus]	322 of 642 task(s) completed at 12/09/2018 02:57:11
+INFO	[augustus]	386 of 642 task(s) completed at 12/09/2018 02:59:45
+INFO	[augustus]	450 of 642 task(s) completed at 12/09/2018 03:02:05
+INFO	[augustus]	514 of 642 task(s) completed at 12/09/2018 03:04:55
+INFO	[augustus]	578 of 642 task(s) completed at 12/09/2018 03:07:29
+INFO	[augustus]	642 of 642 task(s) completed at 12/09/2018 03:10:00
+INFO	Extracting predicted proteins...
+INFO	****** Step 3/3, current time: 12/09/2018 03:10:03 ******
+INFO	Running HMMER to confirm orthology of predicted proteins:
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G07KC.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0S0I.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0LZ0.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G07N5.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0IZX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0IQD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0530.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0LPW.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G059G.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G08V8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G09KI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0IZD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0JI1.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G02C8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G03BV.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0D4N.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0QRW.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0525.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G03Z1.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0K1Z.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0307.faa.1 for reading
+INFO	[hmmsearch]	33 of 325 task(s) completed at 12/09/2018 03:10:03
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0AVP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G10O5.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0ONT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0N0A.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0O4W.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G09V2.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G05Q6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0ZEJ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G01WY.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G03JF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G040L.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0Z6N.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0Z6N.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0ZUA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0CNT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0OHF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0JI0.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0KSQ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0SOZ.faa.3 for reading
+INFO	[hmmsearch]	65 of 325 task(s) completed at 12/09/2018 03:10:03
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0RRN.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G04GW.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G167Y.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0IS6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G04WH.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0CGO.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G09R0.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0PL0.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0HJH.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G02O5.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0IDG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G01XI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G07PV.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G07NJ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G01IW.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G03P0.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0JWC.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0L84.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0TQF.faa.2 for reading
+INFO	[hmmsearch]	98 of 325 task(s) completed at 12/09/2018 03:10:03
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G07Z0.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0UOM.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G09D8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G08ZG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0H8F.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0NOA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0JU7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0PXB.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0KS8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0I8J.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G088L.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0S5L.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G1BQN.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0DQS.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G075K.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0BPX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G09BP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G14DH.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0I2X.faa.2 for reading
+INFO	[hmmsearch]	130 of 325 task(s) completed at 12/09/2018 03:10:03
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0QW9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G03B9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G11CG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0MY8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G081H.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0Z4E.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0KEQ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0MCM.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G038T.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G02V5.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0D8I.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0D8I.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0DPL.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0A79.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G04CK.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G07IK.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G05XY.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0AGT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G1311.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G07PR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G01TH.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G06EF.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0G71.faa.2 for reading
+INFO	[hmmsearch]	163 of 325 task(s) completed at 12/09/2018 03:10:03
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0HC5.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0J56.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G054P.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0EKA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0UYL.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0IXT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0XHF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G07S9.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G09UB.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G05NK.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G03XS.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G184V.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0W0U.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0JHQ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0CFP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0AQA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0GWF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G07CE.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0UE6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G06MR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G05GZ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0UXY.faa.1 for reading
+INFO	[hmmsearch]	195 of 325 task(s) completed at 12/09/2018 03:10:03
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0LKE.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0KC3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0BX3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G06OP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0PEI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0O5A.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G03XO.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0LCK.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0KR3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G00L0.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G13P1.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0ULR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G04FV.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G09QO.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G062X.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0K92.faa.1 for reading
+INFO	[hmmsearch]	228 of 325 task(s) completed at 12/09/2018 03:10:04
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0BUD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0K9M.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0C84.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0MY0.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G02MR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G11OU.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G05TG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G08JE.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0ZWE.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G08R8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0291.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0321.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0X1Z.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G036A.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0QNW.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0MHM.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G00Z3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0XZC.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G04IK.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0I7M.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0CAR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G024J.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0PNP.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G06J6.faa.1 for reading
+INFO	[hmmsearch]	260 of 325 task(s) completed at 12/09/2018 03:10:04
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0P9B.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0349.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0AI5.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G07KL.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0TVG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0TZX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G00QT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0IDS.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0YUO.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0LB8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0R9X.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0U4B.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0S2R.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G05IK.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0E5O.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0TN4.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0RR3.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G19Y2.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0RRT.faa.1 for reading
+INFO	[hmmsearch]	293 of 325 task(s) completed at 12/09/2018 03:10:04
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0I85.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G05FE.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0P5N.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0X8F.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0XXM.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0U2U.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0CH6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0L5D.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_S_mansoni/augustus_output/extracted_proteins/EOG091G0A19.faa.1 for reading
+INFO	[hmmsearch]	325 of 325 task(s) completed at 12/09/2018 03:10:04
+INFO	Results:
+INFO	C:27.1%[S:26.0%,D:1.1%],F:3.8%,M:69.1%,n:978
+INFO	265 Complete BUSCOs (C)
+INFO	254 Complete and single-copy BUSCOs (S)
+INFO	11 Complete and duplicated BUSCOs (D)
+INFO	37 Fragmented BUSCOs (F)
+INFO	676 Missing BUSCOs (M)
+INFO	978 Total BUSCO groups searched
+INFO	BUSCO analysis done. Total running time: 10548.57016825676 seconds
+INFO	Results written in /home/working/run_S_mansoni/
+

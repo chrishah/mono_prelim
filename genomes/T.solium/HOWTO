@@ -1,3 +1,12 @@
 wget ftp://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/releases/WBPS12/species/taenia_solium/PRJNA170813/taenia_solium.PRJNA170813.WBPS12.genomic.fa.gz
 
+#download metazoa reference set
+wget -qO- https://busco.ezlab.org/datasets/metazoa_odb9.tar.gz | tar -xvz
+
+#run BUSCO
+gunzip taenia_solium.PRJNA170813.WBPS12.genomic.fa 
+fasta=taenia_solium.PRJNA170813.WBPS12.genomic.fa
+prefix=T_solium
+docker run -it --rm --net=host -v $(pwd):/home/working -w /home/working chrishah/busco-docker:v3.0.2 run_BUSCO.py --in $fasta --out $prefix -l ./metazoa_odb9 --mode genome -c 6 2>&1 | tee busco.log
+
 

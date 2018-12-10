@@ -1,3 +1,5 @@
-total 180M
--rwxrwxrwx 1  174 Dez  8 23:40 HOWTO
--rwxrwxrwx 1 180M Dez  8 23:41 protopolystoma_xenopodis.PRJEB1201.WBPS12.genomic.fa.gz
+total 182M
+-rw-rw-r-- 1 180M Dec  8 23:56 protopolystoma_xenopodis.PRJEB1201.WBPS12.genomic.fa.gz
+-rw-rw-r-- 1  59K Dec  9 18:11 busco.log
+-rw-rw-r-- 1  862 Dec 10 00:06 HOWTO
+-rw-rw-r-- 1 2.4M Dec 10 09:01 run_P_xenopodis.tar.gz

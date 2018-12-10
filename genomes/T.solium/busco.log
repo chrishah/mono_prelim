@@ -1,0 +1,155 @@
+INFO	****************** Start a BUSCO 3.0.2 analysis, current time: 12/09/2018 11:31:28 ******************
+INFO	Configuration loaded from /usr/src/busco/config/config.ini
+INFO	Init tools...
+INFO	Check dependencies...
+INFO	Check input file...
+INFO	To reproduce this run: python /usr/bin/run_BUSCO.py -i taenia_solium.PRJNA170813.WBPS12.genomic.fa -o T_solium -l ./metazoa_odb9/ -m genome -c 2 -sp fly
+INFO	Mode is: genome
+INFO	The lineage dataset is: metazoa_odb9 (eukaryota)
+INFO	Temp directory is ./tmp/
+INFO	****** Phase 1 of 2, initial predictions ******
+INFO	****** Step 1/3, current time: 12/09/2018 11:31:29 ******
+INFO	Create blast database...
+INFO	[makeblastdb]	Building a new DB, current time: 12/09/2018 11:31:29
+INFO	[makeblastdb]	New DB name:   /home/working/tmp/T_solium_3537912585
+INFO	[makeblastdb]	New DB title:  taenia_solium.PRJNA170813.WBPS12.genomic.fa
+INFO	[makeblastdb]	Sequence type: Nucleotide
+INFO	[makeblastdb]	Keep MBits: T
+INFO	[makeblastdb]	Maximum file size: 1000000000B
+INFO	[makeblastdb]	Adding sequences from FASTA; added 11237 sequences in 1.1932 seconds.
+INFO	[makeblastdb]	1 of 1 task(s) completed at 12/09/2018 11:31:30
+INFO	Running tblastn, writing output to /home/working/run_T_solium/blast_output/tblastn_T_solium.tsv...
+INFO	[tblastn]	1 of 1 task(s) completed at 12/09/2018 11:34:34
+INFO	****** Step 2/3, current time: 12/09/2018 11:34:34 ******
+INFO	Maximum number of candidate contig per BUSCO limited to: 3
+INFO	Getting coordinates for candidate regions...
+INFO	Pre-Augustus scaffold extraction...
+INFO	Running Augustus prediction using fly as species:
+INFO	[augustus]	Please find all logs related to Augustus errors here: /home/working/run_T_solium/augustus_output/augustus.log
+INFO	[augustus]	86 of 854 task(s) completed at 12/09/2018 11:40:52
+INFO	[augustus]	171 of 854 task(s) completed at 12/09/2018 11:44:55
+INFO	[augustus]	257 of 854 task(s) completed at 12/09/2018 11:48:21
+INFO	[augustus]	342 of 854 task(s) completed at 12/09/2018 11:51:38
+INFO	[augustus]	428 of 854 task(s) completed at 12/09/2018 11:54:29
+INFO	[augustus]	513 of 854 task(s) completed at 12/09/2018 11:57:20
+INFO	[augustus]	598 of 854 task(s) completed at 12/09/2018 11:59:53
+INFO	[augustus]	684 of 854 task(s) completed at 12/09/2018 12:02:29
+INFO	[augustus]	769 of 854 task(s) completed at 12/09/2018 12:04:36
+INFO	[augustus]	854 of 854 task(s) completed at 12/09/2018 12:06:51
+INFO	Extracting predicted proteins...
+INFO	****** Step 3/3, current time: 12/09/2018 12:06:55 ******
+INFO	Running HMMER to confirm orthology of predicted proteins:
+INFO	[hmmsearch]	74 of 737 task(s) completed at 12/09/2018 12:06:57
+INFO	[hmmsearch]	148 of 737 task(s) completed at 12/09/2018 12:06:59
+INFO	[hmmsearch]	222 of 737 task(s) completed at 12/09/2018 12:07:00
+INFO	[hmmsearch]	295 of 737 task(s) completed at 12/09/2018 12:07:01
+INFO	[hmmsearch]	369 of 737 task(s) completed at 12/09/2018 12:07:02
+INFO	[hmmsearch]	443 of 737 task(s) completed at 12/09/2018 12:07:02
+INFO	[hmmsearch]	516 of 737 task(s) completed at 12/09/2018 12:07:03
+INFO	[hmmsearch]	590 of 737 task(s) completed at 12/09/2018 12:07:04
+INFO	[hmmsearch]	664 of 737 task(s) completed at 12/09/2018 12:07:04
+INFO	[hmmsearch]	737 of 737 task(s) completed at 12/09/2018 12:07:04
+INFO	Results:
+INFO	C:41.5%[S:40.5%,D:1.0%],F:10.3%,M:48.2%,n:978
+INFO	406 Complete BUSCOs (C)
+INFO	396 Complete and single-copy BUSCOs (S)
+INFO	10 Complete and duplicated BUSCOs (D)
+INFO	101 Fragmented BUSCOs (F)
+INFO	471 Missing BUSCOs (M)
+INFO	978 Total BUSCO groups searched
+INFO	****** Phase 2 of 2, predictions using species specific training ******
+INFO	****** Step 1/3, current time: 12/09/2018 12:07:05 ******
+INFO	Extracting missing and fragmented buscos from the ancestral_variants file...
+INFO	Running tblastn, writing output to /home/working/run_T_solium/blast_output/tblastn_T_solium_missing_and_frag_rerun.tsv...
+INFO	[tblastn]	1 of 1 task(s) completed at 12/09/2018 12:23:00
+INFO	Maximum number of candidate contig per BUSCO limited to: 3
+INFO	Getting coordinates for candidate regions...
+INFO	****** Step 2/3, current time: 12/09/2018 12:23:00 ******
+INFO	Training Augustus using Single-Copy Complete BUSCOs:
+INFO	Converting predicted genes to short genbank files at 12/09/2018 12:23:00...
+INFO	All files converted to short genbank files, now running the training scripts at 12/09/2018 12:24:26...
+INFO	Pre-Augustus scaffold extraction...
+INFO	Re-running Augustus with the new metaparameters, number of target BUSCOs: 572
+INFO	[augustus]	48 of 476 task(s) completed at 12/09/2018 12:25:36
+INFO	[augustus]	96 of 476 task(s) completed at 12/09/2018 12:26:35
+INFO	[augustus]	143 of 476 task(s) completed at 12/09/2018 12:27:37
+INFO	[augustus]	191 of 476 task(s) completed at 12/09/2018 12:28:32
+INFO	[augustus]	239 of 476 task(s) completed at 12/09/2018 12:29:29
+INFO	[augustus]	286 of 476 task(s) completed at 12/09/2018 12:30:36
+INFO	[augustus]	334 of 476 task(s) completed at 12/09/2018 12:31:47
+INFO	[augustus]	381 of 476 task(s) completed at 12/09/2018 12:33:06
+INFO	[augustus]	429 of 476 task(s) completed at 12/09/2018 12:34:22
+INFO	[augustus]	476 of 476 task(s) completed at 12/09/2018 12:35:14
+INFO	Extracting predicted proteins...
+INFO	****** Step 3/3, current time: 12/09/2018 12:35:17 ******
+INFO	Running HMMER to confirm orthology of predicted proteins:
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G03O0.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G053D.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0IZD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G02ZI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0K98.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G09V2.faa.1 for reading
+INFO	[hmmsearch]	30 of 295 task(s) completed at 12/09/2018 12:35:17
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0MI7.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G040G.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G167Y.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G050A.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0JZV.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0IMD.faa.1 for reading
+INFO	[hmmsearch]	59 of 295 task(s) completed at 12/09/2018 12:35:17
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0NH9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0UOM.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G029K.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G08ZG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0554.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0VSN.faa.1 for reading
+INFO	[hmmsearch]	89 of 295 task(s) completed at 12/09/2018 12:35:17
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G09BP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0CR4.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0Q27.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G01TH.faa.1 for reading
+INFO	[hmmsearch]	118 of 295 task(s) completed at 12/09/2018 12:35:18
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G116R.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0IXY.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G1081.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0Q1X.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0H3D.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0O5A.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G05X1.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0LCK.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G099D.faa.2 for reading
+INFO	[hmmsearch]	148 of 295 task(s) completed at 12/09/2018 12:35:18
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0M4K.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0VMU.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0GUK.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0JGU.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0803.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0BAG.faa.1 for reading
+INFO	[hmmsearch]	177 of 295 task(s) completed at 12/09/2018 12:35:18
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G1285.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G049W.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0P9B.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0MLD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G00QT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0IDS.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0495.faa.1 for reading
+INFO	[hmmsearch]	207 of 295 task(s) completed at 12/09/2018 12:35:18
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0IHL.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0HS4.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0KRZ.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G0U2U.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_T_solium/augustus_output/extracted_proteins/EOG091G05RA.faa.2 for reading
+INFO	[hmmsearch]	236 of 295 task(s) completed at 12/09/2018 12:35:19
+INFO	[hmmsearch]	266 of 295 task(s) completed at 12/09/2018 12:35:19
+INFO	[hmmsearch]	295 of 295 task(s) completed at 12/09/2018 12:35:19
+INFO	Results:
+INFO	C:47.5%[S:46.4%,D:1.1%],F:11.7%,M:40.8%,n:978
+INFO	465 Complete BUSCOs (C)
+INFO	454 Complete and single-copy BUSCOs (S)
+INFO	11 Complete and duplicated BUSCOs (D)
+INFO	114 Fragmented BUSCOs (F)
+INFO	399 Missing BUSCOs (M)
+INFO	978 Total BUSCO groups searched
+INFO	BUSCO analysis done. Total running time: 3831.4364182949066 seconds
+INFO	Results written in /home/working/run_T_solium/
+

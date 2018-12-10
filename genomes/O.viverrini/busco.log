@@ -1,0 +1,299 @@
+INFO	****************** Start a BUSCO 3.0.2 analysis, current time: 12/09/2018 17:18:56 ******************
+INFO	Configuration loaded from /usr/src/busco/config/config.ini
+INFO	Init tools...
+INFO	Check dependencies...
+INFO	Check input file...
+INFO	To reproduce this run: python /usr/bin/run_BUSCO.py -i opisthorchis_viverrini.PRJNA222628.WBPS12.genomic.fa -o O_viverrini_long -l ./metazoa_odb9/ -m genome -c 2 --long -sp fly
+INFO	Mode is: genome
+INFO	The lineage dataset is: metazoa_odb9 (eukaryota)
+INFO	Temp directory is ./tmp/
+INFO	****** Phase 1 of 2, initial predictions ******
+INFO	****** Step 1/3, current time: 12/09/2018 17:19:03 ******
+INFO	Create blast database...
+INFO	[makeblastdb]	Building a new DB, current time: 12/09/2018 17:19:03
+INFO	[makeblastdb]	New DB name:   /home/working/tmp/O_viverrini_long_2342534368
+INFO	[makeblastdb]	New DB title:  opisthorchis_viverrini.PRJNA222628.WBPS12.genomic.fa
+INFO	[makeblastdb]	Sequence type: Nucleotide
+INFO	[makeblastdb]	Keep MBits: T
+INFO	[makeblastdb]	Maximum file size: 1000000000B
+INFO	[makeblastdb]	Adding sequences from FASTA; added 42216 sequences in 11.7036 seconds.
+INFO	[makeblastdb]	1 of 1 task(s) completed at 12/09/2018 17:19:15
+INFO	Running tblastn, writing output to /home/working/run_O_viverrini_long/blast_output/tblastn_O_viverrini_long.tsv...
+INFO	[tblastn]	1 of 1 task(s) completed at 12/09/2018 17:39:01
+INFO	****** Step 2/3, current time: 12/09/2018 17:39:01 ******
+INFO	Maximum number of candidate contig per BUSCO limited to: 3
+INFO	Getting coordinates for candidate regions...
+INFO	Pre-Augustus scaffold extraction...
+INFO	Running Augustus prediction using fly as species:
+INFO	[augustus]	Please find all logs related to Augustus errors here: /home/working/run_O_viverrini_long/augustus_output/augustus.log
+INFO	[augustus]	85 of 845 task(s) completed at 12/09/2018 18:17:15
+INFO	[augustus]	169 of 845 task(s) completed at 12/09/2018 18:39:05
+INFO	[augustus]	254 of 845 task(s) completed at 12/09/2018 18:55:56
+INFO	[augustus]	338 of 845 task(s) completed at 12/09/2018 19:08:01
+INFO	[augustus]	423 of 845 task(s) completed at 12/09/2018 19:18:27
+INFO	[augustus]	507 of 845 task(s) completed at 12/09/2018 19:28:13
+INFO	[augustus]	592 of 845 task(s) completed at 12/09/2018 19:36:36
+INFO	[augustus]	676 of 845 task(s) completed at 12/09/2018 19:45:26
+INFO	[augustus]	761 of 845 task(s) completed at 12/09/2018 19:53:09
+INFO	[augustus]	845 of 845 task(s) completed at 12/09/2018 19:58:24
+INFO	Extracting predicted proteins...
+INFO	****** Step 3/3, current time: 12/09/2018 19:58:28 ******
+INFO	Running HMMER to confirm orthology of predicted proteins:
+INFO	[hmmsearch]	53 of 524 task(s) completed at 12/09/2018 19:58:29
+INFO	[hmmsearch]	105 of 524 task(s) completed at 12/09/2018 19:58:29
+INFO	[hmmsearch]	158 of 524 task(s) completed at 12/09/2018 19:58:29
+INFO	[hmmsearch]	210 of 524 task(s) completed at 12/09/2018 19:58:30
+INFO	[hmmsearch]	262 of 524 task(s) completed at 12/09/2018 19:58:30
+INFO	[hmmsearch]	315 of 524 task(s) completed at 12/09/2018 19:58:30
+INFO	[hmmsearch]	367 of 524 task(s) completed at 12/09/2018 19:58:30
+INFO	[hmmsearch]	420 of 524 task(s) completed at 12/09/2018 19:58:31
+INFO	[hmmsearch]	472 of 524 task(s) completed at 12/09/2018 19:58:31
+INFO	[hmmsearch]	524 of 524 task(s) completed at 12/09/2018 19:58:31
+INFO	Results:
+INFO	C:33.7%[S:33.2%,D:0.5%],F:6.1%,M:60.2%,n:978
+INFO	330 Complete BUSCOs (C)
+INFO	325 Complete and single-copy BUSCOs (S)
+INFO	5 Complete and duplicated BUSCOs (D)
+INFO	60 Fragmented BUSCOs (F)
+INFO	588 Missing BUSCOs (M)
+INFO	978 Total BUSCO groups searched
+INFO	****** Phase 2 of 2, predictions using species specific training ******
+INFO	****** Step 1/3, current time: 12/09/2018 19:58:31 ******
+INFO	Extracting missing and fragmented buscos from the ancestral_variants file...
+INFO	Running tblastn, writing output to /home/working/run_O_viverrini_long/blast_output/tblastn_O_viverrini_long_missing_and_frag_rerun.tsv...
+INFO	[tblastn]	1 of 1 task(s) completed at 12/09/2018 21:10:13
+INFO	Maximum number of candidate contig per BUSCO limited to: 3
+INFO	Getting coordinates for candidate regions...
+INFO	****** Step 2/3, current time: 12/09/2018 21:10:13 ******
+INFO	Training Augustus using Single-Copy Complete BUSCOs:
+INFO	Converting predicted genes to short genbank files at 12/09/2018 21:10:13...
+INFO	All files converted to short genbank files, now running the training scripts at 12/09/2018 21:13:34...
+WARNING	Optimizing augustus metaparameters, this may take a very long time, started at 12/09/2018 21:13:35
+INFO	Pre-Augustus scaffold extraction...
+INFO	Re-running Augustus with the new metaparameters, number of target BUSCOs: 648
+INFO	[augustus]	56 of 557 task(s) completed at 12/09/2018 21:18:23
+INFO	[augustus]	112 of 557 task(s) completed at 12/09/2018 21:23:49
+INFO	[augustus]	168 of 557 task(s) completed at 12/09/2018 21:27:58
+INFO	[augustus]	223 of 557 task(s) completed at 12/09/2018 21:31:48
+INFO	[augustus]	279 of 557 task(s) completed at 12/09/2018 21:35:25
+INFO	[augustus]	335 of 557 task(s) completed at 12/09/2018 21:39:24
+INFO	[augustus]	390 of 557 task(s) completed at 12/09/2018 21:43:14
+INFO	[augustus]	446 of 557 task(s) completed at 12/09/2018 21:48:15
+INFO	[augustus]	502 of 557 task(s) completed at 12/09/2018 21:52:45
+INFO	[augustus]	557 of 557 task(s) completed at 12/09/2018 21:55:50
+INFO	Extracting predicted proteins...
+INFO	****** Step 3/3, current time: 12/09/2018 21:55:53 ******
+INFO	Running HMMER to confirm orthology of predicted proteins:
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0KJA.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G07N5.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G19WY.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0IQD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0HML.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0KPB.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0BUH.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0SM9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0LPW.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G059G.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G053D.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0MRS.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0IVB.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G01VH.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G09KI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G09KI.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G09O7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G02C8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G03BV.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G03TX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G00MA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0EUU.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0IYB.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0XXE.faa.1 for reading
+INFO	[hmmsearch]	29 of 284 task(s) completed at 12/09/2018 21:55:53
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0Q02.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0GI9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0B9T.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0HYF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0HYF.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0HTU.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0ONT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0TKH.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G09V2.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G04LC.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0ZEJ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G06YD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G02IP.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0CMN.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G01WY.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0H64.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0VWO.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G028G.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0D0W.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0D0W.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0MI7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G02NH.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0RCI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G13NA.faa.1 for reading
+INFO	[hmmsearch]	57 of 284 task(s) completed at 12/09/2018 21:55:53
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G107U.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G00VZ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0J98.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0ZLQ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0HMT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0EA2.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G09R0.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0IWR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G09SS.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0LRI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0MJA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0IDG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0CF7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G069C.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0E7S.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G09U9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0E3V.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G03C7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0781.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0A0M.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0NH9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0TQF.faa.1 for reading
+INFO	[hmmsearch]	86 of 284 task(s) completed at 12/09/2018 21:55:53
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G02BK.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0LAR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G08SM.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0BBO.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0MUD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0PXB.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0KS8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0SV1.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0EMF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0CID.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G02O6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G197A.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0UQ0.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0BPX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0JIA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0RTI.faa.1 for reading
+INFO	[hmmsearch]	114 of 284 task(s) completed at 12/09/2018 21:55:53
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0L66.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0LFF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G02VO.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G03Y8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0TM2.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0D8I.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0CR4.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0DPL.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G07D9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0R6Z.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0HZK.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0J61.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G07PR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0QBN.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0IF3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G08JG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0J56.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G054P.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0YY3.faa.1 for reading
+INFO	[hmmsearch]	142 of 284 task(s) completed at 12/09/2018 21:55:53
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G1081.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0XHF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G09MD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G03XS.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0H0S.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0GZ4.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0HAI.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0DBF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0K1G.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0X3B.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0GWF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0WAL.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0H3D.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G07CE.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0CEG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G105E.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0KC3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G01GC.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0NP6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0YBP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0DTE.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0M24.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G026I.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G03OT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G00L0.faa.1 for reading
+INFO	[hmmsearch]	171 of 284 task(s) completed at 12/09/2018 21:55:53
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0ULR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G05ZJ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0H07.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0703.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0L3L.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G03ZS.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0BTX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0814.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0ZRG.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G05LX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G09FV.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0GUK.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G062X.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G11O6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0OI8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0YHX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0BAM.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0LMY.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0A5N.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G08JE.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0M0S.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0803.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G01XQ.faa.1 for reading
+INFO	[hmmsearch]	199 of 284 task(s) completed at 12/09/2018 21:55:53
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G01S9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0FWS.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0Y35.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G03LI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0II3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G04IK.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G05ZE.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0PNP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G049W.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0DXC.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0L5I.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G08FX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0RVD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0L5X.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G06I8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0E2R.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G00QT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0IDS.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0IDS.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0KHF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0FOR.faa.1 for reading
+INFO	[hmmsearch]	228 of 284 task(s) completed at 12/09/2018 21:55:53
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G08L8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0CLR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G09J7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0DQT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0RRT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G065D.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0I85.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0XVD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G05N4.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0AEL.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0P5N.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0TA6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G06P4.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0GN7.faa.1 for reading
+INFO	[hmmsearch]	256 of 284 task(s) completed at 12/09/2018 21:55:54
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0L84.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0Q58.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0RT1.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_O_viverrini_long/augustus_output/extracted_proteins/EOG091G0W1S.faa.2 for reading
+INFO	[hmmsearch]	284 of 284 task(s) completed at 12/09/2018 21:55:54
+INFO	Results:
+INFO	C:34.8%[S:34.3%,D:0.5%],F:6.2%,M:59.0%,n:978
+INFO	340 Complete BUSCOs (C)
+INFO	335 Complete and single-copy BUSCOs (S)
+INFO	5 Complete and duplicated BUSCOs (D)
+INFO	61 Fragmented BUSCOs (F)
+INFO	577 Missing BUSCOs (M)
+INFO	978 Total BUSCO groups searched
+INFO	BUSCO analysis done with WARNING(s). Total running time: 16617.68971848488 seconds
+INFO	Results written in /home/working/run_O_viverrini_long/
+

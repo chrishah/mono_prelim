@@ -1,0 +1,133 @@
+INFO	****************** Start a BUSCO 3.0.2 analysis, current time: 12/09/2018 00:16:22 ******************
+INFO	Configuration loaded from /usr/src/busco/config/config.ini
+INFO	Init tools...
+INFO	Check dependencies...
+INFO	Check input file...
+INFO	To reproduce this run: python /usr/bin/run_BUSCO.py -i gyrodactylus_salaris.PRJNA244375.WBPS12.genomic.fa -o G_salaris -l ./metazoa_odb9/ -m genome -c 2 -sp fly
+INFO	Mode is: genome
+INFO	The lineage dataset is: metazoa_odb9 (eukaryota)
+INFO	Temp directory is ./tmp/
+INFO	****** Phase 1 of 2, initial predictions ******
+INFO	****** Step 1/3, current time: 12/09/2018 00:16:23 ******
+INFO	Create blast database...
+INFO	[makeblastdb]	Building a new DB, current time: 12/09/2018 00:16:23
+INFO	[makeblastdb]	New DB name:   /home/working/tmp/G_salaris_44415219
+INFO	[makeblastdb]	New DB title:  gyrodactylus_salaris.PRJNA244375.WBPS12.genomic.fa
+INFO	[makeblastdb]	Sequence type: Nucleotide
+INFO	[makeblastdb]	Keep MBits: T
+INFO	[makeblastdb]	Maximum file size: 1000000000B
+INFO	[makeblastdb]	Adding sequences from FASTA; added 6075 sequences in 0.823659 seconds.
+INFO	[makeblastdb]	1 of 1 task(s) completed at 12/09/2018 00:16:24
+INFO	Running tblastn, writing output to /home/working/run_G_salaris/blast_output/tblastn_G_salaris.tsv...
+INFO	[tblastn]	1 of 1 task(s) completed at 12/09/2018 00:18:22
+INFO	****** Step 2/3, current time: 12/09/2018 00:18:22 ******
+INFO	Maximum number of candidate contig per BUSCO limited to: 3
+INFO	Getting coordinates for candidate regions...
+INFO	Pre-Augustus scaffold extraction...
+INFO	Running Augustus prediction using fly as species:
+INFO	[augustus]	Please find all logs related to Augustus errors here: /home/working/run_G_salaris/augustus_output/augustus.log
+INFO	[augustus]	89 of 882 task(s) completed at 12/09/2018 00:23:59
+INFO	[augustus]	177 of 882 task(s) completed at 12/09/2018 00:27:02
+INFO	[augustus]	265 of 882 task(s) completed at 12/09/2018 00:29:54
+INFO	[augustus]	353 of 882 task(s) completed at 12/09/2018 00:32:21
+INFO	[augustus]	442 of 882 task(s) completed at 12/09/2018 00:34:59
+INFO	[augustus]	530 of 882 task(s) completed at 12/09/2018 00:37:24
+INFO	[augustus]	618 of 882 task(s) completed at 12/09/2018 00:39:33
+INFO	[augustus]	706 of 882 task(s) completed at 12/09/2018 00:41:43
+INFO	[augustus]	794 of 882 task(s) completed at 12/09/2018 00:43:33
+INFO	[augustus]	882 of 882 task(s) completed at 12/09/2018 00:45:16
+INFO	Extracting predicted proteins...
+INFO	****** Step 3/3, current time: 12/09/2018 00:45:20 ******
+INFO	Running HMMER to confirm orthology of predicted proteins:
+INFO	[hmmsearch]	82 of 814 task(s) completed at 12/09/2018 00:45:22
+INFO	[hmmsearch]	163 of 814 task(s) completed at 12/09/2018 00:45:23
+INFO	[hmmsearch]	245 of 814 task(s) completed at 12/09/2018 00:45:24
+INFO	[hmmsearch]	326 of 814 task(s) completed at 12/09/2018 00:45:24
+INFO	[hmmsearch]	408 of 814 task(s) completed at 12/09/2018 00:45:25
+INFO	[hmmsearch]	489 of 814 task(s) completed at 12/09/2018 00:45:26
+INFO	[hmmsearch]	570 of 814 task(s) completed at 12/09/2018 00:45:26
+INFO	[hmmsearch]	652 of 814 task(s) completed at 12/09/2018 00:45:27
+INFO	[hmmsearch]	733 of 814 task(s) completed at 12/09/2018 00:45:27
+INFO	[hmmsearch]	814 of 814 task(s) completed at 12/09/2018 00:45:28
+INFO	Results:
+INFO	C:44.1%[S:43.3%,D:0.8%],F:7.7%,M:48.2%,n:978
+INFO	431 Complete BUSCOs (C)
+INFO	423 Complete and single-copy BUSCOs (S)
+INFO	8 Complete and duplicated BUSCOs (D)
+INFO	75 Fragmented BUSCOs (F)
+INFO	472 Missing BUSCOs (M)
+INFO	978 Total BUSCO groups searched
+INFO	****** Phase 2 of 2, predictions using species specific training ******
+INFO	****** Step 1/3, current time: 12/09/2018 00:45:28 ******
+INFO	Extracting missing and fragmented buscos from the ancestral_variants file...
+INFO	Running tblastn, writing output to /home/working/run_G_salaris/blast_output/tblastn_G_salaris_missing_and_frag_rerun.tsv...
+INFO	[tblastn]	1 of 1 task(s) completed at 12/09/2018 00:54:13
+INFO	Maximum number of candidate contig per BUSCO limited to: 3
+INFO	Getting coordinates for candidate regions...
+INFO	****** Step 2/3, current time: 12/09/2018 00:54:13 ******
+INFO	Training Augustus using Single-Copy Complete BUSCOs:
+INFO	Converting predicted genes to short genbank files at 12/09/2018 00:54:13...
+INFO	All files converted to short genbank files, now running the training scripts at 12/09/2018 00:55:12...
+INFO	Pre-Augustus scaffold extraction...
+INFO	Re-running Augustus with the new metaparameters, number of target BUSCOs: 547
+INFO	[augustus]	44 of 439 task(s) completed at 12/09/2018 00:56:09
+INFO	[augustus]	88 of 439 task(s) completed at 12/09/2018 00:56:56
+INFO	[augustus]	132 of 439 task(s) completed at 12/09/2018 00:57:41
+INFO	[augustus]	176 of 439 task(s) completed at 12/09/2018 00:58:34
+INFO	[augustus]	220 of 439 task(s) completed at 12/09/2018 00:59:19
+INFO	[augustus]	264 of 439 task(s) completed at 12/09/2018 01:00:16
+INFO	[augustus]	308 of 439 task(s) completed at 12/09/2018 01:00:59
+INFO	[augustus]	352 of 439 task(s) completed at 12/09/2018 01:01:51
+INFO	[augustus]	396 of 439 task(s) completed at 12/09/2018 01:02:56
+INFO	[augustus]	439 of 439 task(s) completed at 12/09/2018 01:03:42
+INFO	Extracting predicted proteins...
+INFO	****** Step 3/3, current time: 12/09/2018 01:03:44 ******
+INFO	Running HMMER to confirm orthology of predicted proteins:
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0MB2.faa.1 for reading
+INFO	[hmmsearch]	29 of 281 task(s) completed at 12/09/2018 01:03:44
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0SOZ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0HJH.faa.1 for reading
+INFO	[hmmsearch]	57 of 281 task(s) completed at 12/09/2018 01:03:45
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G02BK.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G029K.faa.1 for reading
+INFO	[hmmsearch]	85 of 281 task(s) completed at 12/09/2018 01:03:45
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0TZU.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G14DH.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0LFF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0QNR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G08IJ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0H5Q.faa.1 for reading
+INFO	[hmmsearch]	113 of 281 task(s) completed at 12/09/2018 01:03:45
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0YY3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0EKA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G09Q2.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0CFP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G017T.faa.1 for reading
+INFO	[hmmsearch]	141 of 281 task(s) completed at 12/09/2018 01:03:45
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0MP6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G05LX.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G11O6.faa.2 for reading
+INFO	[hmmsearch]	169 of 281 task(s) completed at 12/09/2018 01:03:46
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0MHM.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0D04.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0RVD.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G115J.faa.1 for reading
+INFO	[hmmsearch]	197 of 281 task(s) completed at 12/09/2018 01:03:46
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G03RW.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0KRZ.faa.2 for reading
+INFO	[hmmsearch]	225 of 281 task(s) completed at 12/09/2018 01:03:46
+INFO	[hmmsearch]	253 of 281 task(s) completed at 12/09/2018 01:03:47
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G0IS6.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_salaris/augustus_output/extracted_proteins/EOG091G11CO.faa.3 for reading
+INFO	[hmmsearch]	281 of 281 task(s) completed at 12/09/2018 01:03:47
+INFO	Results:
+INFO	C:52.2%[S:51.4%,D:0.8%],F:7.8%,M:40.0%,n:978
+INFO	511 Complete BUSCOs (C)
+INFO	503 Complete and single-copy BUSCOs (S)
+INFO	8 Complete and duplicated BUSCOs (D)
+INFO	76 Fragmented BUSCOs (F)
+INFO	391 Missing BUSCOs (M)
+INFO	978 Total BUSCO groups searched
+INFO	BUSCO analysis done. Total running time: 2845.2424907684326 seconds
+INFO	Results written in /home/working/run_G_salaris/
+

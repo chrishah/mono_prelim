@@ -1,3 +1,5 @@
-total 170M
--rwxrwxrwx 1  174 Dez  8 23:43 HOWTO
--rwxrwxrwx 1 170M Dez  8 23:44 opisthorchis_viverrini.PRJNA222628.WBPS12.genomic.fa.gz
+total 179M
+-rw-rw-r-- 1 170M Dec  9 11:21 opisthorchis_viverrini.PRJNA222628.WBPS12.genomic.fa.gz
+-rw-rw-r-- 1  860 Dec  9 17:18 HOWTO
+-rw-rw-r-- 1  36K Dec  9 21:55 busco.log
+-rw-rw-r-- 1 8.4M Dec 10 08:59 run_O_viverrini.tar.gz

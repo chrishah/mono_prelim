@@ -1,3 +1,14 @@
 wget ftp://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/releases/WBPS12/species/protopolystoma_xenopodis/PRJEB1201/protopolystoma_xenopodis.PRJEB1201.WBPS12.genomic.fa.gz
 
+#download metazoa reference set
+wget -qO- https://busco.ezlab.org/datasets/metazoa_odb9.tar.gz | tar -xvz
+
+#run BUSCO
+gunzip protopolystoma_xenopodis.PRJEB1201.WBPS12.genomic.fa.gz 
+fasta=protopolystoma_xenopodis.PRJEB1201.WBPS12.genomic.fa
+prefix=P_xenopodis
+docker run -it --rm --net=host -v $(pwd):/home/working -w /home/working chrishah/busco-docker:v3.0.2 run_BUSCO.py --in $fasta --out $prefix -l ./metazoa_odb9 --mode genome -c 6 2>&1 | tee busco.log
+
+prefix=P_xenopodis_long
+docker run -it --rm --net=host -v $(pwd):/home/working -w /home/working chrishah/busco-docker:v3.0.2 run_BUSCO.py --in $fasta --out $prefix -l ./metazoa_odb9 --mode genome -c 2 --long 2>&1 | tee busco.log
 

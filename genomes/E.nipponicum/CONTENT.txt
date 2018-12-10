@@ -1,5 +1,3 @@
-total 332M
--rwxrwxrwx 1 326M Dez  8 21:15 roche_minion_illum.genome.scf.filter.fasta.gz
--rwxrwxrwx 1  641 Dez  9 17:45 HOWTO
--rwxrwxrwx 1  60K Dez  9 19:21 busco.log
--rwxrwxrwx 1 5,4M Dez 10 08:41 run_E_nipponium.tar.gz
+total 64K
+-rw-rw-r-- 1 641 Dec 10 08:49 HOWTO
+-rw-rw-r-- 1 60K Dec 10 08:49 busco.log

@@ -1,3 +1,5 @@
-total 37M
--rwxrwxrwx 1 156 Dez  8 23:44 HOWTO
--rwxrwxrwx 1 37M Dez  8 23:45 taenia_solium.PRJNA170813.WBPS12.genomic.fa.gz
+total 44M
+-rw-rw-r-- 1  37M Dec  9 11:19 taenia_solium.PRJNA170813.WBPS12.genomic.fa.gz
+-rw-rw-r-- 1  591 Dec  9 11:20 HOWTO
+-rw-rw-r-- 1  14K Dec  9 12:35 busco.log
+-rw-rw-r-- 1 6.5M Dec 10 09:08 run_T_solium.tar.gz
