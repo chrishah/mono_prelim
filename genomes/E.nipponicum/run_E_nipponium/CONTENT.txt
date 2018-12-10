@@ -1,4 +1,0 @@
-total 512
--rwxrwxrwx 1 20 Dez  8 23:41 checkpoint.tmp
-drwxrwxrwx 1  0 Dez  8 23:41 blast_output
-drwxrwxrwx 1  0 Dez  8 23:41 augustus_output

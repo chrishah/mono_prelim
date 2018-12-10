@@ -9,3 +9,5 @@ fasta=roche_minion_illum.genome.scf.filter.fasta
 prefix=E_nipponium
 docker run -it --rm --net=host -v $(pwd):/home/working -w /home/working chrishah/busco-docker:v3.0.2 run_BUSCO.py --in $fasta --out $prefix -l ./metazoa_odb9 --mode genome -c 6 2>&1 | tee busco.log
 
+prefix=E_nipponicum_long
+docker run -it --rm --net=host -v $(pwd):/home/working -w /home/working chrishah/busco-docker:v3.0.2 run_BUSCO.py --in $fasta --out $prefix -l ./metazoa_odb9 --mode genome -c 6 --long 2>&1 | tee busco.log

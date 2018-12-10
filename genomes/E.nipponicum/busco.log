@@ -1,35 +1,452 @@
-INFO	****************** Start a BUSCO 3.0.2 analysis, current time: 12/08/2018 23:32:07 ******************
+INFO	****************** Start a BUSCO 3.0.2 analysis, current time: 12/09/2018 17:45:43 ******************
 INFO	Configuration loaded from /usr/src/busco/config/config.ini
 INFO	Init tools...
 INFO	Check dependencies...
 INFO	Check input file...
-INFO	To reproduce this run: python /usr/bin/run_BUSCO.py -i roche_minion_illum.genome.scf.filter.fasta -o E_nipponium -l ./metazoa_odb9/ -m genome -c 6 -sp fly
+INFO	To reproduce this run: python /usr/bin/run_BUSCO.py -i roche_minion_illum.genome.scf.filter.fasta -o E_nipponicum_long -l ./metazoa_odb9/ -m genome -c 6 --long -sp fly
 INFO	Mode is: genome
 INFO	The lineage dataset is: metazoa_odb9 (eukaryota)
 INFO	Temp directory is ./tmp/
 INFO	****** Phase 1 of 2, initial predictions ******
-INFO	****** Step 1/3, current time: 12/08/2018 23:32:17 ******
+INFO	****** Step 1/3, current time: 12/09/2018 17:45:52 ******
 INFO	Create blast database...
-INFO	[makeblastdb]	Building a new DB, current time: 12/08/2018 23:32:17
-INFO	[makeblastdb]	New DB name:   /home/working/tmp/E_nipponium_1228642633
+INFO	[makeblastdb]	Building a new DB, current time: 12/09/2018 17:45:52
+INFO	[makeblastdb]	New DB name:   /home/working/tmp/E_nipponicum_long_2956815060
 INFO	[makeblastdb]	New DB title:  roche_minion_illum.genome.scf.filter.fasta
 INFO	[makeblastdb]	Sequence type: Nucleotide
 INFO	[makeblastdb]	Keep MBits: T
 INFO	[makeblastdb]	Maximum file size: 1000000000B
-INFO	[makeblastdb]	Adding sequences from FASTA; added 624914 sequences in 23.4708 seconds.
-INFO	[makeblastdb]	1 of 1 task(s) completed at 12/08/2018 23:32:40
-INFO	Running tblastn, writing output to /home/working/run_E_nipponium/blast_output/tblastn_E_nipponium.tsv...
-INFO	[tblastn]	1 of 1 task(s) completed at 12/08/2018 23:41:04
-INFO	****** Step 2/3, current time: 12/08/2018 23:41:04 ******
+INFO	[makeblastdb]	Adding sequences from FASTA; added 624914 sequences in 22.5246 seconds.
+INFO	[makeblastdb]	1 of 1 task(s) completed at 12/09/2018 17:46:15
+INFO	Running tblastn, writing output to /home/working/run_E_nipponicum_long/blast_output/tblastn_E_nipponicum_long.tsv...
+INFO	[tblastn]	1 of 1 task(s) completed at 12/09/2018 17:54:35
+INFO	****** Step 2/3, current time: 12/09/2018 17:54:35 ******
 INFO	Maximum number of candidate contig per BUSCO limited to: 3
 INFO	Getting coordinates for candidate regions...
 INFO	Pre-Augustus scaffold extraction...
 INFO	Running Augustus prediction using fly as species:
-INFO	[augustus]	Please find all logs related to Augustus errors here: /home/working/run_E_nipponium/augustus_output/augustus.log
-INFO	[augustus]	121 of 1205 task(s) completed at 12/08/2018 23:42:41
-INFO	[augustus]	241 of 1205 task(s) completed at 12/08/2018 23:44:00
-INFO	[augustus]	362 of 1205 task(s) completed at 12/08/2018 23:45:07
-INFO	[augustus]	482 of 1205 task(s) completed at 12/08/2018 23:46:10
-INFO	[augustus]	603 of 1205 task(s) completed at 12/08/2018 23:47:02
-INFO	[augustus]	723 of 1205 task(s) completed at 12/08/2018 23:47:56
-INFO	[augustus]	844 of 1205 task(s) completed at 12/08/2018 23:48:57
+INFO	[augustus]	Please find all logs related to Augustus errors here: /home/working/run_E_nipponicum_long/augustus_output/augustus.log
+INFO	[augustus]	121 of 1205 task(s) completed at 12/09/2018 17:56:07
+INFO	[augustus]	241 of 1205 task(s) completed at 12/09/2018 17:57:20
+INFO	[augustus]	362 of 1205 task(s) completed at 12/09/2018 17:58:23
+INFO	[augustus]	482 of 1205 task(s) completed at 12/09/2018 17:59:21
+INFO	[augustus]	603 of 1205 task(s) completed at 12/09/2018 18:00:11
+INFO	[augustus]	723 of 1205 task(s) completed at 12/09/2018 18:01:01
+INFO	[augustus]	844 of 1205 task(s) completed at 12/09/2018 18:01:58
+INFO	[augustus]	964 of 1205 task(s) completed at 12/09/2018 18:02:48
+INFO	[augustus]	1085 of 1205 task(s) completed at 12/09/2018 18:03:30
+INFO	[augustus]	1205 of 1205 task(s) completed at 12/09/2018 18:04:10
+INFO	Extracting predicted proteins...
+INFO	****** Step 3/3, current time: 12/09/2018 18:04:17 ******
+INFO	Running HMMER to confirm orthology of predicted proteins:
+INFO	[hmmsearch]	42 of 416 task(s) completed at 12/09/2018 18:04:17
+INFO	[hmmsearch]	84 of 416 task(s) completed at 12/09/2018 18:04:17
+INFO	[hmmsearch]	125 of 416 task(s) completed at 12/09/2018 18:04:17
+INFO	[hmmsearch]	167 of 416 task(s) completed at 12/09/2018 18:04:17
+INFO	[hmmsearch]	209 of 416 task(s) completed at 12/09/2018 18:04:18
+INFO	[hmmsearch]	250 of 416 task(s) completed at 12/09/2018 18:04:18
+INFO	[hmmsearch]	292 of 416 task(s) completed at 12/09/2018 18:04:18
+INFO	[hmmsearch]	333 of 416 task(s) completed at 12/09/2018 18:04:18
+INFO	[hmmsearch]	375 of 416 task(s) completed at 12/09/2018 18:04:18
+INFO	[hmmsearch]	416 of 416 task(s) completed at 12/09/2018 18:04:18
+INFO	Results:
+INFO	C:14.4%[S:13.6%,D:0.8%],F:9.0%,M:76.6%,n:978
+INFO	141 Complete BUSCOs (C)
+INFO	133 Complete and single-copy BUSCOs (S)
+INFO	8 Complete and duplicated BUSCOs (D)
+INFO	88 Fragmented BUSCOs (F)
+INFO	749 Missing BUSCOs (M)
+INFO	978 Total BUSCO groups searched
+INFO	****** Phase 2 of 2, predictions using species specific training ******
+INFO	****** Step 1/3, current time: 12/09/2018 18:04:18 ******
+INFO	Extracting missing and fragmented buscos from the ancestral_variants file...
+INFO	Running tblastn, writing output to /home/working/run_E_nipponicum_long/blast_output/tblastn_E_nipponicum_long_missing_and_frag_rerun.tsv...
+INFO	[tblastn]	1 of 1 task(s) completed at 12/09/2018 19:13:44
+INFO	Maximum number of candidate contig per BUSCO limited to: 3
+INFO	Getting coordinates for candidate regions...
+INFO	****** Step 2/3, current time: 12/09/2018 19:13:45 ******
+INFO	Training Augustus using Single-Copy Complete BUSCOs:
+INFO	Converting predicted genes to short genbank files at 12/09/2018 19:13:45...
+INFO	All files converted to short genbank files, now running the training scripts at 12/09/2018 19:16:16...
+WARNING	Optimizing augustus metaparameters, this may take a very long time, started at 12/09/2018 19:16:17
+INFO	Pre-Augustus scaffold extraction...
+INFO	Re-running Augustus with the new metaparameters, number of target BUSCOs: 837
+INFO	[augustus]	109 of 1084 task(s) completed at 12/09/2018 19:16:56
+INFO	[augustus]	217 of 1084 task(s) completed at 12/09/2018 19:17:27
+INFO	[augustus]	326 of 1084 task(s) completed at 12/09/2018 19:17:57
+INFO	[augustus]	434 of 1084 task(s) completed at 12/09/2018 19:18:22
+INFO	[augustus]	543 of 1084 task(s) completed at 12/09/2018 19:18:49
+INFO	[augustus]	651 of 1084 task(s) completed at 12/09/2018 19:19:18
+INFO	[augustus]	759 of 1084 task(s) completed at 12/09/2018 19:19:43
+INFO	[augustus]	868 of 1084 task(s) completed at 12/09/2018 19:20:09
+INFO	[augustus]	976 of 1084 task(s) completed at 12/09/2018 19:20:44
+INFO	[augustus]	1084 of 1084 task(s) completed at 12/09/2018 19:21:12
+INFO	Extracting predicted proteins...
+INFO	****** Step 3/3, current time: 12/09/2018 19:21:18 ******
+INFO	Running HMMER to confirm orthology of predicted proteins:
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G075F.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06DH.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0FXV.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0N9Z.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0S0I.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06DH.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G07KC.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0W2D.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G19WY.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0AX1.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0KGX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0IGG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0MZC.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0628.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0AKM.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0IDE.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0C7Y.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0O40.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G02HY.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G08V8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G09KI.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0LIN.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0JI1.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G00MA.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0ARE.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0GY1.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0DTB.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G02LY.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0Q02.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0Q02.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0MB2.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G089T.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06CB.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G02ZI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0AZ7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0K1H.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0HOK.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0B9T.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0307.faa.3 for reading
+INFO	[hmmsearch]	60 of 597 task(s) completed at 12/09/2018 19:21:18
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0AVP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0YVI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0BPU.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0HYF.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0H3U.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G10O5.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0NMJ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0K98.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G15HS.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0O4W.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G05Q6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0M8S.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0CMN.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06YD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G01WY.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03JF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03D7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0GVZ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G028G.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0KM6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G01EW.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0DRZ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0DLW.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G07QN.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G09T3.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0JI0.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03JX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06HP.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G13NA.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0L4Z.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G00VZ.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0J98.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0W1S.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0NIU.faa.2 for reading
+INFO	[hmmsearch]	120 of 597 task(s) completed at 12/09/2018 19:21:18
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G050A.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0EA2.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G050A.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0RT1.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G126R.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0F0I.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G132G.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0IWR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G02O5.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G05UF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G09SS.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0IDG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G05UF.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0MJA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06QP.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06QP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0AVA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G07PV.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0E7S.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0N0R.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G025T.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0VGJ.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0E3V.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03G3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0LP5.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0781.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0NH9.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0LO1.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0F93.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0627.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0G6C.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0AVW.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0NIY.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G046Y.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G09D8.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0B9B.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G029K.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0L4M.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03DT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0L4M.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G08ZG.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G08SM.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0A98.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0EAF.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0BBO.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0BDT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G08ZR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0PXB.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0JU7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0TAU.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0KS8.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G13IJ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0554.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G05EU.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0S5L.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G01Z2.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03I1.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0FH3.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03I1.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0VSN.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G05OR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06XK.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G1BQN.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0DQS.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G075K.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G08D1.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0L5Z.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0WCB.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0BPX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G09BP.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0JIA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0HP9.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0RTI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0IRO.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0MF6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G02UC.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0BCO.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G09T6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0Q58.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0QIP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0VTN.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0QNR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0TM2.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0CTG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0BG4.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0AYM.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06OM.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0K0H.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G13XF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0CR4.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0CR4.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0WPV.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0Q27.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G07D9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0H5Q.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0A79.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G04CK.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0262.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G05XY.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03JG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0J61.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G1311.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G1CLN.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G1311.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0FIJ.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G1CLN.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0IF3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0HSB.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G01XD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G05K5.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0RWW.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06ON.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0EKA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0ITS.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0FYA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0UYL.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G09UB.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G09MU.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G09MD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0HXJ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0G58.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03XS.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0TCJ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03PD.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0H0S.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0MDT.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0CFP.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G07PH.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0RPE.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0PVT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G017T.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0M12.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G02OE.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0CEG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0C2M.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G09HR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0G8R.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G105E.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0C6I.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0KC3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0LKE.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0BX3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06OP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0N2F.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0COC.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G031X.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03XO.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G026I.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G07VQ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G026I.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0GA7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03OT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0TSE.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0ULR.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G05ZJ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0LBN.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0FPM.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0HS8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06Y7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0H6J.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0814.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0PHL.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0GUK.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0K92.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0JGU.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0BUD.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0K9M.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0H6A.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0YHX.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0KUR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0HQ3.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0RTZ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0RTZ.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0KSX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0MY0.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G09RJ.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G05CI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0IDP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G02MR.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0LMY.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0F70.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0FAM.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G011X.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0M0S.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0769.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0LTE.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0D26.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0D26.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0SAU.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G01S9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0D8N.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0ELO.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G15HV.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0Y35.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0II3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03LI.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0GWO.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0D04.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0XZC.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0P4K.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G04IK.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0CEW.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0MG7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0I7M.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0RHX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G024J.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G08RU.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G141O.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0A19.faa.1 for reading
+INFO	[hmmsearch]	418 of 597 task(s) completed at 12/09/2018 19:21:18
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G074J.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0DXC.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0G88.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0T79.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0L5I.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06I3.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0ID9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0P9B.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0QPG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G02B4.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0IX8.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0AI5.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G1549.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G07KL.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0TVG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0JMY.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G00QT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0OUM.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0IDS.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G115J.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G02P2.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G078D.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0LB8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0CLR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0495.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0BWJ.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0QZ2.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0495.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0BWJ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0IMI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G10IX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0CSZ.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0AE9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G038X.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G1422.faa.1 for reading
+INFO	[hmmsearch]	478 of 597 task(s) completed at 12/09/2018 19:21:19
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G00MI.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G085U.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G08VB.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G065D.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0I85.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0KRZ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0BQF.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G048B.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0P5N.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G11IM.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0U2U.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0CH6.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G06P4.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0L5D.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0IQ7.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G023Z.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G03C0.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G05GZ.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G053R.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G05N4.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G07IK.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G07N8.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G08BK.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G09GA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0AOO.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0BUH.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0CZX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0DXV.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0GZ4.faa.3 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0H8F.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0L2T.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G0HJH.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_E_nipponicum_long/augustus_output/extracted_proteins/EOG091G167Y.faa.1 for reading
+INFO	[hmmsearch]	597 of 597 task(s) completed at 12/09/2018 19:21:19
+INFO	Results:
+INFO	C:16.3%[S:15.5%,D:0.8%],F:12.9%,M:70.8%,n:978
+INFO	160 Complete BUSCOs (C)
+INFO	152 Complete and single-copy BUSCOs (S)
+INFO	8 Complete and duplicated BUSCOs (D)
+INFO	126 Fragmented BUSCOs (F)
+INFO	692 Missing BUSCOs (M)
+INFO	978 Total BUSCO groups searched
+INFO	BUSCO analysis done with WARNING(s). Total running time: 5736.622521877289 seconds
+INFO	Results written in /home/working/run_E_nipponicum_long/
+

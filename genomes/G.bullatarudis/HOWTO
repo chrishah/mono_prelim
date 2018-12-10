@@ -1,0 +1,9 @@
+
+both pe and mp reads (assembly with shovill, a pipeline around SPAdes, and scaffolding with BESST)
+
+##
+
+#run BUSCO
+fasta=Gbul_v1a_scaffolds_GapClosed2.fa
+prefix=G_bullatarudis
+docker run -it --rm --net=host -v $(pwd):/home/working -w /home/working chrishah/busco-docker:v3.0.2 run_BUSCO.py --in $fasta --out $prefix -l ./metazoa_odb9 --mode genome -c 6 2>&1 | tee busco.log

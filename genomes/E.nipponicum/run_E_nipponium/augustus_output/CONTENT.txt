@@ -1,3 +1,0 @@
-total 284K
--rwxrwxrwx 1  86K Dez  8 23:48 augustus.log
-drwxrwxrwx 1 196K Dez  8 23:48 predicted_genes

@@ -1,12 +1,13 @@
-total 512
-drwxrwxrwx 1 432 Dez  8 23:32 E.nipponicum
-drwxrwxrwx 1   0 Dez  8 23:32 G.turnbulli
-drwxrwxrwx 1   0 Dez  8 23:38 G.salaris
-drwxrwxrwx 1   0 Dez  8 23:39 C.sinensus
-drwxrwxrwx 1   0 Dez  8 23:41 P.xenopodi
-drwxrwxrwx 1   0 Dez  8 23:42 S.mansoni
-drwxrwxrwx 1   0 Dez  8 23:43 O.viverrini
-drwxrwxrwx 1   0 Dez  8 23:45 T.solium
-drwxrwxrwx 1   0 Dez  8 23:45 H.microstoma
-drwxrwxrwx 1   0 Dez  8 23:46 E.granulosus
-drwxrwxrwx 1 336 Dez  8 23:47 S.mediterranea
+total 44K
+drwxrwxrwx 1 4,0K Dez  8 23:48 C.sinensus
+drwxrwxrwx 1 4,0K Dez  8 23:48 E.granulosus
+drwxrwxrwx 1    0 Dez  8 23:48 G.turnbulli
+drwxrwxrwx 1 4,0K Dez  8 23:48 H.microstoma
+drwxrwxrwx 1 4,0K Dez  8 23:48 O.viverrini
+drwxrwxrwx 1 4,0K Dez  8 23:48 P.xenopodi
+drwxrwxrwx 1 4,0K Dez  8 23:48 S.mansoni
+drwxrwxrwx 1 4,0K Dez  8 23:48 S.mediterranea
+drwxrwxrwx 1 4,0K Dez  8 23:48 T.solium
+drwxrwxrwx 1 4,0K Dez  9 23:21 G.salaris
+drwxrwxrwx 1 4,0K Dez 10 08:46 E.nipponicum
+drwxrwxrwx 1 4,0K Dez 10 08:47 G.bullatarudis
