@@ -70,6 +70,9 @@ do
 	cd ..
 done
 
+#compress some data
+for f in $(find ./ -name '*find_best_model'); do tar cvfz $f.tgz $f --remove-files $f; done
+
 #concatenated
 mkdir concat
 cd concat/
