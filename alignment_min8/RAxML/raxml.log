@@ -1,0 +1,25 @@
+Model PROTGAMMA does not exist
+
+For BINARY data use:  BINCAT[X]             or BINGAMMA[X]             or
+                      BINCATI[X]            or BINGAMMAI[X]            or
+                      ASC_BINGAMMA[X]       or ASC_BINCAT[X]
+For DNA data use:     GTRCAT[X]             or GTRGAMMA[X]             or
+                      GTRCATI[X]            or GTRGAMMAI[X]            or
+                      ASC_GTRGAMMA[X]       or ASC_GTRCAT[X]
+For Multi-state data: MULTICAT[X]          or MULTIGAMMA[X]           or
+                      MULTICATI[X]         or MULTIGAMMAI[X]          or
+                      ASC_MULTIGAMMA[X]    or ASC_MULTICAT[X]
+For AA data use:      PROTCATmatrixName[F|X]  or PROTGAMMAmatrixName[F|X]  or
+                      PROTCATImatrixName[F|X] or PROTGAMMAImatrixName[F|X] or
+                      ASC_PROTGAMMAmatrixName[X] or  ASC_PROTCATmatrixName[X]
+The AA substitution matrix can be one of the following: 
+
+DAYHOFF, DCMUT, JTT, MTREV, WAG, RTREV, CPREV, VT, 
+BLOSUM62, MTMAM, LG, MTART, MTZOA, PMB, HIVB, HIVW, 
+JTTDCMUT, FLU, STMTREV, DUMMY, DUMMY2, AUTO, LG4M, LG4X, 
+PROT_FILE, GTR_UNLINKED, GTR
+
+With the optional "F" appendix you can specify if you want to use empirical base frequencies.
+With the optional "X" appendix you can specify that you want to do a ML estimate of base frequencies.
+Please note that for mixed models you can in addition specify the per-gene model in
+the mixed model file (see manual for details).

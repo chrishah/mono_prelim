@@ -1,0 +1,1248 @@
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 25407 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 26.46%
+
+RAxML rapid bootstrapping and subsequent ML search
+
+Using 126 distinct models/data partitions with joint branch length optimization
+
+
+
+Executing 100 rapid bootstrap inferences and thereafter a thorough ML search 
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 554
+Name: EOG091G00Q0
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 1
+Alignment Patterns: 439
+Name: EOG091G00UD
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 2
+Alignment Patterns: 755
+Name: EOG091G00Z3
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 3
+Alignment Patterns: 661
+Name: EOG091G017G
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 4
+Alignment Patterns: 469
+Name: EOG091G01IW
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 5
+Alignment Patterns: 612
+Name: EOG091G01TH
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 6
+Alignment Patterns: 561
+Name: EOG091G01XQ
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 7
+Alignment Patterns: 112
+Name: EOG091G0262
+DataType: AA
+Substitution Matrix: DAYHOFF
+Using fixed base frequencies
+
+
+
+Partition: 8
+Alignment Patterns: 478
+Name: EOG091G027G
+DataType: AA
+Substitution Matrix: LG
+Using fixed base frequencies
+
+
+
+Partition: 9
+Alignment Patterns: 408
+Name: EOG091G02V5
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 10
+Alignment Patterns: 309
+Name: EOG091G03AN
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 11
+Alignment Patterns: 246
+Name: EOG091G03G3
+DataType: AA
+Substitution Matrix: DAYHOFF
+Using empirical base frequencies
+
+
+
+Partition: 12
+Alignment Patterns: 213
+Name: EOG091G03I1
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 13
+Alignment Patterns: 290
+Name: EOG091G03JF
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 14
+Alignment Patterns: 33
+Name: EOG091G03XO
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 15
+Alignment Patterns: 371
+Name: EOG091G05AA
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 16
+Alignment Patterns: 381
+Name: EOG091G05AH
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 17
+Alignment Patterns: 271
+Name: EOG091G05K5
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 18
+Alignment Patterns: 304
+Name: EOG091G05KR
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 19
+Alignment Patterns: 205
+Name: EOG091G05NK
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+Partition: 20
+Alignment Patterns: 401
+Name: EOG091G05OW
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 21
+Alignment Patterns: 419
+Name: EOG091G06J6
+DataType: AA
+Substitution Matrix: LG
+Using fixed base frequencies
+
+
+
+Partition: 22
+Alignment Patterns: 311
+Name: EOG091G06U0
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 23
+Alignment Patterns: 302
+Name: EOG091G074G
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 24
+Alignment Patterns: 328
+Name: EOG091G07KC
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 25
+Alignment Patterns: 237
+Name: EOG091G07NJ
+DataType: AA
+Substitution Matrix: LG
+Using fixed base frequencies
+
+
+
+Partition: 26
+Alignment Patterns: 277
+Name: EOG091G07OD
+DataType: AA
+Substitution Matrix: LG
+Using fixed base frequencies
+
+
+
+Partition: 27
+Alignment Patterns: 258
+Name: EOG091G07VQ
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 28
+Alignment Patterns: 278
+Name: EOG091G08FX
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 29
+Alignment Patterns: 202
+Name: EOG091G08LT
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 30
+Alignment Patterns: 306
+Name: EOG091G08SM
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 31
+Alignment Patterns: 311
+Name: EOG091G09GO
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 32
+Alignment Patterns: 188
+Name: EOG091G09RJ
+DataType: AA
+Substitution Matrix: LG
+Using fixed base frequencies
+
+
+
+Partition: 33
+Alignment Patterns: 255
+Name: EOG091G0A2I
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 34
+Alignment Patterns: 254
+Name: EOG091G0A5N
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 35
+Alignment Patterns: 159
+Name: EOG091G0AFP
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 36
+Alignment Patterns: 303
+Name: EOG091G0AHJ
+DataType: AA
+Substitution Matrix: LG
+Using fixed base frequencies
+
+
+
+Partition: 37
+Alignment Patterns: 259
+Name: EOG091G0B2N
+DataType: AA
+Substitution Matrix: LG
+Using fixed base frequencies
+
+
+
+Partition: 38
+Alignment Patterns: 199
+Name: EOG091G0BAM
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+Partition: 39
+Alignment Patterns: 241
+Name: EOG091G0BHP
+DataType: AA
+Substitution Matrix: WAG
+Using empirical base frequencies
+
+
+
+Partition: 40
+Alignment Patterns: 203
+Name: EOG091G0BKZ
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 41
+Alignment Patterns: 155
+Name: EOG091G0C8H
+DataType: AA
+Substitution Matrix: WAG
+Using empirical base frequencies
+
+
+
+Partition: 42
+Alignment Patterns: 197
+Name: EOG091G0CTG
+DataType: AA
+Substitution Matrix: LG
+Using fixed base frequencies
+
+
+
+Partition: 43
+Alignment Patterns: 202
+Name: EOG091G0D0W
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 44
+Alignment Patterns: 182
+Name: EOG091G0D26
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+Partition: 45
+Alignment Patterns: 172
+Name: EOG091G0DRZ
+DataType: AA
+Substitution Matrix: DAYHOFF
+Using empirical base frequencies
+
+
+
+Partition: 46
+Alignment Patterns: 238
+Name: EOG091G0DTP
+DataType: AA
+Substitution Matrix: LG
+Using fixed base frequencies
+
+
+
+Partition: 47
+Alignment Patterns: 185
+Name: EOG091G0DYW
+DataType: AA
+Substitution Matrix: DCMUT
+Using empirical base frequencies
+
+
+
+Partition: 48
+Alignment Patterns: 183
+Name: EOG091G0E3V
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 49
+Alignment Patterns: 191
+Name: EOG091G0EH8
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 50
+Alignment Patterns: 158
+Name: EOG091G0ER1
+DataType: AA
+Substitution Matrix: JTT
+Using fixed base frequencies
+
+
+
+Partition: 51
+Alignment Patterns: 162
+Name: EOG091G0ES6
+DataType: AA
+Substitution Matrix: BLOSUM62
+Using fixed base frequencies
+
+
+
+Partition: 52
+Alignment Patterns: 287
+Name: EOG091G0FIJ
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+Partition: 53
+Alignment Patterns: 167
+Name: EOG091G0FQ2
+DataType: AA
+Substitution Matrix: LG
+Using fixed base frequencies
+
+
+
+Partition: 54
+Alignment Patterns: 299
+Name: EOG091G0G3M
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 55
+Alignment Patterns: 92
+Name: EOG091G0G6C
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 56
+Alignment Patterns: 207
+Name: EOG091G0GWO
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 57
+Alignment Patterns: 216
+Name: EOG091G0HAI
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 58
+Alignment Patterns: 180
+Name: EOG091G0HXI
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 59
+Alignment Patterns: 169
+Name: EOG091G0I8J
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 60
+Alignment Patterns: 156
+Name: EOG091G0IQ7
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 61
+Alignment Patterns: 490
+Name: EOG091G0IYB
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 62
+Alignment Patterns: 138
+Name: EOG091G0J2W
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 63
+Alignment Patterns: 103
+Name: EOG091G0K6O
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 64
+Alignment Patterns: 145
+Name: EOG091G0K95
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 65
+Alignment Patterns: 206
+Name: EOG091G0K9M
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 66
+Alignment Patterns: 144
+Name: EOG091G0KRB
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 67
+Alignment Patterns: 141
+Name: EOG091G0L66
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 68
+Alignment Patterns: 184
+Name: EOG091G0LS0
+DataType: AA
+Substitution Matrix: LG
+Using fixed base frequencies
+
+
+
+Partition: 69
+Alignment Patterns: 125
+Name: EOG091G0M0S
+DataType: AA
+Substitution Matrix: WAG
+Using empirical base frequencies
+
+
+
+Partition: 70
+Alignment Patterns: 110
+Name: EOG091G0M12
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 71
+Alignment Patterns: 57
+Name: EOG091G0M22
+DataType: AA
+Substitution Matrix: WAG
+Using fixed base frequencies
+
+
+
+Partition: 72
+Alignment Patterns: 169
+Name: EOG091G0MKY
+DataType: AA
+Substitution Matrix: VT
+Using empirical base frequencies
+
+
+
+Partition: 73
+Alignment Patterns: 271
+Name: EOG091G0MSB
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 74
+Alignment Patterns: 180
+Name: EOG091G0MVL
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 75
+Alignment Patterns: 158
+Name: EOG091G0MVR
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 76
+Alignment Patterns: 99
+Name: EOG091G0NIU
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 77
+Alignment Patterns: 158
+Name: EOG091G0NK3
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 78
+Alignment Patterns: 181
+Name: EOG091G0NMJ
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 79
+Alignment Patterns: 72
+Name: EOG091G0NOA
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 80
+Alignment Patterns: 99
+Name: EOG091G0NTO
+DataType: AA
+Substitution Matrix: LG
+Using fixed base frequencies
+
+
+
+Partition: 81
+Alignment Patterns: 107
+Name: EOG091G0OI8
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 82
+Alignment Patterns: 185
+Name: EOG091G0OWI
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 83
+Alignment Patterns: 143
+Name: EOG091G0PHL
+DataType: AA
+Substitution Matrix: WAG
+Using empirical base frequencies
+
+
+
+Partition: 84
+Alignment Patterns: 171
+Name: EOG091G0PIU
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 85
+Alignment Patterns: 120
+Name: EOG091G0PNO
+DataType: AA
+Substitution Matrix: LG
+Using fixed base frequencies
+
+
+
+Partition: 86
+Alignment Patterns: 122
+Name: EOG091G0QE1
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 87
+Alignment Patterns: 103
+Name: EOG091G0QGZ
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 88
+Alignment Patterns: 154
+Name: EOG091G0R21
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 89
+Alignment Patterns: 160
+Name: EOG091G0R6Z
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 90
+Alignment Patterns: 89
+Name: EOG091G0RA2
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 91
+Alignment Patterns: 91
+Name: EOG091G0RTZ
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 92
+Alignment Patterns: 128
+Name: EOG091G0S8Y
+DataType: AA
+Substitution Matrix: VT
+Using fixed base frequencies
+
+
+
+Partition: 93
+Alignment Patterns: 123
+Name: EOG091G0SRZ
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 94
+Alignment Patterns: 124
+Name: EOG091G0TKH
+DataType: AA
+Substitution Matrix: WAG
+Using empirical base frequencies
+
+
+
+Partition: 95
+Alignment Patterns: 67
+Name: EOG091G0TNU
+DataType: AA
+Substitution Matrix: DCMUT
+Using empirical base frequencies
+
+
+
+Partition: 96
+Alignment Patterns: 118
+Name: EOG091G0TRW
+DataType: AA
+Substitution Matrix: WAG
+Using empirical base frequencies
+
+
+
+Partition: 97
+Alignment Patterns: 96
+Name: EOG091G0TWR
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 98
+Alignment Patterns: 172
+Name: EOG091G0U75
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 99
+Alignment Patterns: 136
+Name: EOG091G0UKP
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 100
+Alignment Patterns: 97
+Name: EOG091G0VSZ
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 101
+Alignment Patterns: 117
+Name: EOG091G0VTN
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 102
+Alignment Patterns: 79
+Name: EOG091G0WLL
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 103
+Alignment Patterns: 74
+Name: EOG091G0XN1
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 104
+Alignment Patterns: 87
+Name: EOG091G0Y05
+DataType: AA
+Substitution Matrix: WAG
+Using empirical base frequencies
+
+
+
+Partition: 105
+Alignment Patterns: 73
+Name: EOG091G0YU6
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 106
+Alignment Patterns: 99
+Name: EOG091G0YVI
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 107
+Alignment Patterns: 84
+Name: EOG091G0YZ0
+DataType: AA
+Substitution Matrix: JTT
+Using empirical base frequencies
+
+
+
+Partition: 108
+Alignment Patterns: 69
+Name: EOG091G0ZLI
+DataType: AA
+Substitution Matrix: MTART
+Using empirical base frequencies
+
+
+
+Partition: 109
+Alignment Patterns: 97
+Name: EOG091G0ZUA
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 110
+Alignment Patterns: 57
+Name: EOG091G10CG
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 111
+Alignment Patterns: 71
+Name: EOG091G10FG
+DataType: AA
+Substitution Matrix: WAG
+Using empirical base frequencies
+
+
+
+Partition: 112
+Alignment Patterns: 78
+Name: EOG091G113O
+DataType: AA
+Substitution Matrix: PMB
+Using fixed base frequencies
+
+
+
+Partition: 113
+Alignment Patterns: 57
+Name: EOG091G114S
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 114
+Alignment Patterns: 63
+Name: EOG091G1285
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 115
+Alignment Patterns: 278
+Name: EOG091G132G
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 116
+Alignment Patterns: 54
+Name: EOG091G146E
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+Partition: 117
+Alignment Patterns: 91
+Name: EOG091G15HV
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 118
+Alignment Patterns: 75
+Name: EOG091G15KV
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 119
+Alignment Patterns: 80
+Name: EOG091G15N9
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 120
+Alignment Patterns: 160
+Name: EOG091G17K3
+DataType: AA
+Substitution Matrix: DAYHOFF
+Using empirical base frequencies
+
+
+
+Partition: 121
+Alignment Patterns: 298
+Name: EOG091G1817
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 122
+Alignment Patterns: 87
+Name: EOG091G197A
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 123
+Alignment Patterns: 106
+Name: EOG091G19Y2
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 124
+Alignment Patterns: 53
+Name: EOG091G1A1V
+DataType: AA
+Substitution Matrix: LG
+Using empirical base frequencies
+
+
+
+Partition: 125
+Alignment Patterns: 123
+Name: EOG091G1AP6
+DataType: AA
+Substitution Matrix: RTREV
+Using empirical base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxml -f a -T 6 -m PROTGAMMAWAG -p 12345 -q ./partitions.txt -x 12345 -# 100 -s FcC_supermatrix.fas -n alignment_min8 
+
+
+
+Time for BS model parameter optimization 17.187836
+Bootstrap[0]: Time 71.189922 seconds, bootstrap likelihood -463111.220009, best rearrangement setting 13
+Bootstrap[1]: Time 46.260490 seconds, bootstrap likelihood -464782.240803, best rearrangement setting 13
+Bootstrap[2]: Time 48.593085 seconds, bootstrap likelihood -466398.031262, best rearrangement setting 12
+Bootstrap[3]: Time 46.818880 seconds, bootstrap likelihood -463744.049957, best rearrangement setting 15
+Bootstrap[4]: Time 47.415649 seconds, bootstrap likelihood -464307.714905, best rearrangement setting 10
+Bootstrap[5]: Time 46.594548 seconds, bootstrap likelihood -464807.155948, best rearrangement setting 10
+Bootstrap[6]: Time 47.678789 seconds, bootstrap likelihood -464238.697625, best rearrangement setting 6
+Bootstrap[7]: Time 47.568201 seconds, bootstrap likelihood -462114.277118, best rearrangement setting 14
+Bootstrap[8]: Time 48.870217 seconds, bootstrap likelihood -463608.284439, best rearrangement setting 5
+Bootstrap[9]: Time 47.100342 seconds, bootstrap likelihood -466961.882067, best rearrangement setting 7
+Bootstrap[10]: Time 47.998125 seconds, bootstrap likelihood -463924.823854, best rearrangement setting 7
+Bootstrap[11]: Time 49.192027 seconds, bootstrap likelihood -466463.931966, best rearrangement setting 5
+Bootstrap[12]: Time 58.091726 seconds, bootstrap likelihood -466962.867091, best rearrangement setting 8
+Bootstrap[13]: Time 56.379959 seconds, bootstrap likelihood -462873.822730, best rearrangement setting 7
+Bootstrap[14]: Time 54.800132 seconds, bootstrap likelihood -465165.064890, best rearrangement setting 12
+Bootstrap[15]: Time 56.881010 seconds, bootstrap likelihood -464415.798652, best rearrangement setting 15
+Bootstrap[16]: Time 55.113731 seconds, bootstrap likelihood -463864.265699, best rearrangement setting 12
+Bootstrap[17]: Time 53.499432 seconds, bootstrap likelihood -465633.209656, best rearrangement setting 12
+Bootstrap[18]: Time 56.225718 seconds, bootstrap likelihood -465393.683691, best rearrangement setting 5
+Bootstrap[19]: Time 56.331146 seconds, bootstrap likelihood -465742.610197, best rearrangement setting 8
+Bootstrap[20]: Time 58.296010 seconds, bootstrap likelihood -464758.848518, best rearrangement setting 10
+Bootstrap[21]: Time 54.815268 seconds, bootstrap likelihood -465240.186946, best rearrangement setting 6
+Bootstrap[22]: Time 57.352991 seconds, bootstrap likelihood -462083.547455, best rearrangement setting 5
+Bootstrap[23]: Time 58.852259 seconds, bootstrap likelihood -463340.964717, best rearrangement setting 7
+Bootstrap[24]: Time 58.802771 seconds, bootstrap likelihood -465473.554629, best rearrangement setting 8
+Bootstrap[25]: Time 55.552954 seconds, bootstrap likelihood -462951.466628, best rearrangement setting 6
+Bootstrap[26]: Time 53.692177 seconds, bootstrap likelihood -461853.315801, best rearrangement setting 12
+Bootstrap[27]: Time 55.031324 seconds, bootstrap likelihood -463809.966986, best rearrangement setting 10
+Bootstrap[28]: Time 54.916550 seconds, bootstrap likelihood -465493.933076, best rearrangement setting 11
+Bootstrap[29]: Time 53.610339 seconds, bootstrap likelihood -464457.110676, best rearrangement setting 12
+Bootstrap[30]: Time 55.398612 seconds, bootstrap likelihood -465336.373479, best rearrangement setting 15
+Bootstrap[31]: Time 56.359757 seconds, bootstrap likelihood -462240.232461, best rearrangement setting 15
+Bootstrap[32]: Time 56.651306 seconds, bootstrap likelihood -463809.555019, best rearrangement setting 6
+Bootstrap[33]: Time 55.290973 seconds, bootstrap likelihood -465205.780752, best rearrangement setting 15
+Bootstrap[34]: Time 55.125765 seconds, bootstrap likelihood -462252.869869, best rearrangement setting 11
+Bootstrap[35]: Time 54.430471 seconds, bootstrap likelihood -467402.342148, best rearrangement setting 8
+Bootstrap[36]: Time 132.527016 seconds, bootstrap likelihood -462684.924386, best rearrangement setting 9
+Bootstrap[37]: Time 140.459206 seconds, bootstrap likelihood -463579.771808, best rearrangement setting 11
+Bootstrap[38]: Time 59.333804 seconds, bootstrap likelihood -463114.543036, best rearrangement setting 8
+Bootstrap[39]: Time 60.379067 seconds, bootstrap likelihood -464234.100683, best rearrangement setting 13
+Bootstrap[40]: Time 57.554435 seconds, bootstrap likelihood -463976.398914, best rearrangement setting 13
+Bootstrap[41]: Time 56.996803 seconds, bootstrap likelihood -466909.071386, best rearrangement setting 10
+Bootstrap[42]: Time 63.440247 seconds, bootstrap likelihood -462855.199500, best rearrangement setting 5
+Bootstrap[43]: Time 58.584143 seconds, bootstrap likelihood -467123.873679, best rearrangement setting 14
+Bootstrap[44]: Time 62.842376 seconds, bootstrap likelihood -464036.152089, best rearrangement setting 10
+Bootstrap[45]: Time 150.536307 seconds, bootstrap likelihood -464751.712926, best rearrangement setting 15
+Bootstrap[46]: Time 141.484493 seconds, bootstrap likelihood -464726.114415, best rearrangement setting 14
+Bootstrap[47]: Time 147.288375 seconds, bootstrap likelihood -463731.829378, best rearrangement setting 8
+Bootstrap[48]: Time 149.545959 seconds, bootstrap likelihood -467148.504606, best rearrangement setting 6
+Bootstrap[49]: Time 59.064165 seconds, bootstrap likelihood -464770.534845, best rearrangement setting 7
+Bootstrap[50]: Time 62.332787 seconds, bootstrap likelihood -467829.750773, best rearrangement setting 7
+Bootstrap[51]: Time 58.521478 seconds, bootstrap likelihood -464957.418034, best rearrangement setting 11
+Bootstrap[52]: Time 54.888566 seconds, bootstrap likelihood -464669.156142, best rearrangement setting 12
+Bootstrap[53]: Time 54.087036 seconds, bootstrap likelihood -465092.073133, best rearrangement setting 8
+Bootstrap[54]: Time 135.579171 seconds, bootstrap likelihood -464823.511440, best rearrangement setting 9
+Bootstrap[55]: Time 66.259865 seconds, bootstrap likelihood -462110.211775, best rearrangement setting 11
+Bootstrap[56]: Time 132.352999 seconds, bootstrap likelihood -465904.701005, best rearrangement setting 5
+Bootstrap[57]: Time 142.710533 seconds, bootstrap likelihood -466216.596134, best rearrangement setting 7
+Bootstrap[58]: Time 56.548465 seconds, bootstrap likelihood -463449.971917, best rearrangement setting 10
+Bootstrap[59]: Time 57.530790 seconds, bootstrap likelihood -467156.789384, best rearrangement setting 9
+Bootstrap[60]: Time 54.189823 seconds, bootstrap likelihood -466331.209011, best rearrangement setting 7
+Bootstrap[61]: Time 56.168619 seconds, bootstrap likelihood -464542.228152, best rearrangement setting 5
+Bootstrap[62]: Time 56.546121 seconds, bootstrap likelihood -467806.874885, best rearrangement setting 11
+Bootstrap[63]: Time 59.077551 seconds, bootstrap likelihood -468406.205550, best rearrangement setting 12
+Bootstrap[64]: Time 57.374342 seconds, bootstrap likelihood -465849.187204, best rearrangement setting 7
+Bootstrap[65]: Time 61.357391 seconds, bootstrap likelihood -466391.214937, best rearrangement setting 5
+Bootstrap[66]: Time 60.021556 seconds, bootstrap likelihood -464880.014354, best rearrangement setting 5
+Bootstrap[67]: Time 160.141506 seconds, bootstrap likelihood -461487.342703, best rearrangement setting 15
+Bootstrap[68]: Time 149.616485 seconds, bootstrap likelihood -464006.970383, best rearrangement setting 11
+Bootstrap[69]: Time 57.073978 seconds, bootstrap likelihood -464903.156299, best rearrangement setting 5
+Bootstrap[70]: Time 55.119918 seconds, bootstrap likelihood -467213.363325, best rearrangement setting 8
+Bootstrap[71]: Time 54.344921 seconds, bootstrap likelihood -463673.864997, best rearrangement setting 10

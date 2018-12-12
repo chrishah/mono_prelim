@@ -1,0 +1,20 @@
+--2018-12-11 13:12:43--  http://www.orthodb.org/fasta?query=EOG091G05AH&level=33208
+Resolving www.orthodb.org (www.orthodb.org)... 167.99.129.42, 2a03:b0c0:3:e0::1b:1
+Connecting to www.orthodb.org (www.orthodb.org)|167.99.129.42|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.orthodb.org/fasta?query=EOG091G05AH&level=33208 [following]
+--2018-12-11 13:12:43--  https://www.orthodb.org/fasta?query=EOG091G05AH&level=33208
+Connecting to www.orthodb.org (www.orthodb.org)|167.99.129.42|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 306995 (300K) [text/plain]
+Saving to: ‘EOG091G05AH/EOG091G05AH.orthodb.fasta’
+
+     0K .......... .......... .......... .......... .......... 16% 1,34M 0s
+    50K .......... .......... .......... .......... .......... 33% 1,32M 0s
+   100K .......... .......... .......... .......... .......... 50% 2,29M 0s
+   150K .......... .......... .......... .......... .......... 66% 1,48M 0s
+   200K .......... .......... .......... .......... .......... 83% 2,52M 0s
+   250K .......... .......... .......... .......... ......... 100% 2,10M=0,2s
+
+2018-12-11 13:12:44 (1,72 MB/s) - ‘EOG091G05AH/EOG091G05AH.orthodb.fasta’ saved [306995/306995]
+

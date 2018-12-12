@@ -1,0 +1,793 @@
+
+        ------------------------------------------------------------
+                        Welcome to FASconCAT-G v1.0 !
+                   A perlscript for sequence concatenation
+              written by Patrick Kueck (ZFMK Bonn, 2010/14)
+        ------------------------------------------------------------
+
+
+
+	#### FASconCAT-G: START ! ####
+	------------------------------------------------------------
+
+
+	READ IN ALICUT_EOG091G00Q0.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G00Q0.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G00UD.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G00UD.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G00Z3.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G00Z3.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G017G.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G017G.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G01IW.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G01IW.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G01TH.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G01TH.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G01XQ.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G01XQ.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0262.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0262.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G027G.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G027G.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G02V5.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G02V5.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G03AN.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G03AN.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G03G3.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G03G3.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G03I1.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G03I1.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G03JF.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G03JF.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G03XO.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G03XO.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G05AA.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G05AA.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G05AH.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G05AH.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G05K5.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G05K5.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G05KR.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G05KR.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G05NK.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G05NK.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G05OW.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G05OW.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G06J6.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G06J6.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G06U0.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G06U0.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G074G.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G074G.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G07KC.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G07KC.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G07NJ.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G07NJ.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G07OD.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G07OD.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G07VQ.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G07VQ.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G08FX.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G08FX.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G08LT.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G08LT.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G08SM.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G08SM.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G09GO.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G09GO.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G09RJ.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G09RJ.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0A2I.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0A2I.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0A5N.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0A5N.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0AFP.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0AFP.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0AHJ.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0AHJ.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0B2N.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0B2N.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0BAM.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0BAM.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0BHP.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0BHP.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0BKZ.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0BKZ.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0C8H.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0C8H.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0CTG.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0CTG.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0D0W.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0D0W.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0D26.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0D26.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0DRZ.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0DRZ.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0DTP.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0DTP.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0DYW.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0DYW.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0E3V.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0E3V.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0EH8.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0EH8.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0ER1.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0ER1.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0ES6.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0ES6.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0FIJ.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0FIJ.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0FQ2.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0FQ2.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0G3M.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0G3M.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0G6C.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0G6C.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0GWO.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0GWO.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0HAI.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0HAI.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0HXI.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0HXI.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0I8J.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0I8J.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0IQ7.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0IQ7.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0IYB.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0IYB.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0J2W.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0J2W.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0K6O.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0K6O.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0K95.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0K95.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0K9M.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0K9M.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0KRB.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0KRB.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0L66.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0L66.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0LS0.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0LS0.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0M0S.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0M0S.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0M12.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0M12.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0M22.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0M22.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0MKY.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0MKY.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0MSB.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0MSB.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0MVL.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0MVL.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0MVR.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0MVR.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0NIU.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0NIU.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0NK3.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0NK3.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0NMJ.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0NMJ.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0NOA.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0NOA.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0NTO.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0NTO.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0OI8.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0OI8.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0OWI.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0OWI.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0PHL.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0PHL.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0PIU.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0PIU.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0PNO.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0PNO.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0QE1.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0QE1.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0QGZ.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0QGZ.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0R21.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0R21.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0R6Z.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0R6Z.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0RA2.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0RA2.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0RTZ.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0RTZ.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0S8Y.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0S8Y.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0SRZ.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0SRZ.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0TKH.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0TKH.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0TNU.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0TNU.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0TRW.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0TRW.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0TWR.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0TWR.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0U75.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0U75.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0UKP.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0UKP.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0VSZ.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0VSZ.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0VTN.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0VTN.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0WLL.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0WLL.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0XN1.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0XN1.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0Y05.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0Y05.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0YU6.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0YU6.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0YVI.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0YVI.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0YZ0.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0YZ0.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0ZLI.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0ZLI.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G0ZUA.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G0ZUA.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G10CG.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G10CG.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G10FG.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G10FG.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G113O.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G113O.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G114S.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G114S.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G1285.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G1285.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G132G.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G132G.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G146E.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G146E.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G15HV.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G15HV.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G15KV.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G15KV.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G15N9.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G15N9.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G17K3.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G17K3.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G1817.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G1817.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G197A.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G197A.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G19Y2.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G19Y2.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G1A1V.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G1A1V.clustalo.aln.fas identified as AA data set !
+
+	READ IN ALICUT_EOG091G1AP6.clustalo.aln.fas
+	!FILE-INFO!: Infile ALICUT_EOG091G1AP6.clustalo.aln.fas identified as AA data set !
+
+	READ IN FcC_supermatrix.fas
+	!FILE-INFO!: Infile FcC_supermatrix.fas identified as AA data set !
+
+	Concatenate ALICUT_EOG091G00Q0.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G00UD.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G00Z3.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G017G.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G01IW.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G01TH.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G01XQ.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0262.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G027G.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G02V5.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G03AN.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G03G3.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G03I1.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G03JF.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G03XO.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G05AA.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G05AH.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G05K5.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G05KR.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G05NK.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G05OW.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G06J6.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G06U0.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G074G.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G07KC.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G07NJ.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G07OD.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G07VQ.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G08FX.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G08LT.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G08SM.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G09GO.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G09RJ.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0A2I.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0A5N.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0AFP.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0AHJ.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0B2N.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0BAM.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0BHP.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0BKZ.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0C8H.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0CTG.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0D0W.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0D26.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0DRZ.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0DTP.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0DYW.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0E3V.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0EH8.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0ER1.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0ES6.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0FIJ.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0FQ2.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0G3M.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0G6C.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0GWO.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0HAI.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0HXI.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0I8J.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0IQ7.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0IYB.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0J2W.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0K6O.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0K95.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0K9M.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0KRB.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0L66.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0LS0.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0M0S.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0M12.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0M22.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0MKY.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0MSB.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0MVL.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0MVR.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0NIU.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0NK3.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0NMJ.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0NOA.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0NTO.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0OI8.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0OWI.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0PHL.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0PIU.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0PNO.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0QE1.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0QGZ.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0R21.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0R6Z.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0RA2.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0RTZ.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0S8Y.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0SRZ.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0TKH.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0TNU.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0TRW.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0TWR.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0U75.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0UKP.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0VSZ.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0VTN.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0WLL.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0XN1.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0Y05.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0YU6.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0YVI.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0YZ0.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0ZLI.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G0ZUA.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G10CG.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G10FG.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G113O.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G114S.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G1285.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G132G.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G146E.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G15HV.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G15KV.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G15N9.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G17K3.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G1817.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G197A.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G19Y2.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G1A1V.clustalo.aln.fas...
+	Concatenate ALICUT_EOG091G1AP6.clustalo.aln.fas...
+	Concatenate FcC_supermatrix.fas...
+
+	Supermatrix Site Range Of File...
+	ALICUT_EOG091G00Q0.clustalo.aln:	Site Pos.1 to 1047
+	ALICUT_EOG091G00UD.clustalo.aln:	Site Pos.1048 to 1521
+	ALICUT_EOG091G00Z3.clustalo.aln:	Site Pos.1522 to 2339
+	ALICUT_EOG091G017G.clustalo.aln:	Site Pos.2340 to 3068
+	ALICUT_EOG091G01IW.clustalo.aln:	Site Pos.3069 to 3575
+	ALICUT_EOG091G01TH.clustalo.aln:	Site Pos.3576 to 4217
+	ALICUT_EOG091G01XQ.clustalo.aln:	Site Pos.4218 to 4813
+	ALICUT_EOG091G0262.clustalo.aln:	Site Pos.4814 to 4931
+	ALICUT_EOG091G027G.clustalo.aln:	Site Pos.4932 to 5427
+	ALICUT_EOG091G02V5.clustalo.aln:	Site Pos.5428 to 5843
+	ALICUT_EOG091G03AN.clustalo.aln:	Site Pos.5844 to 6157
+	ALICUT_EOG091G03G3.clustalo.aln:	Site Pos.6158 to 6416
+	ALICUT_EOG091G03I1.clustalo.aln:	Site Pos.6417 to 6652
+	ALICUT_EOG091G03JF.clustalo.aln:	Site Pos.6653 to 6949
+	ALICUT_EOG091G03XO.clustalo.aln:	Site Pos.6950 to 6982
+	ALICUT_EOG091G05AA.clustalo.aln:	Site Pos.6983 to 7396
+	ALICUT_EOG091G05AH.clustalo.aln:	Site Pos.7397 to 7858
+	ALICUT_EOG091G05K5.clustalo.aln:	Site Pos.7859 to 8162
+	ALICUT_EOG091G05KR.clustalo.aln:	Site Pos.8163 to 8485
+	ALICUT_EOG091G05NK.clustalo.aln:	Site Pos.8486 to 8698
+	ALICUT_EOG091G05OW.clustalo.aln:	Site Pos.8699 to 9186
+	ALICUT_EOG091G06J6.clustalo.aln:	Site Pos.9187 to 9634
+	ALICUT_EOG091G06U0.clustalo.aln:	Site Pos.9635 to 10064
+	ALICUT_EOG091G074G.clustalo.aln:	Site Pos.10065 to 10394
+	ALICUT_EOG091G07KC.clustalo.aln:	Site Pos.10395 to 10747
+	ALICUT_EOG091G07NJ.clustalo.aln:	Site Pos.10748 to 10995
+	ALICUT_EOG091G07OD.clustalo.aln:	Site Pos.10996 to 11291
+	ALICUT_EOG091G07VQ.clustalo.aln:	Site Pos.11292 to 11559
+	ALICUT_EOG091G08FX.clustalo.aln:	Site Pos.11560 to 11881
+	ALICUT_EOG091G08LT.clustalo.aln:	Site Pos.11882 to 12098
+	ALICUT_EOG091G08SM.clustalo.aln:	Site Pos.12099 to 12461
+	ALICUT_EOG091G09GO.clustalo.aln:	Site Pos.12462 to 12796
+	ALICUT_EOG091G09RJ.clustalo.aln:	Site Pos.12797 to 12998
+	ALICUT_EOG091G0A2I.clustalo.aln:	Site Pos.12999 to 13308
+	ALICUT_EOG091G0A5N.clustalo.aln:	Site Pos.13309 to 13631
+	ALICUT_EOG091G0AFP.clustalo.aln:	Site Pos.13632 to 13826
+	ALICUT_EOG091G0AHJ.clustalo.aln:	Site Pos.13827 to 14178
+	ALICUT_EOG091G0B2N.clustalo.aln:	Site Pos.14179 to 14514
+	ALICUT_EOG091G0BAM.clustalo.aln:	Site Pos.14515 to 14771
+	ALICUT_EOG091G0BHP.clustalo.aln:	Site Pos.14772 to 15067
+	ALICUT_EOG091G0BKZ.clustalo.aln:	Site Pos.15068 to 15281
+	ALICUT_EOG091G0C8H.clustalo.aln:	Site Pos.15282 to 15438
+	ALICUT_EOG091G0CTG.clustalo.aln:	Site Pos.15439 to 15665
+	ALICUT_EOG091G0D0W.clustalo.aln:	Site Pos.15666 to 15888
+	ALICUT_EOG091G0D26.clustalo.aln:	Site Pos.15889 to 16085
+	ALICUT_EOG091G0DRZ.clustalo.aln:	Site Pos.16086 to 16323
+	ALICUT_EOG091G0DTP.clustalo.aln:	Site Pos.16324 to 16571
+	ALICUT_EOG091G0DYW.clustalo.aln:	Site Pos.16572 to 16764
+	ALICUT_EOG091G0E3V.clustalo.aln:	Site Pos.16765 to 16970
+	ALICUT_EOG091G0EH8.clustalo.aln:	Site Pos.16971 to 17206
+	ALICUT_EOG091G0ER1.clustalo.aln:	Site Pos.17207 to 17366
+	ALICUT_EOG091G0ES6.clustalo.aln:	Site Pos.17367 to 17553
+	ALICUT_EOG091G0FIJ.clustalo.aln:	Site Pos.17554 to 17852
+	ALICUT_EOG091G0FQ2.clustalo.aln:	Site Pos.17853 to 18032
+	ALICUT_EOG091G0G3M.clustalo.aln:	Site Pos.18033 to 18354
+	ALICUT_EOG091G0G6C.clustalo.aln:	Site Pos.18355 to 18447
+	ALICUT_EOG091G0GWO.clustalo.aln:	Site Pos.18448 to 18674
+	ALICUT_EOG091G0HAI.clustalo.aln:	Site Pos.18675 to 18903
+	ALICUT_EOG091G0HXI.clustalo.aln:	Site Pos.18904 to 19090
+	ALICUT_EOG091G0I8J.clustalo.aln:	Site Pos.19091 to 19274
+	ALICUT_EOG091G0IQ7.clustalo.aln:	Site Pos.19275 to 19462
+	ALICUT_EOG091G0IYB.clustalo.aln:	Site Pos.19463 to 20005
+	ALICUT_EOG091G0J2W.clustalo.aln:	Site Pos.20006 to 20146
+	ALICUT_EOG091G0K6O.clustalo.aln:	Site Pos.20147 to 20252
+	ALICUT_EOG091G0K95.clustalo.aln:	Site Pos.20253 to 20397
+	ALICUT_EOG091G0K9M.clustalo.aln:	Site Pos.20398 to 20607
+	ALICUT_EOG091G0KRB.clustalo.aln:	Site Pos.20608 to 20773
+	ALICUT_EOG091G0L66.clustalo.aln:	Site Pos.20774 to 20928
+	ALICUT_EOG091G0LS0.clustalo.aln:	Site Pos.20929 to 21123
+	ALICUT_EOG091G0M0S.clustalo.aln:	Site Pos.21124 to 21254
+	ALICUT_EOG091G0M12.clustalo.aln:	Site Pos.21255 to 21374
+	ALICUT_EOG091G0M22.clustalo.aln:	Site Pos.21375 to 21442
+	ALICUT_EOG091G0MKY.clustalo.aln:	Site Pos.21443 to 21628
+	ALICUT_EOG091G0MSB.clustalo.aln:	Site Pos.21629 to 21914
+	ALICUT_EOG091G0MVL.clustalo.aln:	Site Pos.21915 to 22124
+	ALICUT_EOG091G0MVR.clustalo.aln:	Site Pos.22125 to 22286
+	ALICUT_EOG091G0NIU.clustalo.aln:	Site Pos.22287 to 22398
+	ALICUT_EOG091G0NK3.clustalo.aln:	Site Pos.22399 to 22583
+	ALICUT_EOG091G0NMJ.clustalo.aln:	Site Pos.22584 to 22772
+	ALICUT_EOG091G0NOA.clustalo.aln:	Site Pos.22773 to 22858
+	ALICUT_EOG091G0NTO.clustalo.aln:	Site Pos.22859 to 22995
+	ALICUT_EOG091G0OI8.clustalo.aln:	Site Pos.22996 to 23162
+	ALICUT_EOG091G0OWI.clustalo.aln:	Site Pos.23163 to 23353
+	ALICUT_EOG091G0PHL.clustalo.aln:	Site Pos.23354 to 23525
+	ALICUT_EOG091G0PIU.clustalo.aln:	Site Pos.23526 to 23701
+	ALICUT_EOG091G0PNO.clustalo.aln:	Site Pos.23702 to 23840
+	ALICUT_EOG091G0QE1.clustalo.aln:	Site Pos.23841 to 23970
+	ALICUT_EOG091G0QGZ.clustalo.aln:	Site Pos.23971 to 24107
+	ALICUT_EOG091G0R21.clustalo.aln:	Site Pos.24108 to 24266
+	ALICUT_EOG091G0R6Z.clustalo.aln:	Site Pos.24267 to 24447
+	ALICUT_EOG091G0RA2.clustalo.aln:	Site Pos.24448 to 24575
+	ALICUT_EOG091G0RTZ.clustalo.aln:	Site Pos.24576 to 24691
+	ALICUT_EOG091G0S8Y.clustalo.aln:	Site Pos.24692 to 24825
+	ALICUT_EOG091G0SRZ.clustalo.aln:	Site Pos.24826 to 24954
+	ALICUT_EOG091G0TKH.clustalo.aln:	Site Pos.24955 to 25092
+	ALICUT_EOG091G0TNU.clustalo.aln:	Site Pos.25093 to 25184
+	ALICUT_EOG091G0TRW.clustalo.aln:	Site Pos.25185 to 25315
+	ALICUT_EOG091G0TWR.clustalo.aln:	Site Pos.25316 to 25443
+	ALICUT_EOG091G0U75.clustalo.aln:	Site Pos.25444 to 25618
+	ALICUT_EOG091G0UKP.clustalo.aln:	Site Pos.25619 to 25765
+	ALICUT_EOG091G0VSZ.clustalo.aln:	Site Pos.25766 to 25866
+	ALICUT_EOG091G0VTN.clustalo.aln:	Site Pos.25867 to 25989
+	ALICUT_EOG091G0WLL.clustalo.aln:	Site Pos.25990 to 26084
+	ALICUT_EOG091G0XN1.clustalo.aln:	Site Pos.26085 to 26160
+	ALICUT_EOG091G0Y05.clustalo.aln:	Site Pos.26161 to 26248
+	ALICUT_EOG091G0YU6.clustalo.aln:	Site Pos.26249 to 26355
+	ALICUT_EOG091G0YVI.clustalo.aln:	Site Pos.26356 to 26480
+	ALICUT_EOG091G0YZ0.clustalo.aln:	Site Pos.26481 to 26566
+	ALICUT_EOG091G0ZLI.clustalo.aln:	Site Pos.26567 to 26648
+	ALICUT_EOG091G0ZUA.clustalo.aln:	Site Pos.26649 to 26770
+	ALICUT_EOG091G10CG.clustalo.aln:	Site Pos.26771 to 26853
+	ALICUT_EOG091G10FG.clustalo.aln:	Site Pos.26854 to 26940
+	ALICUT_EOG091G113O.clustalo.aln:	Site Pos.26941 to 27023
+	ALICUT_EOG091G114S.clustalo.aln:	Site Pos.27024 to 27087
+	ALICUT_EOG091G1285.clustalo.aln:	Site Pos.27088 to 27152
+	ALICUT_EOG091G132G.clustalo.aln:	Site Pos.27153 to 27454
+	ALICUT_EOG091G146E.clustalo.aln:	Site Pos.27455 to 27511
+	ALICUT_EOG091G15HV.clustalo.aln:	Site Pos.27512 to 27604
+	ALICUT_EOG091G15KV.clustalo.aln:	Site Pos.27605 to 27686
+	ALICUT_EOG091G15N9.clustalo.aln:	Site Pos.27687 to 27774
+	ALICUT_EOG091G17K3.clustalo.aln:	Site Pos.27775 to 27944
+	ALICUT_EOG091G1817.clustalo.aln:	Site Pos.27945 to 28274
+	ALICUT_EOG091G197A.clustalo.aln:	Site Pos.28275 to 28382
+	ALICUT_EOG091G19Y2.clustalo.aln:	Site Pos.28383 to 28492
+	ALICUT_EOG091G1A1V.clustalo.aln:	Site Pos.28493 to 28552
+	ALICUT_EOG091G1AP6.clustalo.aln:	Site Pos.28553 to 28684
+	FcC_supermatrix:	Site Pos.28685 to 86052
+	
+	Percent Missing Data (X or ?) Of File...
+	ALICUT_EOG091G00Q0.clustalo.aln:	0%
+	ALICUT_EOG091G00UD.clustalo.aln:	0%
+	ALICUT_EOG091G00Z3.clustalo.aln:	0%
+	ALICUT_EOG091G017G.clustalo.aln:	0.009%
+	ALICUT_EOG091G01IW.clustalo.aln:	0%
+	ALICUT_EOG091G01TH.clustalo.aln:	0%
+	ALICUT_EOG091G01XQ.clustalo.aln:	0%
+	ALICUT_EOG091G0262.clustalo.aln:	0%
+	ALICUT_EOG091G027G.clustalo.aln:	0%
+	ALICUT_EOG091G02V5.clustalo.aln:	0%
+	ALICUT_EOG091G03AN.clustalo.aln:	0%
+	ALICUT_EOG091G03G3.clustalo.aln:	0%
+	ALICUT_EOG091G03I1.clustalo.aln:	0%
+	ALICUT_EOG091G03JF.clustalo.aln:	0%
+	ALICUT_EOG091G03XO.clustalo.aln:	0%
+	ALICUT_EOG091G05AA.clustalo.aln:	0%
+	ALICUT_EOG091G05AH.clustalo.aln:	0.033%
+	ALICUT_EOG091G05K5.clustalo.aln:	0.025%
+	ALICUT_EOG091G05KR.clustalo.aln:	0%
+	ALICUT_EOG091G05NK.clustalo.aln:	0%
+	ALICUT_EOG091G05OW.clustalo.aln:	0%
+	ALICUT_EOG091G06J6.clustalo.aln:	0%
+	ALICUT_EOG091G06U0.clustalo.aln:	0%
+	ALICUT_EOG091G074G.clustalo.aln:	0%
+	ALICUT_EOG091G07KC.clustalo.aln:	0%
+	ALICUT_EOG091G07NJ.clustalo.aln:	0%
+	ALICUT_EOG091G07OD.clustalo.aln:	0%
+	ALICUT_EOG091G07VQ.clustalo.aln:	0%
+	ALICUT_EOG091G08FX.clustalo.aln:	0%
+	ALICUT_EOG091G08LT.clustalo.aln:	0%
+	ALICUT_EOG091G08SM.clustalo.aln:	0%
+	ALICUT_EOG091G09GO.clustalo.aln:	0%
+	ALICUT_EOG091G09RJ.clustalo.aln:	0%
+	ALICUT_EOG091G0A2I.clustalo.aln:	0%
+	ALICUT_EOG091G0A5N.clustalo.aln:	0%
+	ALICUT_EOG091G0AFP.clustalo.aln:	0.039%
+	ALICUT_EOG091G0AHJ.clustalo.aln:	0%
+	ALICUT_EOG091G0B2N.clustalo.aln:	0%
+	ALICUT_EOG091G0BAM.clustalo.aln:	0%
+	ALICUT_EOG091G0BHP.clustalo.aln:	0%
+	ALICUT_EOG091G0BKZ.clustalo.aln:	0%
+	ALICUT_EOG091G0C8H.clustalo.aln:	0%
+	ALICUT_EOG091G0CTG.clustalo.aln:	0%
+	ALICUT_EOG091G0D0W.clustalo.aln:	0%
+	ALICUT_EOG091G0D26.clustalo.aln:	0%
+	ALICUT_EOG091G0DRZ.clustalo.aln:	0%
+	ALICUT_EOG091G0DTP.clustalo.aln:	0%
+	ALICUT_EOG091G0DYW.clustalo.aln:	0%
+	ALICUT_EOG091G0E3V.clustalo.aln:	0%
+	ALICUT_EOG091G0EH8.clustalo.aln:	0%
+	ALICUT_EOG091G0ER1.clustalo.aln:	0.156%
+	ALICUT_EOG091G0ES6.clustalo.aln:	0%
+	ALICUT_EOG091G0FIJ.clustalo.aln:	0%
+	ALICUT_EOG091G0FQ2.clustalo.aln:	0%
+	ALICUT_EOG091G0G3M.clustalo.aln:	0.067%
+	ALICUT_EOG091G0G6C.clustalo.aln:	0%
+	ALICUT_EOG091G0GWO.clustalo.aln:	0%
+	ALICUT_EOG091G0HAI.clustalo.aln:	0%
+	ALICUT_EOG091G0HXI.clustalo.aln:	0%
+	ALICUT_EOG091G0I8J.clustalo.aln:	0%
+	ALICUT_EOG091G0IQ7.clustalo.aln:	0%
+	ALICUT_EOG091G0IYB.clustalo.aln:	0%
+	ALICUT_EOG091G0J2W.clustalo.aln:	0%
+	ALICUT_EOG091G0K6O.clustalo.aln:	0%
+	ALICUT_EOG091G0K95.clustalo.aln:	0%
+	ALICUT_EOG091G0K9M.clustalo.aln:	0%
+	ALICUT_EOG091G0KRB.clustalo.aln:	0%
+	ALICUT_EOG091G0L66.clustalo.aln:	0%
+	ALICUT_EOG091G0LS0.clustalo.aln:	0%
+	ALICUT_EOG091G0M0S.clustalo.aln:	0%
+	ALICUT_EOG091G0M12.clustalo.aln:	0%
+	ALICUT_EOG091G0M22.clustalo.aln:	0%
+	ALICUT_EOG091G0MKY.clustalo.aln:	0.041%
+	ALICUT_EOG091G0MSB.clustalo.aln:	0%
+	ALICUT_EOG091G0MVL.clustalo.aln:	0%
+	ALICUT_EOG091G0MVR.clustalo.aln:	0%
+	ALICUT_EOG091G0NIU.clustalo.aln:	0%
+	ALICUT_EOG091G0NK3.clustalo.aln:	0%
+	ALICUT_EOG091G0NMJ.clustalo.aln:	0%
+	ALICUT_EOG091G0NOA.clustalo.aln:	0%
+	ALICUT_EOG091G0NTO.clustalo.aln:	0%
+	ALICUT_EOG091G0OI8.clustalo.aln:	0%
+	ALICUT_EOG091G0OWI.clustalo.aln:	0%
+	ALICUT_EOG091G0PHL.clustalo.aln:	0%
+	ALICUT_EOG091G0PIU.clustalo.aln:	0%
+	ALICUT_EOG091G0PNO.clustalo.aln:	0%
+	ALICUT_EOG091G0QE1.clustalo.aln:	0%
+	ALICUT_EOG091G0QGZ.clustalo.aln:	0%
+	ALICUT_EOG091G0R21.clustalo.aln:	0%
+	ALICUT_EOG091G0R6Z.clustalo.aln:	0%
+	ALICUT_EOG091G0RA2.clustalo.aln:	0%
+	ALICUT_EOG091G0RTZ.clustalo.aln:	0%
+	ALICUT_EOG091G0S8Y.clustalo.aln:	0%
+	ALICUT_EOG091G0SRZ.clustalo.aln:	0%
+	ALICUT_EOG091G0TKH.clustalo.aln:	0%
+	ALICUT_EOG091G0TNU.clustalo.aln:	0%
+	ALICUT_EOG091G0TRW.clustalo.aln:	0%
+	ALICUT_EOG091G0TWR.clustalo.aln:	0%
+	ALICUT_EOG091G0U75.clustalo.aln:	0%
+	ALICUT_EOG091G0UKP.clustalo.aln:	0%
+	ALICUT_EOG091G0VSZ.clustalo.aln:	0%
+	ALICUT_EOG091G0VTN.clustalo.aln:	0%
+	ALICUT_EOG091G0WLL.clustalo.aln:	0%
+	ALICUT_EOG091G0XN1.clustalo.aln:	0%
+	ALICUT_EOG091G0Y05.clustalo.aln:	0%
+	ALICUT_EOG091G0YU6.clustalo.aln:	0%
+	ALICUT_EOG091G0YVI.clustalo.aln:	0%
+	ALICUT_EOG091G0YZ0.clustalo.aln:	0%
+	ALICUT_EOG091G0ZLI.clustalo.aln:	0%
+	ALICUT_EOG091G0ZUA.clustalo.aln:	0%
+	ALICUT_EOG091G10CG.clustalo.aln:	0%
+	ALICUT_EOG091G10FG.clustalo.aln:	0.088%
+	ALICUT_EOG091G113O.clustalo.aln:	0%
+	ALICUT_EOG091G114S.clustalo.aln:	0%
+	ALICUT_EOG091G1285.clustalo.aln:	0%
+	ALICUT_EOG091G132G.clustalo.aln:	0%
+	ALICUT_EOG091G146E.clustalo.aln:	0%
+	ALICUT_EOG091G15HV.clustalo.aln:	0.248%
+	ALICUT_EOG091G15KV.clustalo.aln:	0%
+	ALICUT_EOG091G15N9.clustalo.aln:	0%
+	ALICUT_EOG091G17K3.clustalo.aln:	0%
+	ALICUT_EOG091G1817.clustalo.aln:	0%
+	ALICUT_EOG091G197A.clustalo.aln:	0%
+	ALICUT_EOG091G19Y2.clustalo.aln:	0%
+	ALICUT_EOG091G1A1V.clustalo.aln:	0%
+	ALICUT_EOG091G1AP6.clustalo.aln:	0%
+	FcC_supermatrix:	21.161%
+	Supermatrix:	21.161%
+
+	SEQUENCE Concatenation Process:
+	Concatenated Supermatrix FILE Printed As FcC_supermatrix.fas
+
+	FILE INFO Print OUT:
+	Extensive SEQUENCE Info Of Supermatrix Printed To FcC_info.xls
+	Extensive SEQUENCE Info Of INFILES Printed To FcC_info.xls
+		
+			***  time used: 8.95 sec  ***
+		
+	------------------------------------------------------------
+	#### FASconCAT Log Off ! ####
+

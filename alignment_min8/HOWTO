@@ -1,0 +1,152 @@
+
+# find BUSCO ids for genes that are present in at least 8 of the genomes
+cat ../genomes/summary.tsv | perl -ne 'chomp; if ($_ !~ /#/){$i=0; @a=split("\t"); for (@a){if ($_ =~ /Complete/){$i++;}} if ($i >= 8){print "$a[0]\n"}}' > genes_min8.txt
+
+#extract protein sequences for the BUSCOs in the list
+threads=6
+for ID in $(cat genes_min8.txt)
+do
+	echo -e "\n[$(date)]\tprocessing $ID"
+	mkdir $ID
+	for f in $(find ../genomes/ -name 'full_*')
+	do 
+		status=$(grep "$ID" $f | cut -f 2 | head -n 1)
+		if [ $status == 'Complete' ]
+		then
+			path=$(echo -e "$f" | perl -ne 'chomp; @a=split("/"); pop(@a); $out=join("/",@a); print "$out\n"')
+			cat <(echo -e ">$(echo -e "$f" | perl -ne 'chomp; @a=split("/"); print "$a[-3]\n"')") <(cat $path/single_copy_busco_sequences/$ID.faa | tail -n 1)
+#		else
+#			echo -e ">$status:$(echo -e "$f" | perl -ne 'chomp; @a=split("/"); print "$a[-3]\n"')\n-----"
+		fi
+	done >> $ID/$ID.ingroup.fasta
+
+        #download fastas from Orhtodb for BUSCO id
+        echo -e "\n[$(date)]\tDownloading $ID BUSCOs"
+	cmd='wget "http://www.orthodb.org/fasta?query=${ID}&level=33208" -O $ID/$ID.orthodb.fasta &> $ID/orthodb.download.log'
+	echo -e "[Running .. ] $cmd"
+        wget "http://www.orthodb.org/fasta?query=${ID}&level=33208" -O $ID/$ID.orthodb.fasta &> $ID/orthodb.download.log
+
+	#This is quick an dirty for now and just takes the first protein if there is more than one for an outgroup taxon
+        for line in $(cat taxids.txt | sed 's/\t/|/'); do taxid=$(echo -e "$line" | cut -d "|" -f 1); sp=$(echo -e "$line" | cut -d "|" -f 2); grep ">$taxid\_" -A 1 $ID/$ID.orthodb.fasta | head -n 2 | sed "s/^>.*/>$sp/"; done >> $ID/$ID.outgroup.fasta
+
+        cat $ID/$ID.ingroup.fasta $ID/$ID.outgroup.fasta > $ID/$ID.fasta
+
+
+	#align
+	echo -e "\n[$(date)]\tAignment with clustalo"
+	echo -e "[Running .. ] clustalo -i $ID/$ID.fasta -o $ID/$ID.clustalo.aln.fasta --threads=$threads"
+	docker run -it -v $(pwd):/in/ -w /in/ --rm chrishah/clustalo-docker:1.2.4 clustalo -i $ID/$ID.fasta -o $ID/$ID.clustalo.aln.fasta --threads=$threads
+
+	#aliscore and alicut
+	echo -e "\n[$(date)]\tEvaluating (Aliscore) and trimming alignment (ALICUT)"
+        cd $ID
+	cmd="Aliscore.pl -N -r 200000000000000000 -i $ID.clustalo.aln.fasta &> aliscore.log"
+	echo -e "[Running .. ] $cmd"
+        docker run -it -v $(pwd):/in/ -w /in/ --rm chrishah/alicut-aliscore-docker:2.31 Aliscore.pl -N -r 200000000000000000 -i $ID.clustalo.aln.fasta &> aliscore.log
+	cmd="ALICUT.pl -s &> alicut.log"
+	echo -e "[Running .. ] $cmd"
+	docker run -it -v $(pwd):/in/ -w /in/ --rm chrishah/alicut-aliscore-docker:2.31 ALICUT.pl -s &> alicut.log
+
+	#find best model for RAxml
+	echo -e "\n[$(date)]\tFinding best model for RAxML"
+	mkdir find_best_model
+        cd find_best_model
+        cp ../ALICUT_$ID.clustalo.aln.fasta .
+	cmd="ProteinModelSelection.pl ALICUT_$ID.clustalo.aln.fasta > ../$ID.bestmodel"
+	echo -e "[Running .. ] $cmd"
+        docker run -it --rm -v $(pwd):/in/ -w /in/ chrishah/raxml-docker:8.2.12 ProteinModelSelection.pl ALICUT_$ID.clustalo.aln.fasta > ../$ID.bestmodel
+        cd ..
+
+	#run RAxML
+	echo -e "\n[$(date)]\tRunning RAxML"
+	RAxMLmodel=$(cat $ID.bestmodel | grep "Best" | cut -d ":" -f 2 | tr -d '[:space:]')
+	bs=100
+	cmd="raxml -f a -T $threads -m PROTGAMMA$RAxMLmodel -p 12345 -x 12345 -# $bs -s ALICUT_$ID.clustalo.aln.fasta -n $ID.clustalo.aln.ALICUT.$RAxMLmodel &> raxml.log"
+	echo -e "[Running .. ] $cmd"
+	docker run -it --rm -v $(pwd):/in/ -w /in/ chrishah/raxml-docker:8.2.12 raxml -f a -T $threads -m PROTGAMMA$RAxMLmodel -p 12345 -x 12345 -# $bs -s ALICUT_$ID.clustalo.aln.fasta -n $ID.clustalo.aln.ALICUT.$RAxMLmodel &> raxml.log
+
+
+	echo -e "\n[$(date)]\tDone! \n"
+	cd ..
+done
+
+#concatenated
+mkdir concat
+cd concat/
+#FASconCAT needs all fasta files to be concatenated in the pwd - copy the relevant files (if not using docker as below a symbolic link will do too)
+for f in $(find ../ -name 'ALICUT_E*' | grep -v "best_model" | grep -v "reduced"); do new=$(echo -e "$f" | perl -ne 'chomp; @a=split("/"); $a[-1] =~ s/fasta/fas/; print "$a[-1]\n"'); cp $f $new; done
+#for f in $(find ../ -name 'ALICUT_E*' | grep -v "best_model" | grep -v "reduced"); do new=$(echo -e "$f" | perl -ne 'chomp; @a=split("/"); $a[-1] =~ s/fasta/fas/; print "$a[-1]\n"'); ln -s $f $new; done
+
+#concatenate
+#make sure to only run this once in this directory or remove old files named 'FcC_supermatrix.fas' before running - otherwise old supermatrices will be concatenated with new ones
+docker run -it -v $(pwd):/in/ -w /in/ --rm chrishah/fasconcat-g:1.04 FASconCAT-G.pl -a -a -s > concat.log
+rm *.aln.fas
+cd ..
+
+#RAxML
+mkdir RAxML
+cd RAxML
+cp ../concat/FcC_supermatrix.fas .
+#make partition file
+for line in $(cat ../concat/FcC_info.xls | grep "ALICUT" | cut -f 1-3 | sed 's/\t/|/g'); do id=$(echo -e "$line" | cut -d "|" -f 1 | sed 's/ALICUT_//' | sed 's/.clustalo.*//'); model=$(cat $(find ../../ -name "$id.bestmodel") | grep "Best" | cut -d ":" -f 2 | tr -d '[:space:]'); echo -e "$model, $id = $(echo -e "$line" | cut -d "|" -f 2,3 | sed 's/|/-/')"; done > partitions.txt
+
+#run RAxML
+docker run -it --rm -v $(pwd):/in/ -w /in/ chrishah/raxml-docker:8.2.12 raxml -f a -T 6 -m PROTGAMMAWAG -p 12345 -q ./partitions.txt -x 12345 -# 100 -s FcC_supermatrix.fas -n alignment_min8
+
+
+
+
+
+
+
+# Do only alicut/aliscore
+for ID in $(cat genes_min8.txt)
+do
+        echo -e "$ID"
+	cd $ID
+	docker run -it -v $(pwd):/in/ -w /in/ --rm chrishah/alicut-aliscore-docker:2.31 Aliscore.pl -N -r 200000000000000000 -i $ID.clustalo.aln.fasta
+	docker run -it -v $(pwd):/in/ -w /in/ --rm chrishah/alicut-aliscore-docker:2.31 ALICUT.pl -s
+	cd ..
+done
+
+#do only find best model
+for ID in $(cat genes_min8.txt)
+do
+        echo -e "$ID"
+        cd $ID
+	mkdir find_best_model
+	cd find_best_model
+	cp ../ALICUT_$ID.clustalo.aln.fasta .
+	docker run -it --rm -v $(pwd):/in/ -w /in/ chrishah/raxml-docker:8.2.12 ProteinModelSelection.pl ALICUT_$ID.clustalo.aln.fasta > ../$ID.bestmodel
+	cd ../../
+done
+
+#do only fetch data
+for ID in $(cat genes_min8.txt)
+do
+        echo -e "\n[$(date)]\tprocessing $ID"
+        mkdir $ID
+        for f in $(find ../genomes/ -name 'full_*')
+        do
+                status=$(grep "$ID" $f | cut -f 2 | head -n 1)
+                if [ $status == 'Complete' ]
+                then
+                        path=$(echo -e "$f" | perl -ne 'chomp; @a=split("/"); pop(@a); $out=join("/",@a); print "$out\n"')
+                        cat <(echo -e ">$(echo -e "$f" | perl -ne 'chomp; @a=split("/"); print "$a[-3]\n"')") <(cat $path/single_copy_busco_sequences/$ID.faa | tail -n 1)
+#               else
+#                       echo -e ">$status:$(echo -e "$f" | perl -ne 'chomp; @a=split("/"); print "$a[-3]\n"')\n-----"
+                fi
+        done >> $ID/$ID.ingroup.fasta
+
+        #download fastas from Orhtodb for BUSCO id
+	echo -e "\n[$(date)]\tDownloading $ID BUSCOS"
+	
+        wget "http://www.orthodb.org/fasta?query=${ID}&level=33208" -O $ID/$ID.orthodb.fasta &> $ID/orthodb.download.log
+
+	for line in $(cat taxids.txt | sed 's/\t/|/'); do taxid=$(echo -e "$line" | cut -d "|" -f 1); sp=$(echo -e "$line" | cut -d "|" -f 2); grep ">$taxid\_" -A 1 $ID/$ID.orthodb.fasta | sed "s/^>.*/>$sp/"; done >> $ID/$ID.outgroup.fasta
+
+	cat $ID/$ID.ingroup.fasta $ID/$ID.outgroup.fasta > $ID/$ID.fasta
+	
+done
+
+

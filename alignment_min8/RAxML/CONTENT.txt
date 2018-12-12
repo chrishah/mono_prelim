@@ -1,0 +1,6 @@
+total 533K
+-rwxrwxrwx 1 3,9K Dez 12 14:59 partitions.txt
+-rwxrwxrwx 1 1,5K Dez 12 15:05 raxml.log
+-rwxrwxrwx 1 477K Dez 12 15:21 FcC_supermatrix.fas
+-rwxrwxrwx 1  16K Dez 12 16:41 RAxML_bootstrap.alignment_min8
+-rwxrwxrwx 1  25K Dez 12 16:41 RAxML_info.alignment_min8
