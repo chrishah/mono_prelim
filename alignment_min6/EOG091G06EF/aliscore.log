@@ -1,0 +1,172 @@
+
+	reading taxa from FASTA ...
+
+
+	C.intestinalis       -> sites: 6376  
+	G.salaris            -> sites: 6376  
+	C.elegans            -> sites: 6376  
+	D.rerio              -> sites: 6376  
+	E.nipponicum         -> sites: 6376  
+	R.norvegicus         -> sites: 6376  
+	H.microstoma         -> sites: 6376  
+	T.solium             -> sites: 6376  
+	D.melanogaster       -> sites: 6376  
+	E.granulosus         -> sites: 6376  
+	G.turnbulli          -> sites: 6376  
+
+
+	data type             : amino acid sequences
+
+	input ...
+
+	infile		: EOG091G06EF.clustalo.aln.fasta
+	random pairs	: 200000000000000000
+	window size	: 6
+	indels		: ambiguous
+	tree file	: -
+	node level	: -
+	strict profile	: -
+	outgroup	: -
+	matrix          : BLOSUM62
+
+	number of taxa        : 11
+	random number of pairs: 200000000000000000
+
+	generates threshhold value for amino acid data
+	using BLOSUM62
+
+	checks for (potential) identical taxa
+
+
+	scores site patterns ...
+
+
+	max number of different pairs is 55
+	max random pairs are scored!
+
+	pair: 1      ->	taxon1: C.intestin	taxon2: G.salaris 
+	            	positions below base line: 6192
+	pair: 2      ->	taxon1: C.intestin	taxon2: C.elegans 
+	            	positions below base line: 5925
+	pair: 3      ->	taxon1: C.intestin	taxon2: D.rerio   
+	            	positions below base line: 5897
+	pair: 4      ->	taxon1: C.intestin	taxon2: E.nipponic
+	            	positions below base line: 6177
+	pair: 5      ->	taxon1: C.intestin	taxon2: R.norvegic
+	            	positions below base line: 5896
+	pair: 6      ->	taxon1: C.intestin	taxon2: H.microsto
+	            	positions below base line: 6146
+	pair: 7      ->	taxon1: C.intestin	taxon2: T.solium  
+	            	positions below base line: 6132
+	pair: 8      ->	taxon1: C.intestin	taxon2: D.melanoga
+	            	positions below base line: 5896
+	pair: 9      ->	taxon1: C.intestin	taxon2: E.granulos
+	            	positions below base line: 6172
+	pair: 10     ->	taxon1: C.intestin	taxon2: G.turnbull
+	            	positions below base line: 6197
+	pair: 11     ->	taxon1: G.salaris 	taxon2: C.elegans 
+	            	positions below base line: 6182
+	pair: 12     ->	taxon1: G.salaris 	taxon2: D.rerio   
+	            	positions below base line: 6184
+	pair: 13     ->	taxon1: G.salaris 	taxon2: E.nipponic
+	            	positions below base line: 6050
+	pair: 14     ->	taxon1: G.salaris 	taxon2: R.norvegic
+	            	positions below base line: 6205
+	pair: 15     ->	taxon1: G.salaris 	taxon2: H.microsto
+	            	positions below base line: 6242
+	pair: 16     ->	taxon1: G.salaris 	taxon2: T.solium  
+	            	positions below base line: 6240
+	pair: 17     ->	taxon1: G.salaris 	taxon2: D.melanoga
+	            	positions below base line: 6175
+	pair: 18     ->	taxon1: G.salaris 	taxon2: E.granulos
+	            	positions below base line: 6253
+	pair: 19     ->	taxon1: G.salaris 	taxon2: G.turnbull
+	            	positions below base line: 5865
+	pair: 20     ->	taxon1: C.elegans 	taxon2: D.rerio   
+	            	positions below base line: 5883
+	pair: 21     ->	taxon1: C.elegans 	taxon2: E.nipponic
+	            	positions below base line: 6173
+	pair: 22     ->	taxon1: C.elegans 	taxon2: R.norvegic
+	            	positions below base line: 5905
+	pair: 23     ->	taxon1: C.elegans 	taxon2: H.microsto
+	            	positions below base line: 6155
+	pair: 24     ->	taxon1: C.elegans 	taxon2: T.solium  
+	            	positions below base line: 6132
+	pair: 25     ->	taxon1: C.elegans 	taxon2: D.melanoga
+	            	positions below base line: 5878
+	pair: 26     ->	taxon1: C.elegans 	taxon2: E.granulos
+	            	positions below base line: 6147
+	pair: 27     ->	taxon1: C.elegans 	taxon2: G.turnbull
+	            	positions below base line: 6198
+	pair: 28     ->	taxon1: D.rerio   	taxon2: E.nipponic
+	            	positions below base line: 6155
+	pair: 29     ->	taxon1: D.rerio   	taxon2: R.norvegic
+	            	positions below base line: 5797
+	pair: 30     ->	taxon1: D.rerio   	taxon2: H.microsto
+	            	positions below base line: 6106
+	pair: 31     ->	taxon1: D.rerio   	taxon2: T.solium  
+	            	positions below base line: 6101
+	pair: 32     ->	taxon1: D.rerio   	taxon2: D.melanoga
+	            	positions below base line: 5877
+	pair: 33     ->	taxon1: D.rerio   	taxon2: E.granulos
+	            	positions below base line: 6122
+	pair: 34     ->	taxon1: D.rerio   	taxon2: G.turnbull
+	            	positions below base line: 6200
+	pair: 35     ->	taxon1: E.nipponic	taxon2: R.norvegic
+	            	positions below base line: 6170
+	pair: 36     ->	taxon1: E.nipponic	taxon2: H.microsto
+	            	positions below base line: 6207
+	pair: 37     ->	taxon1: E.nipponic	taxon2: T.solium  
+	            	positions below base line: 6187
+	pair: 38     ->	taxon1: E.nipponic	taxon2: D.melanoga
+	            	positions below base line: 6170
+	pair: 39     ->	taxon1: E.nipponic	taxon2: E.granulos
+	            	positions below base line: 6215
+	pair: 40     ->	taxon1: E.nipponic	taxon2: G.turnbull
+	            	positions below base line: 6251
+	pair: 41     ->	taxon1: R.norvegic	taxon2: H.microsto
+	            	positions below base line: 6177
+	pair: 42     ->	taxon1: R.norvegic	taxon2: T.solium  
+	            	positions below base line: 6122
+	pair: 43     ->	taxon1: R.norvegic	taxon2: D.melanoga
+	            	positions below base line: 5911
+	pair: 44     ->	taxon1: R.norvegic	taxon2: E.granulos
+	            	positions below base line: 6161
+	pair: 45     ->	taxon1: R.norvegic	taxon2: G.turnbull
+	            	positions below base line: 6206
+	pair: 46     ->	taxon1: H.microsto	taxon2: T.solium  
+	            	positions below base line: 6078
+	pair: 47     ->	taxon1: H.microsto	taxon2: D.melanoga
+	            	positions below base line: 6128
+	pair: 48     ->	taxon1: H.microsto	taxon2: E.granulos
+	            	positions below base line: 6077
+	pair: 49     ->	taxon1: H.microsto	taxon2: G.turnbull
+	            	positions below base line: 6246
+	pair: 50     ->	taxon1: T.solium  	taxon2: D.melanoga
+	            	positions below base line: 6106
+	pair: 51     ->	taxon1: T.solium  	taxon2: E.granulos
+	            	positions below base line: 5962
+	pair: 52     ->	taxon1: T.solium  	taxon2: G.turnbull
+	            	positions below base line: 6229
+	pair: 53     ->	taxon1: D.melanoga	taxon2: E.granulos
+	            	positions below base line: 6146
+	pair: 54     ->	taxon1: D.melanoga	taxon2: G.turnbull
+	            	positions below base line: 6194
+	pair: 55     ->	taxon1: E.granulos	taxon2: G.turnbull
+	            	positions below base line: 6240
+
+	generates quality profile from collected scores ...
+
+
+	scoring done ...
+
+
+	generates vector plot from collected scores ...
+
+
+Argument "-" treated as 0 in increment (++) at /usr/bin/Aliscore.pl line 1213.
+	Profile written to EOG091G06EF.clustalo.aln.fasta_Profile_random.txt
+	List   written to EOG091G06EF.clustalo.aln.fasta_List_random.txt
+
+	time used: 5.28 sec
+

@@ -1,0 +1,115 @@
+
+	reading taxa from FASTA ...
+
+
+	T.solium             -> sites: 744   
+	M.lignano            -> sites: 744   
+	C.intestinalis       -> sites: 744   
+	C.elegans            -> sites: 744   
+	S.mediterranea       -> sites: 744   
+	O.viverrini          -> sites: 744   
+	H.microstoma         -> sites: 744   
+	E.granulosus         -> sites: 744   
+
+
+	data type             : amino acid sequences
+
+	input ...
+
+	infile		: EOG091G0YUO.clustalo.aln.fasta
+	random pairs	: 200000000000000000
+	window size	: 6
+	indels		: ambiguous
+	tree file	: -
+	node level	: -
+	strict profile	: -
+	outgroup	: -
+	matrix          : BLOSUM62
+
+	number of taxa        : 8
+	random number of pairs: 200000000000000000
+
+	generates threshhold value for amino acid data
+	using BLOSUM62
+
+	checks for (potential) identical taxa
+
+
+	scores site patterns ...
+
+
+	max number of different pairs is 28
+	max random pairs are scored!
+
+	pair: 1      ->	taxon1: T.solium  	taxon2: M.lignano 
+	            	positions below base line: 666
+	pair: 2      ->	taxon1: T.solium  	taxon2: C.intestin
+	            	positions below base line: 652
+	pair: 3      ->	taxon1: T.solium  	taxon2: C.elegans 
+	            	positions below base line: 685
+	pair: 4      ->	taxon1: T.solium  	taxon2: S.mediterr
+	            	positions below base line: 654
+	pair: 5      ->	taxon1: T.solium  	taxon2: O.viverrin
+	            	positions below base line: 591
+	pair: 6      ->	taxon1: T.solium  	taxon2: H.microsto
+	            	positions below base line: 510
+	pair: 7      ->	taxon1: T.solium  	taxon2: E.granulos
+	            	positions below base line: 419
+	pair: 8      ->	taxon1: M.lignano 	taxon2: C.intestin
+	            	positions below base line: 660
+	pair: 9      ->	taxon1: M.lignano 	taxon2: C.elegans 
+	            	positions below base line: 696
+	pair: 10     ->	taxon1: M.lignano 	taxon2: S.mediterr
+	            	positions below base line: 658
+	pair: 11     ->	taxon1: M.lignano 	taxon2: O.viverrin
+	            	positions below base line: 623
+	pair: 12     ->	taxon1: M.lignano 	taxon2: H.microsto
+	            	positions below base line: 647
+	pair: 13     ->	taxon1: M.lignano 	taxon2: E.granulos
+	            	positions below base line: 651
+	pair: 14     ->	taxon1: C.intestin	taxon2: C.elegans 
+	            	positions below base line: 643
+	pair: 15     ->	taxon1: C.intestin	taxon2: S.mediterr
+	            	positions below base line: 643
+	pair: 16     ->	taxon1: C.intestin	taxon2: O.viverrin
+	            	positions below base line: 619
+	pair: 17     ->	taxon1: C.intestin	taxon2: H.microsto
+	            	positions below base line: 646
+	pair: 18     ->	taxon1: C.intestin	taxon2: E.granulos
+	            	positions below base line: 660
+	pair: 19     ->	taxon1: C.elegans 	taxon2: S.mediterr
+	            	positions below base line: 691
+	pair: 20     ->	taxon1: C.elegans 	taxon2: O.viverrin
+	            	positions below base line: 680
+	pair: 21     ->	taxon1: C.elegans 	taxon2: H.microsto
+	            	positions below base line: 691
+	pair: 22     ->	taxon1: C.elegans 	taxon2: E.granulos
+	            	positions below base line: 696
+	pair: 23     ->	taxon1: S.mediterr	taxon2: O.viverrin
+	            	positions below base line: 628
+	pair: 24     ->	taxon1: S.mediterr	taxon2: H.microsto
+	            	positions below base line: 646
+	pair: 25     ->	taxon1: S.mediterr	taxon2: E.granulos
+	            	positions below base line: 653
+	pair: 26     ->	taxon1: O.viverrin	taxon2: H.microsto
+	            	positions below base line: 541
+	pair: 27     ->	taxon1: O.viverrin	taxon2: E.granulos
+	            	positions below base line: 590
+	pair: 28     ->	taxon1: H.microsto	taxon2: E.granulos
+	            	positions below base line: 515
+
+	generates quality profile from collected scores ...
+
+
+	scoring done ...
+
+
+	generates vector plot from collected scores ...
+
+
+Argument "-" treated as 0 in increment (++) at /usr/bin/Aliscore.pl line 1213.
+	Profile written to EOG091G0YUO.clustalo.aln.fasta_Profile_random.txt
+	List   written to EOG091G0YUO.clustalo.aln.fasta_List_random.txt
+
+	time used: 3.76 sec
+

@@ -1,0 +1,13 @@
+
+WARNING: The number of threads is currently set to 1
+You can specify the number of threads to run via -T numberOfThreads
+NumberOfThreads must be set to an integer value greater than 1
+
+RAxML, will now set the number of threads automatically to 2 !
+
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+ERROR: Sequence C.intestinalis consists entirely of undetermined values which will be treated as missing data
+ERROR: Found 1 sequences that consist entirely of undetermined values, exiting...

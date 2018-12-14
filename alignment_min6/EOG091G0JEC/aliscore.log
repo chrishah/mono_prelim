@@ -1,0 +1,87 @@
+
+	reading taxa from FASTA ...
+
+
+	E.nipponicum         -> sites: 502   
+	T.solium             -> sites: 502   
+	S.mansoni            -> sites: 502   
+	H.microstoma         -> sites: 502   
+	O.viverrini          -> sites: 502   
+	C.sinensis           -> sites: 502   
+
+
+	data type             : amino acid sequences
+
+	input ...
+
+	infile		: EOG091G0JEC.clustalo.aln.fasta
+	random pairs	: 200000000000000000
+	window size	: 6
+	indels		: ambiguous
+	tree file	: -
+	node level	: -
+	strict profile	: -
+	outgroup	: -
+	matrix          : BLOSUM62
+
+	number of taxa        : 6
+	random number of pairs: 200000000000000000
+
+	generates threshhold value for amino acid data
+	using BLOSUM62
+
+	checks for (potential) identical taxa
+
+
+	scores site patterns ...
+
+
+	max number of different pairs is 15
+	max random pairs are scored!
+
+	pair: 1      ->	taxon1: E.nipponic	taxon2: T.solium  
+	            	positions below base line: 424
+	pair: 2      ->	taxon1: E.nipponic	taxon2: S.mansoni 
+	            	positions below base line: 416
+	pair: 3      ->	taxon1: E.nipponic	taxon2: H.microsto
+	            	positions below base line: 428
+	pair: 4      ->	taxon1: E.nipponic	taxon2: O.viverrin
+	            	positions below base line: 383
+	pair: 5      ->	taxon1: E.nipponic	taxon2: C.sinensis
+	            	positions below base line: 416
+	pair: 6      ->	taxon1: T.solium  	taxon2: S.mansoni 
+	            	positions below base line: 331
+	pair: 7      ->	taxon1: T.solium  	taxon2: H.microsto
+	            	positions below base line: 338
+	pair: 8      ->	taxon1: T.solium  	taxon2: O.viverrin
+	            	positions below base line: 343
+	pair: 9      ->	taxon1: T.solium  	taxon2: C.sinensis
+	            	positions below base line: 340
+	pair: 10     ->	taxon1: S.mansoni 	taxon2: H.microsto
+	            	positions below base line: 349
+	pair: 11     ->	taxon1: S.mansoni 	taxon2: O.viverrin
+	            	positions below base line: 306
+	pair: 12     ->	taxon1: S.mansoni 	taxon2: C.sinensis
+	            	positions below base line: 337
+	pair: 13     ->	taxon1: H.microsto	taxon2: O.viverrin
+	            	positions below base line: 348
+	pair: 14     ->	taxon1: H.microsto	taxon2: C.sinensis
+	            	positions below base line: 345
+	pair: 15     ->	taxon1: O.viverrin	taxon2: C.sinensis
+	            	positions below base line: 323
+
+	generates quality profile from collected scores ...
+
+
+	scoring done ...
+
+
+	generates vector plot from collected scores ...
+
+
+Argument "-" treated as 0 in increment (++) at /usr/bin/Aliscore.pl line 1213.
+	Profile written to EOG091G0JEC.clustalo.aln.fasta_Profile_random.txt
+	List   written to EOG091G0JEC.clustalo.aln.fasta_List_random.txt
+
+	time used: 3.75 sec
+

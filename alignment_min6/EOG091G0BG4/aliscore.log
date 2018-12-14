@@ -1,0 +1,195 @@
+
+	reading taxa from FASTA ...
+
+
+	D.rerio              -> sites: 2043  
+	P.xenopodis          -> sites: 2043  
+	M.lignano            -> sites: 2043  
+	S.mediterranea       -> sites: 2043  
+	C.intestinalis       -> sites: 2043  
+	D.melanogaster       -> sites: 2043  
+	C.elegans            -> sites: 2043  
+	E.granulosus         -> sites: 2043  
+	T.solium             -> sites: 2043  
+	G.salaris            -> sites: 2043  
+	C.sinensis           -> sites: 2043  
+	R.norvegicus         -> sites: 2043  
+
+
+	data type             : amino acid sequences
+
+	input ...
+
+	infile		: EOG091G0BG4.clustalo.aln.fasta
+	random pairs	: 200000000000000000
+	window size	: 6
+	indels		: ambiguous
+	tree file	: -
+	node level	: -
+	strict profile	: -
+	outgroup	: -
+	matrix          : BLOSUM62
+
+	number of taxa        : 12
+	random number of pairs: 200000000000000000
+
+	generates threshhold value for amino acid data
+	using BLOSUM62
+
+	checks for (potential) identical taxa
+
+
+	scores site patterns ...
+
+
+	max number of different pairs is 66
+	max random pairs are scored!
+
+	pair: 1      ->	taxon1: D.rerio   	taxon2: P.xenopodi
+	            	positions below base line: 1860
+	pair: 2      ->	taxon1: D.rerio   	taxon2: M.lignano 
+	            	positions below base line: 1837
+	pair: 3      ->	taxon1: D.rerio   	taxon2: S.mediterr
+	            	positions below base line: 1934
+	pair: 4      ->	taxon1: D.rerio   	taxon2: C.intestin
+	            	positions below base line: 1719
+	pair: 5      ->	taxon1: D.rerio   	taxon2: D.melanoga
+	            	positions below base line: 1738
+	pair: 6      ->	taxon1: D.rerio   	taxon2: C.elegans 
+	            	positions below base line: 1859
+	pair: 7      ->	taxon1: D.rerio   	taxon2: E.granulos
+	            	positions below base line: 1827
+	pair: 8      ->	taxon1: D.rerio   	taxon2: T.solium  
+	            	positions below base line: 1902
+	pair: 9      ->	taxon1: D.rerio   	taxon2: G.salaris 
+	            	positions below base line: 1846
+	pair: 10     ->	taxon1: D.rerio   	taxon2: C.sinensis
+	            	positions below base line: 1831
+	pair: 11     ->	taxon1: D.rerio   	taxon2: R.norvegic
+	            	positions below base line: 1595
+	pair: 12     ->	taxon1: P.xenopodi	taxon2: M.lignano 
+	            	positions below base line: 1853
+	pair: 13     ->	taxon1: P.xenopodi	taxon2: S.mediterr
+	            	positions below base line: 1963
+	pair: 14     ->	taxon1: P.xenopodi	taxon2: C.intestin
+	            	positions below base line: 1861
+	pair: 15     ->	taxon1: P.xenopodi	taxon2: D.melanoga
+	            	positions below base line: 1877
+	pair: 16     ->	taxon1: P.xenopodi	taxon2: C.elegans 
+	            	positions below base line: 1891
+	pair: 17     ->	taxon1: P.xenopodi	taxon2: E.granulos
+	            	positions below base line: 1799
+	pair: 18     ->	taxon1: P.xenopodi	taxon2: T.solium  
+	            	positions below base line: 1843
+	pair: 19     ->	taxon1: P.xenopodi	taxon2: G.salaris 
+	            	positions below base line: 1848
+	pair: 20     ->	taxon1: P.xenopodi	taxon2: C.sinensis
+	            	positions below base line: 1878
+	pair: 21     ->	taxon1: P.xenopodi	taxon2: R.norvegic
+	            	positions below base line: 1865
+	pair: 22     ->	taxon1: M.lignano 	taxon2: S.mediterr
+	            	positions below base line: 1939
+	pair: 23     ->	taxon1: M.lignano 	taxon2: C.intestin
+	            	positions below base line: 1858
+	pair: 24     ->	taxon1: M.lignano 	taxon2: D.melanoga
+	            	positions below base line: 1879
+	pair: 25     ->	taxon1: M.lignano 	taxon2: C.elegans 
+	            	positions below base line: 1882
+	pair: 26     ->	taxon1: M.lignano 	taxon2: E.granulos
+	            	positions below base line: 1826
+	pair: 27     ->	taxon1: M.lignano 	taxon2: T.solium  
+	            	positions below base line: 1877
+	pair: 28     ->	taxon1: M.lignano 	taxon2: G.salaris 
+	            	positions below base line: 1846
+	pair: 29     ->	taxon1: M.lignano 	taxon2: C.sinensis
+	            	positions below base line: 1872
+	pair: 30     ->	taxon1: M.lignano 	taxon2: R.norvegic
+	            	positions below base line: 1857
+	pair: 31     ->	taxon1: S.mediterr	taxon2: C.intestin
+	            	positions below base line: 1904
+	pair: 32     ->	taxon1: S.mediterr	taxon2: D.melanoga
+	            	positions below base line: 1927
+	pair: 33     ->	taxon1: S.mediterr	taxon2: C.elegans 
+	            	positions below base line: 1961
+	pair: 34     ->	taxon1: S.mediterr	taxon2: E.granulos
+	            	positions below base line: 1945
+	pair: 35     ->	taxon1: S.mediterr	taxon2: T.solium  
+	            	positions below base line: 1979
+	pair: 36     ->	taxon1: S.mediterr	taxon2: G.salaris 
+	            	positions below base line: 1961
+	pair: 37     ->	taxon1: S.mediterr	taxon2: C.sinensis
+	            	positions below base line: 1920
+	pair: 38     ->	taxon1: S.mediterr	taxon2: R.norvegic
+	            	positions below base line: 1923
+	pair: 39     ->	taxon1: C.intestin	taxon2: D.melanoga
+	            	positions below base line: 1741
+	pair: 40     ->	taxon1: C.intestin	taxon2: C.elegans 
+	            	positions below base line: 1865
+	pair: 41     ->	taxon1: C.intestin	taxon2: E.granulos
+	            	positions below base line: 1764
+	pair: 42     ->	taxon1: C.intestin	taxon2: T.solium  
+	            	positions below base line: 1819
+	pair: 43     ->	taxon1: C.intestin	taxon2: G.salaris 
+	            	positions below base line: 1835
+	pair: 44     ->	taxon1: C.intestin	taxon2: C.sinensis
+	            	positions below base line: 1735
+	pair: 45     ->	taxon1: C.intestin	taxon2: R.norvegic
+	            	positions below base line: 1716
+	pair: 46     ->	taxon1: D.melanoga	taxon2: C.elegans 
+	            	positions below base line: 1867
+	pair: 47     ->	taxon1: D.melanoga	taxon2: E.granulos
+	            	positions below base line: 1836
+	pair: 48     ->	taxon1: D.melanoga	taxon2: T.solium  
+	            	positions below base line: 1912
+	pair: 49     ->	taxon1: D.melanoga	taxon2: G.salaris 
+	            	positions below base line: 1869
+	pair: 50     ->	taxon1: D.melanoga	taxon2: C.sinensis
+	            	positions below base line: 1836
+	pair: 51     ->	taxon1: D.melanoga	taxon2: R.norvegic
+	            	positions below base line: 1728
+	pair: 52     ->	taxon1: C.elegans 	taxon2: E.granulos
+	            	positions below base line: 1847
+	pair: 53     ->	taxon1: C.elegans 	taxon2: T.solium  
+	            	positions below base line: 1916
+	pair: 54     ->	taxon1: C.elegans 	taxon2: G.salaris 
+	            	positions below base line: 1891
+	pair: 55     ->	taxon1: C.elegans 	taxon2: C.sinensis
+	            	positions below base line: 1894
+	pair: 56     ->	taxon1: C.elegans 	taxon2: R.norvegic
+	            	positions below base line: 1861
+	pair: 57     ->	taxon1: E.granulos	taxon2: T.solium  
+	            	positions below base line: 751
+	pair: 58     ->	taxon1: E.granulos	taxon2: G.salaris 
+	            	positions below base line: 1820
+	pair: 59     ->	taxon1: E.granulos	taxon2: C.sinensis
+	            	positions below base line: 1792
+	pair: 60     ->	taxon1: E.granulos	taxon2: R.norvegic
+	            	positions below base line: 1839
+	pair: 61     ->	taxon1: T.solium  	taxon2: G.salaris 
+	            	positions below base line: 1884
+	pair: 62     ->	taxon1: T.solium  	taxon2: C.sinensis
+	            	positions below base line: 1866
+	pair: 63     ->	taxon1: T.solium  	taxon2: R.norvegic
+	            	positions below base line: 1912
+	pair: 64     ->	taxon1: G.salaris 	taxon2: C.sinensis
+	            	positions below base line: 1893
+	pair: 65     ->	taxon1: G.salaris 	taxon2: R.norvegic
+	            	positions below base line: 1846
+	pair: 66     ->	taxon1: C.sinensis	taxon2: R.norvegic
+	            	positions below base line: 1820
+
+	generates quality profile from collected scores ...
+
+
+	scoring done ...
+
+
+	generates vector plot from collected scores ...
+
+
+Argument "-" treated as 0 in increment (++) at /usr/bin/Aliscore.pl line 1213.
+	Profile written to EOG091G0BG4.clustalo.aln.fasta_Profile_random.txt
+	List   written to EOG091G0BG4.clustalo.aln.fasta_List_random.txt
+
+	time used: 5.64 sec
+

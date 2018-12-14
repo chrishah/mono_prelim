@@ -1,0 +1,8 @@
+total 2,8M
+-rwxrwxrwx 1 1,3M Dez 13 11:26 FcC_supermatrix.fas
+-rwxrwxrwx 1 9,3K Dez 13 11:44 partitions.txt
+-rwxrwxrwx 1  23K Dez 13 16:15 RAxML_bootstrap.alignment_min6
+-rwxrwxrwx 1  949 Dez 13 21:46 RAxML_bestTree.alignment_min6
+-rwxrwxrwx 1  986 Dez 13 21:46 RAxML_bipartitions.alignment_min6
+-rwxrwxrwx 1 1014 Dez 13 21:46 RAxML_bipartitionsBranchLabels.alignment_min6
+-rwxrwxrwx 1 1,5M Dez 13 21:46 RAxML_info.alignment_min6
