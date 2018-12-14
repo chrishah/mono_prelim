@@ -1,0 +1,195 @@
+
+	reading taxa from FASTA ...
+
+
+	H.robusta            -> sites: 1464  
+	D.melanogaster       -> sites: 1464  
+	L.gigantea           -> sites: 1464  
+	S.mediterranea       -> sites: 1464  
+	S.mansoni            -> sites: 1464  
+	C.intestinalis       -> sites: 1464  
+	O.viverrini          -> sites: 1464  
+	T.solium             -> sites: 1464  
+	R.norvegicus         -> sites: 1464  
+	C.sinensis           -> sites: 1464  
+	G.salaris            -> sites: 1464  
+	H.microstoma         -> sites: 1464  
+
+
+	data type             : amino acid sequences
+
+	input ...
+
+	infile		: EOG091G0QUH.clustalo.aln.fasta
+	random pairs	: 200000000000000000
+	window size	: 6
+	indels		: ambiguous
+	tree file	: -
+	node level	: -
+	strict profile	: -
+	outgroup	: -
+	matrix          : BLOSUM62
+
+	number of taxa        : 12
+	random number of pairs: 200000000000000000
+
+	generates threshhold value for amino acid data
+	using BLOSUM62
+
+	checks for (potential) identical taxa
+
+
+	scores site patterns ...
+
+
+	max number of different pairs is 66
+	max random pairs are scored!
+
+	pair: 1      ->	taxon1: H.robusta 	taxon2: D.melanoga
+	            	positions below base line: 1288
+	pair: 2      ->	taxon1: H.robusta 	taxon2: L.gigantea
+	            	positions below base line: 1282
+	pair: 3      ->	taxon1: H.robusta 	taxon2: S.mediterr
+	            	positions below base line: 1336
+	pair: 4      ->	taxon1: H.robusta 	taxon2: S.mansoni 
+	            	positions below base line: 1294
+	pair: 5      ->	taxon1: H.robusta 	taxon2: C.intestin
+	            	positions below base line: 1291
+	pair: 6      ->	taxon1: H.robusta 	taxon2: O.viverrin
+	            	positions below base line: 1295
+	pair: 7      ->	taxon1: H.robusta 	taxon2: T.solium  
+	            	positions below base line: 1296
+	pair: 8      ->	taxon1: H.robusta 	taxon2: R.norvegic
+	            	positions below base line: 1297
+	pair: 9      ->	taxon1: H.robusta 	taxon2: C.sinensis
+	            	positions below base line: 1298
+	pair: 10     ->	taxon1: H.robusta 	taxon2: G.salaris 
+	            	positions below base line: 1306
+	pair: 11     ->	taxon1: H.robusta 	taxon2: H.microsto
+	            	positions below base line: 1305
+	pair: 12     ->	taxon1: D.melanoga	taxon2: L.gigantea
+	            	positions below base line: 1265
+	pair: 13     ->	taxon1: D.melanoga	taxon2: S.mediterr
+	            	positions below base line: 1293
+	pair: 14     ->	taxon1: D.melanoga	taxon2: S.mansoni 
+	            	positions below base line: 1287
+	pair: 15     ->	taxon1: D.melanoga	taxon2: C.intestin
+	            	positions below base line: 1261
+	pair: 16     ->	taxon1: D.melanoga	taxon2: O.viverrin
+	            	positions below base line: 1276
+	pair: 17     ->	taxon1: D.melanoga	taxon2: T.solium  
+	            	positions below base line: 1270
+	pair: 18     ->	taxon1: D.melanoga	taxon2: R.norvegic
+	            	positions below base line: 1156
+	pair: 19     ->	taxon1: D.melanoga	taxon2: C.sinensis
+	            	positions below base line: 1279
+	pair: 20     ->	taxon1: D.melanoga	taxon2: G.salaris 
+	            	positions below base line: 1272
+	pair: 21     ->	taxon1: D.melanoga	taxon2: H.microsto
+	            	positions below base line: 1295
+	pair: 22     ->	taxon1: L.gigantea	taxon2: S.mediterr
+	            	positions below base line: 1316
+	pair: 23     ->	taxon1: L.gigantea	taxon2: S.mansoni 
+	            	positions below base line: 1280
+	pair: 24     ->	taxon1: L.gigantea	taxon2: C.intestin
+	            	positions below base line: 1266
+	pair: 25     ->	taxon1: L.gigantea	taxon2: O.viverrin
+	            	positions below base line: 1272
+	pair: 26     ->	taxon1: L.gigantea	taxon2: T.solium  
+	            	positions below base line: 1274
+	pair: 27     ->	taxon1: L.gigantea	taxon2: R.norvegic
+	            	positions below base line: 1256
+	pair: 28     ->	taxon1: L.gigantea	taxon2: C.sinensis
+	            	positions below base line: 1275
+	pair: 29     ->	taxon1: L.gigantea	taxon2: G.salaris 
+	            	positions below base line: 1312
+	pair: 30     ->	taxon1: L.gigantea	taxon2: H.microsto
+	            	positions below base line: 1286
+	pair: 31     ->	taxon1: S.mediterr	taxon2: S.mansoni 
+	            	positions below base line: 1336
+	pair: 32     ->	taxon1: S.mediterr	taxon2: C.intestin
+	            	positions below base line: 1316
+	pair: 33     ->	taxon1: S.mediterr	taxon2: O.viverrin
+	            	positions below base line: 1333
+	pair: 34     ->	taxon1: S.mediterr	taxon2: T.solium  
+	            	positions below base line: 1331
+	pair: 35     ->	taxon1: S.mediterr	taxon2: R.norvegic
+	            	positions below base line: 1311
+	pair: 36     ->	taxon1: S.mediterr	taxon2: C.sinensis
+	            	positions below base line: 1336
+	pair: 37     ->	taxon1: S.mediterr	taxon2: G.salaris 
+	            	positions below base line: 1337
+	pair: 38     ->	taxon1: S.mediterr	taxon2: H.microsto
+	            	positions below base line: 1337
+	pair: 39     ->	taxon1: S.mansoni 	taxon2: C.intestin
+	            	positions below base line: 1267
+	pair: 40     ->	taxon1: S.mansoni 	taxon2: O.viverrin
+	            	positions below base line: 1204
+	pair: 41     ->	taxon1: S.mansoni 	taxon2: T.solium  
+	            	positions below base line: 1232
+	pair: 42     ->	taxon1: S.mansoni 	taxon2: R.norvegic
+	            	positions below base line: 1279
+	pair: 43     ->	taxon1: S.mansoni 	taxon2: C.sinensis
+	            	positions below base line: 1194
+	pair: 44     ->	taxon1: S.mansoni 	taxon2: G.salaris 
+	            	positions below base line: 1297
+	pair: 45     ->	taxon1: S.mansoni 	taxon2: H.microsto
+	            	positions below base line: 1283
+	pair: 46     ->	taxon1: C.intestin	taxon2: O.viverrin
+	            	positions below base line: 1269
+	pair: 47     ->	taxon1: C.intestin	taxon2: T.solium  
+	            	positions below base line: 1278
+	pair: 48     ->	taxon1: C.intestin	taxon2: R.norvegic
+	            	positions below base line: 1250
+	pair: 49     ->	taxon1: C.intestin	taxon2: C.sinensis
+	            	positions below base line: 1274
+	pair: 50     ->	taxon1: C.intestin	taxon2: G.salaris 
+	            	positions below base line: 1299
+	pair: 51     ->	taxon1: C.intestin	taxon2: H.microsto
+	            	positions below base line: 1306
+	pair: 52     ->	taxon1: O.viverrin	taxon2: T.solium  
+	            	positions below base line: 1237
+	pair: 53     ->	taxon1: O.viverrin	taxon2: R.norvegic
+	            	positions below base line: 1264
+	pair: 54     ->	taxon1: O.viverrin	taxon2: C.sinensis
+	            	positions below base line: 1161
+	pair: 55     ->	taxon1: O.viverrin	taxon2: G.salaris 
+	            	positions below base line: 1286
+	pair: 56     ->	taxon1: O.viverrin	taxon2: H.microsto
+	            	positions below base line: 1269
+	pair: 57     ->	taxon1: T.solium  	taxon2: R.norvegic
+	            	positions below base line: 1260
+	pair: 58     ->	taxon1: T.solium  	taxon2: C.sinensis
+	            	positions below base line: 1240
+	pair: 59     ->	taxon1: T.solium  	taxon2: G.salaris 
+	            	positions below base line: 1269
+	pair: 60     ->	taxon1: T.solium  	taxon2: H.microsto
+	            	positions below base line: 1260
+	pair: 61     ->	taxon1: R.norvegic	taxon2: C.sinensis
+	            	positions below base line: 1271
+	pair: 62     ->	taxon1: R.norvegic	taxon2: G.salaris 
+	            	positions below base line: 1292
+	pair: 63     ->	taxon1: R.norvegic	taxon2: H.microsto
+	            	positions below base line: 1288
+	pair: 64     ->	taxon1: C.sinensis	taxon2: G.salaris 
+	            	positions below base line: 1283
+	pair: 65     ->	taxon1: C.sinensis	taxon2: H.microsto
+	            	positions below base line: 1276
+	pair: 66     ->	taxon1: G.salaris 	taxon2: H.microsto
+	            	positions below base line: 1300
+
+	generates quality profile from collected scores ...
+
+
+	scoring done ...
+
+
+	generates vector plot from collected scores ...
+
+
+Argument "-" treated as 0 in increment (++) at /usr/bin/Aliscore.pl line 1213.
+	Profile written to EOG091G0QUH.clustalo.aln.fasta_Profile_random.txt
+	List   written to EOG091G0QUH.clustalo.aln.fasta_List_random.txt
+
+	time used: 4.07 sec
+

@@ -1,0 +1,100 @@
+
+	reading taxa from FASTA ...
+
+
+	O.viverrini          -> sites: 153   
+	G.turnbulli          -> sites: 153   
+	E.nipponicum         -> sites: 153   
+	G.salaris            -> sites: 153   
+	H.microstoma         -> sites: 153   
+	C.sinensis           -> sites: 153   
+	S.mediterranea       -> sites: 153   
+
+
+	data type             : amino acid sequences
+
+	input ...
+
+	infile		: EOG091G0TZX.clustalo.aln.fasta
+	random pairs	: 200000000000000000
+	window size	: 6
+	indels		: ambiguous
+	tree file	: -
+	node level	: -
+	strict profile	: -
+	outgroup	: -
+	matrix          : BLOSUM62
+
+	number of taxa        : 7
+	random number of pairs: 200000000000000000
+
+	generates threshhold value for amino acid data
+	using BLOSUM62
+
+	checks for (potential) identical taxa
+
+
+	scores site patterns ...
+
+
+	max number of different pairs is 21
+	max random pairs are scored!
+
+	pair: 1      ->	taxon1: O.viverrin	taxon2: G.turnbull
+	            	positions below base line: 47
+	pair: 2      ->	taxon1: O.viverrin	taxon2: E.nipponic
+	            	positions below base line: 46
+	pair: 3      ->	taxon1: O.viverrin	taxon2: G.salaris 
+	            	positions below base line: 41
+	pair: 4      ->	taxon1: O.viverrin	taxon2: H.microsto
+	            	positions below base line: 47
+	pair: 5      ->	taxon1: O.viverrin	taxon2: C.sinensis
+	            	positions below base line: 41
+	pair: 6      ->	taxon1: O.viverrin	taxon2: S.mediterr
+	            	positions below base line: 43
+	pair: 7      ->	taxon1: G.turnbull	taxon2: E.nipponic
+	            	positions below base line: 33
+	pair: 8      ->	taxon1: G.turnbull	taxon2: G.salaris 
+	            	positions below base line: 7
+	pair: 9      ->	taxon1: G.turnbull	taxon2: H.microsto
+	            	positions below base line: 35
+	pair: 10     ->	taxon1: G.turnbull	taxon2: C.sinensis
+	            	positions below base line: 31
+	pair: 11     ->	taxon1: G.turnbull	taxon2: S.mediterr
+	            	positions below base line: 16
+	pair: 12     ->	taxon1: E.nipponic	taxon2: G.salaris 
+	            	positions below base line: 31
+	pair: 13     ->	taxon1: E.nipponic	taxon2: H.microsto
+	            	positions below base line: 47
+	pair: 14     ->	taxon1: E.nipponic	taxon2: C.sinensis
+	            	positions below base line: 44
+	pair: 15     ->	taxon1: E.nipponic	taxon2: S.mediterr
+	            	positions below base line: 38
+	pair: 16     ->	taxon1: G.salaris 	taxon2: H.microsto
+	            	positions below base line: 35
+	pair: 17     ->	taxon1: G.salaris 	taxon2: C.sinensis
+	            	positions below base line: 27
+	pair: 18     ->	taxon1: G.salaris 	taxon2: S.mediterr
+	            	positions below base line: 12
+	pair: 19     ->	taxon1: H.microsto	taxon2: C.sinensis
+	            	positions below base line: 47
+	pair: 20     ->	taxon1: H.microsto	taxon2: S.mediterr
+	            	positions below base line: 40
+	pair: 21     ->	taxon1: C.sinensis	taxon2: S.mediterr
+	            	positions below base line: 27
+
+	generates quality profile from collected scores ...
+
+
+	scoring done ...
+
+
+	generates vector plot from collected scores ...
+
+
+Argument "-" treated as 0 in increment (++) at /usr/bin/Aliscore.pl line 1213.
+	Profile written to EOG091G0TZX.clustalo.aln.fasta_Profile_random.txt
+	List   written to EOG091G0TZX.clustalo.aln.fasta_List_random.txt
+
+	time used: 3.59 sec
+

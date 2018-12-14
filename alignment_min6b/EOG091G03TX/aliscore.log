@@ -1,0 +1,100 @@
+
+	reading taxa from FASTA ...
+
+
+	H.microstoma         -> sites: 1927  
+	T.solium             -> sites: 1927  
+	G.salaris            -> sites: 1927  
+	S.mediterranea       -> sites: 1927  
+	S.mansoni            -> sites: 1927  
+	G.turnbulli          -> sites: 1927  
+	E.granulosus         -> sites: 1927  
+
+
+	data type             : amino acid sequences
+
+	input ...
+
+	infile		: EOG091G03TX.clustalo.aln.fasta
+	random pairs	: 200000000000000000
+	window size	: 6
+	indels		: ambiguous
+	tree file	: -
+	node level	: -
+	strict profile	: -
+	outgroup	: -
+	matrix          : BLOSUM62
+
+	number of taxa        : 7
+	random number of pairs: 200000000000000000
+
+	generates threshhold value for amino acid data
+	using BLOSUM62
+
+	checks for (potential) identical taxa
+
+
+	scores site patterns ...
+
+
+	max number of different pairs is 21
+	max random pairs are scored!
+
+	pair: 1      ->	taxon1: H.microsto	taxon2: T.solium  
+	            	positions below base line: 1033
+	pair: 2      ->	taxon1: H.microsto	taxon2: G.salaris 
+	            	positions below base line: 1286
+	pair: 3      ->	taxon1: H.microsto	taxon2: S.mediterr
+	            	positions below base line: 1533
+	pair: 4      ->	taxon1: H.microsto	taxon2: S.mansoni 
+	            	positions below base line: 1496
+	pair: 5      ->	taxon1: H.microsto	taxon2: G.turnbull
+	            	positions below base line: 1393
+	pair: 6      ->	taxon1: H.microsto	taxon2: E.granulos
+	            	positions below base line: 982
+	pair: 7      ->	taxon1: T.solium  	taxon2: G.salaris 
+	            	positions below base line: 1310
+	pair: 8      ->	taxon1: T.solium  	taxon2: S.mediterr
+	            	positions below base line: 1590
+	pair: 9      ->	taxon1: T.solium  	taxon2: S.mansoni 
+	            	positions below base line: 1523
+	pair: 10     ->	taxon1: T.solium  	taxon2: G.turnbull
+	            	positions below base line: 1452
+	pair: 11     ->	taxon1: T.solium  	taxon2: E.granulos
+	            	positions below base line: 764
+	pair: 12     ->	taxon1: G.salaris 	taxon2: S.mediterr
+	            	positions below base line: 1487
+	pair: 13     ->	taxon1: G.salaris 	taxon2: S.mansoni 
+	            	positions below base line: 1550
+	pair: 14     ->	taxon1: G.salaris 	taxon2: G.turnbull
+	            	positions below base line: 1249
+	pair: 15     ->	taxon1: G.salaris 	taxon2: E.granulos
+	            	positions below base line: 1233
+	pair: 16     ->	taxon1: S.mediterr	taxon2: S.mansoni 
+	            	positions below base line: 1689
+	pair: 17     ->	taxon1: S.mediterr	taxon2: G.turnbull
+	            	positions below base line: 1479
+	pair: 18     ->	taxon1: S.mediterr	taxon2: E.granulos
+	            	positions below base line: 1500
+	pair: 19     ->	taxon1: S.mansoni 	taxon2: G.turnbull
+	            	positions below base line: 1615
+	pair: 20     ->	taxon1: S.mansoni 	taxon2: E.granulos
+	            	positions below base line: 1490
+	pair: 21     ->	taxon1: G.turnbull	taxon2: E.granulos
+	            	positions below base line: 1367
+
+	generates quality profile from collected scores ...
+
+
+	scoring done ...
+
+
+	generates vector plot from collected scores ...
+
+
+Argument "-" treated as 0 in increment (++) at /usr/bin/Aliscore.pl line 1213.
+	Profile written to EOG091G03TX.clustalo.aln.fasta_Profile_random.txt
+	List   written to EOG091G03TX.clustalo.aln.fasta_List_random.txt
+
+	time used: 4 sec
+

@@ -1,0 +1,4 @@
+total 1,5M
+-rwxrwxrwx 1  49K Dez 14 21:21 FcC_info.xls
+-rwxrwxrwx 1  84K Dez 14 21:21 concat.log
+-rwxrwxrwx 1 1,4M Dez 14 21:21 FcC_supermatrix.fas
