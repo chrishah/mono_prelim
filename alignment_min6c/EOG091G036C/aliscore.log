@@ -1,0 +1,220 @@
+
+	reading taxa from FASTA ...
+
+
+	H.microstoma         -> sites: 1174  
+	E.granulosus         -> sites: 1174  
+	T.solium             -> sites: 1174  
+	C.intestinalis       -> sites: 1174  
+	H.robusta            -> sites: 1174  
+	G.turnbulli          -> sites: 1174  
+	G.salaris            -> sites: 1174  
+	R.norvegicus         -> sites: 1174  
+	C.sinensis           -> sites: 1174  
+	N.vectensis          -> sites: 1174  
+	O.viverrini          -> sites: 1174  
+	D.melanogaster       -> sites: 1174  
+	D.rerio              -> sites: 1174  
+
+
+	data type             : amino acid sequences
+
+	input ...
+
+	infile		: EOG091G036C.clustalo.aln.fasta
+	random pairs	: 200000000000000000
+	window size	: 6
+	indels		: ambiguous
+	tree file	: -
+	node level	: -
+	strict profile	: -
+	outgroup	: -
+	matrix          : BLOSUM62
+
+	number of taxa        : 13
+	random number of pairs: 200000000000000000
+
+	generates threshhold value for amino acid data
+	using BLOSUM62
+
+	checks for (potential) identical taxa
+
+
+	scores site patterns ...
+
+
+	max number of different pairs is 78
+	max random pairs are scored!
+
+	pair: 1      ->	taxon1: H.microsto	taxon2: E.granulos
+	            	positions below base line: 779
+	pair: 2      ->	taxon1: H.microsto	taxon2: T.solium  
+	            	positions below base line: 771
+	pair: 3      ->	taxon1: H.microsto	taxon2: C.intestin
+	            	positions below base line: 1027
+	pair: 4      ->	taxon1: H.microsto	taxon2: H.robusta 
+	            	positions below base line: 916
+	pair: 5      ->	taxon1: H.microsto	taxon2: G.turnbull
+	            	positions below base line: 848
+	pair: 6      ->	taxon1: H.microsto	taxon2: G.salaris 
+	            	positions below base line: 878
+	pair: 7      ->	taxon1: H.microsto	taxon2: R.norvegic
+	            	positions below base line: 1012
+	pair: 8      ->	taxon1: H.microsto	taxon2: C.sinensis
+	            	positions below base line: 929
+	pair: 9      ->	taxon1: H.microsto	taxon2: N.vectensi
+	            	positions below base line: 1041
+	pair: 10     ->	taxon1: H.microsto	taxon2: O.viverrin
+	            	positions below base line: 931
+	pair: 11     ->	taxon1: H.microsto	taxon2: D.melanoga
+	            	positions below base line: 1015
+	pair: 12     ->	taxon1: H.microsto	taxon2: D.rerio   
+	            	positions below base line: 1045
+	pair: 13     ->	taxon1: E.granulos	taxon2: T.solium  
+	            	positions below base line: 661
+	pair: 14     ->	taxon1: E.granulos	taxon2: C.intestin
+	            	positions below base line: 1013
+	pair: 15     ->	taxon1: E.granulos	taxon2: H.robusta 
+	            	positions below base line: 827
+	pair: 16     ->	taxon1: E.granulos	taxon2: G.turnbull
+	            	positions below base line: 814
+	pair: 17     ->	taxon1: E.granulos	taxon2: G.salaris 
+	            	positions below base line: 836
+	pair: 18     ->	taxon1: E.granulos	taxon2: R.norvegic
+	            	positions below base line: 988
+	pair: 19     ->	taxon1: E.granulos	taxon2: C.sinensis
+	            	positions below base line: 899
+	pair: 20     ->	taxon1: E.granulos	taxon2: N.vectensi
+	            	positions below base line: 1014
+	pair: 21     ->	taxon1: E.granulos	taxon2: O.viverrin
+	            	positions below base line: 888
+	pair: 22     ->	taxon1: E.granulos	taxon2: D.melanoga
+	            	positions below base line: 987
+	pair: 23     ->	taxon1: E.granulos	taxon2: D.rerio   
+	            	positions below base line: 1031
+	pair: 24     ->	taxon1: T.solium  	taxon2: C.intestin
+	            	positions below base line: 1016
+	pair: 25     ->	taxon1: T.solium  	taxon2: H.robusta 
+	            	positions below base line: 870
+	pair: 26     ->	taxon1: T.solium  	taxon2: G.turnbull
+	            	positions below base line: 827
+	pair: 27     ->	taxon1: T.solium  	taxon2: G.salaris 
+	            	positions below base line: 856
+	pair: 28     ->	taxon1: T.solium  	taxon2: R.norvegic
+	            	positions below base line: 988
+	pair: 29     ->	taxon1: T.solium  	taxon2: C.sinensis
+	            	positions below base line: 909
+	pair: 30     ->	taxon1: T.solium  	taxon2: N.vectensi
+	            	positions below base line: 1018
+	pair: 31     ->	taxon1: T.solium  	taxon2: O.viverrin
+	            	positions below base line: 912
+	pair: 32     ->	taxon1: T.solium  	taxon2: D.melanoga
+	            	positions below base line: 994
+	pair: 33     ->	taxon1: T.solium  	taxon2: D.rerio   
+	            	positions below base line: 1023
+	pair: 34     ->	taxon1: C.intestin	taxon2: H.robusta 
+	            	positions below base line: 980
+	pair: 35     ->	taxon1: C.intestin	taxon2: G.turnbull
+	            	positions below base line: 999
+	pair: 36     ->	taxon1: C.intestin	taxon2: G.salaris 
+	            	positions below base line: 996
+	pair: 37     ->	taxon1: C.intestin	taxon2: R.norvegic
+	            	positions below base line: 630
+	pair: 38     ->	taxon1: C.intestin	taxon2: C.sinensis
+	            	positions below base line: 989
+	pair: 39     ->	taxon1: C.intestin	taxon2: N.vectensi
+	            	positions below base line: 978
+	pair: 40     ->	taxon1: C.intestin	taxon2: O.viverrin
+	            	positions below base line: 994
+	pair: 41     ->	taxon1: C.intestin	taxon2: D.melanoga
+	            	positions below base line: 752
+	pair: 42     ->	taxon1: C.intestin	taxon2: D.rerio   
+	            	positions below base line: 895
+	pair: 43     ->	taxon1: H.robusta 	taxon2: G.turnbull
+	            	positions below base line: 841
+	pair: 44     ->	taxon1: H.robusta 	taxon2: G.salaris 
+	            	positions below base line: 900
+	pair: 45     ->	taxon1: H.robusta 	taxon2: R.norvegic
+	            	positions below base line: 987
+	pair: 46     ->	taxon1: H.robusta 	taxon2: C.sinensis
+	            	positions below base line: 845
+	pair: 47     ->	taxon1: H.robusta 	taxon2: N.vectensi
+	            	positions below base line: 974
+	pair: 48     ->	taxon1: H.robusta 	taxon2: O.viverrin
+	            	positions below base line: 867
+	pair: 49     ->	taxon1: H.robusta 	taxon2: D.melanoga
+	            	positions below base line: 941
+	pair: 50     ->	taxon1: H.robusta 	taxon2: D.rerio   
+	            	positions below base line: 990
+	pair: 51     ->	taxon1: G.turnbull	taxon2: G.salaris 
+	            	positions below base line: 645
+	pair: 52     ->	taxon1: G.turnbull	taxon2: R.norvegic
+	            	positions below base line: 997
+	pair: 53     ->	taxon1: G.turnbull	taxon2: C.sinensis
+	            	positions below base line: 861
+	pair: 54     ->	taxon1: G.turnbull	taxon2: N.vectensi
+	            	positions below base line: 1015
+	pair: 55     ->	taxon1: G.turnbull	taxon2: O.viverrin
+	            	positions below base line: 906
+	pair: 56     ->	taxon1: G.turnbull	taxon2: D.melanoga
+	            	positions below base line: 1000
+	pair: 57     ->	taxon1: G.turnbull	taxon2: D.rerio   
+	            	positions below base line: 995
+	pair: 58     ->	taxon1: G.salaris 	taxon2: R.norvegic
+	            	positions below base line: 1002
+	pair: 59     ->	taxon1: G.salaris 	taxon2: C.sinensis
+	            	positions below base line: 915
+	pair: 60     ->	taxon1: G.salaris 	taxon2: N.vectensi
+	            	positions below base line: 1018
+	pair: 61     ->	taxon1: G.salaris 	taxon2: O.viverrin
+	            	positions below base line: 909
+	pair: 62     ->	taxon1: G.salaris 	taxon2: D.melanoga
+	            	positions below base line: 966
+	pair: 63     ->	taxon1: G.salaris 	taxon2: D.rerio   
+	            	positions below base line: 1020
+	pair: 64     ->	taxon1: R.norvegic	taxon2: C.sinensis
+	            	positions below base line: 990
+	pair: 65     ->	taxon1: R.norvegic	taxon2: N.vectensi
+	            	positions below base line: 965
+	pair: 66     ->	taxon1: R.norvegic	taxon2: O.viverrin
+	            	positions below base line: 985
+	pair: 67     ->	taxon1: R.norvegic	taxon2: D.melanoga
+	            	positions below base line: 767
+	pair: 68     ->	taxon1: R.norvegic	taxon2: D.rerio   
+	            	positions below base line: 827
+	pair: 69     ->	taxon1: C.sinensis	taxon2: N.vectensi
+	            	positions below base line: 1021
+	pair: 70     ->	taxon1: C.sinensis	taxon2: O.viverrin
+	            	positions below base line: 533
+	pair: 71     ->	taxon1: C.sinensis	taxon2: D.melanoga
+	            	positions below base line: 992
+	pair: 72     ->	taxon1: C.sinensis	taxon2: D.rerio   
+	            	positions below base line: 993
+	pair: 73     ->	taxon1: N.vectensi	taxon2: O.viverrin
+	            	positions below base line: 1013
+	pair: 74     ->	taxon1: N.vectensi	taxon2: D.melanoga
+	            	positions below base line: 981
+	pair: 75     ->	taxon1: N.vectensi	taxon2: D.rerio   
+	            	positions below base line: 998
+	pair: 76     ->	taxon1: O.viverrin	taxon2: D.melanoga
+	            	positions below base line: 994
+	pair: 77     ->	taxon1: O.viverrin	taxon2: D.rerio   
+	            	positions below base line: 1015
+	pair: 78     ->	taxon1: D.melanoga	taxon2: D.rerio   
+	            	positions below base line: 860
+
+	generates quality profile from collected scores ...
+
+
+	scoring done ...
+
+
+	generates vector plot from collected scores ...
+
+
+Argument "-" treated as 0 in increment (++) at /usr/bin/Aliscore.pl line 1213.
+	Profile written to EOG091G036C.clustalo.aln.fasta_Profile_random.txt
+	List   written to EOG091G036C.clustalo.aln.fasta_List_random.txt
+
+	time used: 4.02 sec
+

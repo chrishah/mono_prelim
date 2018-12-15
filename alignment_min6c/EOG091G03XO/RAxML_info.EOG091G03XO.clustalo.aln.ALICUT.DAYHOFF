@@ -1,0 +1,9 @@
+ERROR: Sequence M.lignano consists entirely of undetermined values which will be treated as missing data
+ERROR: Sequence H.microstoma consists entirely of undetermined values which will be treated as missing data
+ERROR: Sequence C.sinensis consists entirely of undetermined values which will be treated as missing data
+ERROR: Sequence T.solium consists entirely of undetermined values which will be treated as missing data
+ERROR: Sequence E.granulosus consists entirely of undetermined values which will be treated as missing data
+ERROR: Sequence G.salaris consists entirely of undetermined values which will be treated as missing data
+ERROR: Sequence S.mediterranea consists entirely of undetermined values which will be treated as missing data
+ERROR: Sequence H.robusta consists entirely of undetermined values which will be treated as missing data
+ERROR: Found 8 sequences that consist entirely of undetermined values, exiting...

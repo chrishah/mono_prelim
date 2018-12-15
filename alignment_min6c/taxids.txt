@@ -1,0 +1,6 @@
+7227	D.melanogaster
+10116	R.norvegicus
+7955	D.rerio
+7719	C.intestinalis
+45351	N.vectensis
+6412	H.robusta

@@ -1,0 +1,195 @@
+
+	reading taxa from FASTA ...
+
+
+	R.norvegicus         -> sites: 2154  
+	N.vectensis          -> sites: 2154  
+	G.turnbulli          -> sites: 2154  
+	O.viverrini          -> sites: 2154  
+	C.sinensis           -> sites: 2154  
+	G.salaris            -> sites: 2154  
+	D.rerio              -> sites: 2154  
+	T.solium             -> sites: 2154  
+	M.lignano            -> sites: 2154  
+	H.robusta            -> sites: 2154  
+	C.intestinalis       -> sites: 2154  
+	D.melanogaster       -> sites: 2154  
+
+
+	data type             : amino acid sequences
+
+	input ...
+
+	infile		: EOG091G02MR.clustalo.aln.fasta
+	random pairs	: 200000000000000000
+	window size	: 6
+	indels		: ambiguous
+	tree file	: -
+	node level	: -
+	strict profile	: -
+	outgroup	: -
+	matrix          : BLOSUM62
+
+	number of taxa        : 12
+	random number of pairs: 200000000000000000
+
+	generates threshhold value for amino acid data
+	using BLOSUM62
+
+	checks for (potential) identical taxa
+
+
+	scores site patterns ...
+
+
+	max number of different pairs is 66
+	max random pairs are scored!
+
+	pair: 1      ->	taxon1: R.norvegic	taxon2: N.vectensi
+	            	positions below base line: 1902
+	pair: 2      ->	taxon1: R.norvegic	taxon2: G.turnbull
+	            	positions below base line: 1643
+	pair: 3      ->	taxon1: R.norvegic	taxon2: O.viverrin
+	            	positions below base line: 1497
+	pair: 4      ->	taxon1: R.norvegic	taxon2: C.sinensis
+	            	positions below base line: 1930
+	pair: 5      ->	taxon1: R.norvegic	taxon2: G.salaris 
+	            	positions below base line: 1867
+	pair: 6      ->	taxon1: R.norvegic	taxon2: D.rerio   
+	            	positions below base line: 2026
+	pair: 7      ->	taxon1: R.norvegic	taxon2: T.solium  
+	            	positions below base line: 1696
+	pair: 8      ->	taxon1: R.norvegic	taxon2: M.lignano 
+	            	positions below base line: 1433
+	pair: 9      ->	taxon1: R.norvegic	taxon2: H.robusta 
+	            	positions below base line: 1281
+	pair: 10     ->	taxon1: R.norvegic	taxon2: C.intestin
+	            	positions below base line: 1225
+	pair: 11     ->	taxon1: R.norvegic	taxon2: D.melanoga
+	            	positions below base line: 1354
+	pair: 12     ->	taxon1: N.vectensi	taxon2: G.turnbull
+	            	positions below base line: 1972
+	pair: 13     ->	taxon1: N.vectensi	taxon2: O.viverrin
+	            	positions below base line: 1926
+	pair: 14     ->	taxon1: N.vectensi	taxon2: C.sinensis
+	            	positions below base line: 2117
+	pair: 15     ->	taxon1: N.vectensi	taxon2: G.salaris 
+	            	positions below base line: 2067
+	pair: 16     ->	taxon1: N.vectensi	taxon2: D.rerio   
+	            	positions below base line: 2113
+	pair: 17     ->	taxon1: N.vectensi	taxon2: T.solium  
+	            	positions below base line: 1988
+	pair: 18     ->	taxon1: N.vectensi	taxon2: M.lignano 
+	            	positions below base line: 1932
+	pair: 19     ->	taxon1: N.vectensi	taxon2: H.robusta 
+	            	positions below base line: 1913
+	pair: 20     ->	taxon1: N.vectensi	taxon2: C.intestin
+	            	positions below base line: 1909
+	pair: 21     ->	taxon1: N.vectensi	taxon2: D.melanoga
+	            	positions below base line: 1918
+	pair: 22     ->	taxon1: G.turnbull	taxon2: O.viverrin
+	            	positions below base line: 1754
+	pair: 23     ->	taxon1: G.turnbull	taxon2: C.sinensis
+	            	positions below base line: 1956
+	pair: 24     ->	taxon1: G.turnbull	taxon2: G.salaris 
+	            	positions below base line: 1751
+	pair: 25     ->	taxon1: G.turnbull	taxon2: D.rerio   
+	            	positions below base line: 2056
+	pair: 26     ->	taxon1: G.turnbull	taxon2: T.solium  
+	            	positions below base line: 1755
+	pair: 27     ->	taxon1: G.turnbull	taxon2: M.lignano 
+	            	positions below base line: 1681
+	pair: 28     ->	taxon1: G.turnbull	taxon2: H.robusta 
+	            	positions below base line: 1686
+	pair: 29     ->	taxon1: G.turnbull	taxon2: C.intestin
+	            	positions below base line: 1674
+	pair: 30     ->	taxon1: G.turnbull	taxon2: D.melanoga
+	            	positions below base line: 1688
+	pair: 31     ->	taxon1: O.viverrin	taxon2: C.sinensis
+	            	positions below base line: 1772
+	pair: 32     ->	taxon1: O.viverrin	taxon2: G.salaris 
+	            	positions below base line: 1896
+	pair: 33     ->	taxon1: O.viverrin	taxon2: D.rerio   
+	            	positions below base line: 2059
+	pair: 34     ->	taxon1: O.viverrin	taxon2: T.solium  
+	            	positions below base line: 1779
+	pair: 35     ->	taxon1: O.viverrin	taxon2: M.lignano 
+	            	positions below base line: 1584
+	pair: 36     ->	taxon1: O.viverrin	taxon2: H.robusta 
+	            	positions below base line: 1508
+	pair: 37     ->	taxon1: O.viverrin	taxon2: C.intestin
+	            	positions below base line: 1519
+	pair: 38     ->	taxon1: O.viverrin	taxon2: D.melanoga
+	            	positions below base line: 1550
+	pair: 39     ->	taxon1: C.sinensis	taxon2: G.salaris 
+	            	positions below base line: 1975
+	pair: 40     ->	taxon1: C.sinensis	taxon2: D.rerio   
+	            	positions below base line: 2070
+	pair: 41     ->	taxon1: C.sinensis	taxon2: T.solium  
+	            	positions below base line: 1939
+	pair: 42     ->	taxon1: C.sinensis	taxon2: M.lignano 
+	            	positions below base line: 1964
+	pair: 43     ->	taxon1: C.sinensis	taxon2: H.robusta 
+	            	positions below base line: 1932
+	pair: 44     ->	taxon1: C.sinensis	taxon2: C.intestin
+	            	positions below base line: 1912
+	pair: 45     ->	taxon1: C.sinensis	taxon2: D.melanoga
+	            	positions below base line: 1959
+	pair: 46     ->	taxon1: G.salaris 	taxon2: D.rerio   
+	            	positions below base line: 2076
+	pair: 47     ->	taxon1: G.salaris 	taxon2: T.solium  
+	            	positions below base line: 1881
+	pair: 48     ->	taxon1: G.salaris 	taxon2: M.lignano 
+	            	positions below base line: 1868
+	pair: 49     ->	taxon1: G.salaris 	taxon2: H.robusta 
+	            	positions below base line: 1863
+	pair: 50     ->	taxon1: G.salaris 	taxon2: C.intestin
+	            	positions below base line: 1861
+	pair: 51     ->	taxon1: G.salaris 	taxon2: D.melanoga
+	            	positions below base line: 1886
+	pair: 52     ->	taxon1: D.rerio   	taxon2: T.solium  
+	            	positions below base line: 2058
+	pair: 53     ->	taxon1: D.rerio   	taxon2: M.lignano 
+	            	positions below base line: 2024
+	pair: 54     ->	taxon1: D.rerio   	taxon2: H.robusta 
+	            	positions below base line: 2029
+	pair: 55     ->	taxon1: D.rerio   	taxon2: C.intestin
+	            	positions below base line: 2035
+	pair: 56     ->	taxon1: D.rerio   	taxon2: D.melanoga
+	            	positions below base line: 2032
+	pair: 57     ->	taxon1: T.solium  	taxon2: M.lignano 
+	            	positions below base line: 1727
+	pair: 58     ->	taxon1: T.solium  	taxon2: H.robusta 
+	            	positions below base line: 1743
+	pair: 59     ->	taxon1: T.solium  	taxon2: C.intestin
+	            	positions below base line: 1711
+	pair: 60     ->	taxon1: T.solium  	taxon2: D.melanoga
+	            	positions below base line: 1710
+	pair: 61     ->	taxon1: M.lignano 	taxon2: H.robusta 
+	            	positions below base line: 1432
+	pair: 62     ->	taxon1: M.lignano 	taxon2: C.intestin
+	            	positions below base line: 1416
+	pair: 63     ->	taxon1: M.lignano 	taxon2: D.melanoga
+	            	positions below base line: 1457
+	pair: 64     ->	taxon1: H.robusta 	taxon2: C.intestin
+	            	positions below base line: 1311
+	pair: 65     ->	taxon1: H.robusta 	taxon2: D.melanoga
+	            	positions below base line: 1375
+	pair: 66     ->	taxon1: C.intestin	taxon2: D.melanoga
+	            	positions below base line: 1384
+
+	generates quality profile from collected scores ...
+
+
+	scoring done ...
+
+
+	generates vector plot from collected scores ...
+
+
+Argument "-" treated as 0 in increment (++) at /usr/bin/Aliscore.pl line 1213.
+	Profile written to EOG091G02MR.clustalo.aln.fasta_Profile_random.txt
+	List   written to EOG091G02MR.clustalo.aln.fasta_List_random.txt
+
+	time used: 4.38 sec
+

@@ -1,0 +1,7 @@
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+ERROR: Sequence N.vectensis consists entirely of undetermined values which will be treated as missing data
+ERROR: Sequence G.salaris consists entirely of undetermined values which will be treated as missing data
+ERROR: Found 2 sequences that consist entirely of undetermined values, exiting...

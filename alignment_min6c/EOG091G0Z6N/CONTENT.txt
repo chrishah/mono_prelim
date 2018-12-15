@@ -1,0 +1,22 @@
+total 467K
+-rwxrwxrwx 1 1,1K Dez 15 13:07 EOG091G0Z6N.ingroup.fasta
+-rwxrwxrwx 1    0 Dez 15 13:07 EOG091G0Z6N.orthodb.fasta
+-rwxrwxrwx 1  681 Dez 15 13:07 orthodb.download.log
+-rwxrwxrwx 1    0 Dez 15 13:07 EOG091G0Z6N.outgroup.fasta
+-rwxrwxrwx 1 1,1K Dez 15 13:07 EOG091G0Z6N.fasta
+-rwxrwxrwx 1 1,3K Dez 15 13:07 EOG091G0Z6N.clustalo.aln.fasta
+-rwxrwxrwx 1 1,6K Dez 15 13:07 EOG091G0Z6N.clustalo.aln.fasta_Profile_random.txt
+-rwxrwxrwx 1  40K Dez 15 13:07 EOG091G0Z6N.clustalo.aln.fasta.profiles.svg
+-rwxrwxrwx 1  180 Dez 15 13:07 EOG091G0Z6N.clustalo.aln.fasta_List_random.txt
+-rwxrwxrwx 1 3,4K Dez 15 13:07 aliscore.log
+-rwxrwxrwx 1  841 Dez 15 13:07 ALICUT_EOG091G0Z6N.clustalo.aln.fasta
+-rwxrwxrwx 1  232 Dez 15 13:07 ALICUT_info.xls
+-rwxrwxrwx 1  986 Dez 15 13:07 alicut.log
+-rwxrwxrwx 1   20 Dez 15 13:07 EOG091G0Z6N.bestmodel
+-rwxrwxrwx 1 9,4K Dez 15 13:08 RAxML_bootstrap.EOG091G0Z6N.clustalo.aln.ALICUT.LGF
+-rwxrwxrwx 1  353 Dez 15 13:08 RAxML_bestTree.EOG091G0Z6N.clustalo.aln.ALICUT.LGF
+-rwxrwxrwx 1  357 Dez 15 13:08 RAxML_bipartitions.EOG091G0Z6N.clustalo.aln.ALICUT.LGF
+-rwxrwxrwx 1  365 Dez 15 13:08 RAxML_bipartitionsBranchLabels.EOG091G0Z6N.clustalo.aln.ALICUT.LGF
+-rwxrwxrwx 1  18K Dez 15 13:08 RAxML_info.EOG091G0Z6N.clustalo.aln.ALICUT.LGF
+-rwxrwxrwx 1  19K Dez 15 13:08 raxml.log
+-rwxrwxrwx 1 337K Dez 15 22:11 find_best_model.tgz
