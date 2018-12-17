@@ -1,0 +1,11 @@
+echo -e '#!/bin/bash\ncat <(echo "#BUSCO") <(cat $(find ./ -name 'full_table*' | head -n 1) | grep -v "#" | cut -f 1 | sort -n | uniq) > summary_temp.tsv\n\n' > create_summary_table.sh
+
+for f in $(find ./ -name 'full_table*'); do sp=$(echo "$f" | cut -d "/" -f 2); echo -e "paste summary_temp.tsv <(cat <(cat <(echo \"$sp\") <($(echo -e "$f" | perl -ne 'chomp; print "for busco in \$(cat $_ | grep -v \"#\" | cut -f 1 | sort -n | uniq); do grep -P \"\$busco\\\\t\" $_ | head -n 1; done | cut -f 2"')))) > summary.tsv; cp summary.tsv summary_temp.tsv"; done >> create_summary_table.sh
+
+echo -e "\n\nrm summary_temp.tsv" >> create_summary_table.sh
+
+./create_summary_table.sh
+
+# find BUSCO ids for genes that are present in at least 8 of the genomes
+cat summary.tsv | perl -ne 'chomp; if ($_ !~ /#/){$i=0; @a=split("\t"); for (@a){if ($_ =~ /Complete/){$i++;}} if ($i >= 8){print "$a[0]\n"}}' > genes_min8.txt
+

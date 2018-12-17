@@ -1,0 +1,161 @@
+INFO	****************** Start a BUSCO 3.0.2 analysis, current time: 12/11/2018 10:57:50 ******************
+INFO	Configuration loaded from /usr/src/busco/config/config.ini
+INFO	Init tools...
+INFO	Check dependencies...
+INFO	Check input file...
+INFO	To reproduce this run: python /usr/bin/run_BUSCO.py -i G14-ec-G4-filtered-k31-kgt15-pgt0.9.scf.fasta -o G_turnbulli -l ./metazoa_odb9/ -m genome -c 6 -sp fly
+INFO	Mode is: genome
+INFO	The lineage dataset is: metazoa_odb9 (eukaryota)
+INFO	Temp directory is ./tmp/
+INFO	****** Phase 1 of 2, initial predictions ******
+INFO	****** Step 1/3, current time: 12/11/2018 10:57:51 ******
+INFO	Create blast database...
+INFO	[makeblastdb]	Building a new DB, current time: 12/11/2018 10:57:51
+INFO	[makeblastdb]	New DB name:   /home/working/tmp/G_turnbulli_2255862175
+INFO	[makeblastdb]	New DB title:  G14-ec-G4-filtered-k31-kgt15-pgt0.9.scf.fasta
+INFO	[makeblastdb]	Sequence type: Nucleotide
+INFO	[makeblastdb]	Keep MBits: T
+INFO	[makeblastdb]	Maximum file size: 1000000000B
+INFO	[makeblastdb]	Adding sequences from FASTA; added 4510 sequences in 1.52816 seconds.
+INFO	[makeblastdb]	1 of 1 task(s) completed at 12/11/2018 10:57:53
+INFO	Running tblastn, writing output to /home/working/run_G_turnbulli/blast_output/tblastn_G_turnbulli.tsv...
+INFO	[tblastn]	1 of 1 task(s) completed at 12/11/2018 10:58:40
+INFO	****** Step 2/3, current time: 12/11/2018 10:58:40 ******
+INFO	Maximum number of candidate contig per BUSCO limited to: 3
+INFO	Getting coordinates for candidate regions...
+INFO	Pre-Augustus scaffold extraction...
+INFO	Running Augustus prediction using fly as species:
+INFO	[augustus]	Please find all logs related to Augustus errors here: /home/working/run_G_turnbulli/augustus_output/augustus.log
+INFO	[augustus]	88 of 877 task(s) completed at 12/11/2018 11:00:15
+INFO	[augustus]	176 of 877 task(s) completed at 12/11/2018 11:01:14
+INFO	[augustus]	264 of 877 task(s) completed at 12/11/2018 11:02:13
+INFO	[augustus]	351 of 877 task(s) completed at 12/11/2018 11:03:02
+INFO	[augustus]	439 of 877 task(s) completed at 12/11/2018 11:03:49
+INFO	[augustus]	527 of 877 task(s) completed at 12/11/2018 11:04:30
+INFO	[augustus]	614 of 877 task(s) completed at 12/11/2018 11:05:07
+INFO	[augustus]	702 of 877 task(s) completed at 12/11/2018 11:05:45
+INFO	[augustus]	790 of 877 task(s) completed at 12/11/2018 11:06:19
+INFO	[augustus]	877 of 877 task(s) completed at 12/11/2018 11:06:51
+INFO	Extracting predicted proteins...
+INFO	****** Step 3/3, current time: 12/11/2018 11:06:55 ******
+INFO	Running HMMER to confirm orthology of predicted proteins:
+INFO	[hmmsearch]	74 of 738 task(s) completed at 12/11/2018 11:06:56
+INFO	[hmmsearch]	148 of 738 task(s) completed at 12/11/2018 11:06:56
+INFO	[hmmsearch]	222 of 738 task(s) completed at 12/11/2018 11:06:56
+INFO	[hmmsearch]	369 of 738 task(s) completed at 12/11/2018 11:06:57
+INFO	[hmmsearch]	443 of 738 task(s) completed at 12/11/2018 11:06:57
+INFO	[hmmsearch]	517 of 738 task(s) completed at 12/11/2018 11:06:57
+INFO	[hmmsearch]	591 of 738 task(s) completed at 12/11/2018 11:06:57
+INFO	[hmmsearch]	665 of 738 task(s) completed at 12/11/2018 11:06:57
+INFO	[hmmsearch]	738 of 738 task(s) completed at 12/11/2018 11:06:57
+INFO	Results:
+INFO	C:29.2%[S:28.8%,D:0.4%],F:4.1%,M:66.7%,n:978
+INFO	286 Complete BUSCOs (C)
+INFO	282 Complete and single-copy BUSCOs (S)
+INFO	4 Complete and duplicated BUSCOs (D)
+INFO	40 Fragmented BUSCOs (F)
+INFO	652 Missing BUSCOs (M)
+INFO	978 Total BUSCO groups searched
+INFO	****** Phase 2 of 2, predictions using species specific training ******
+INFO	****** Step 1/3, current time: 12/11/2018 11:06:58 ******
+INFO	Extracting missing and fragmented buscos from the ancestral_variants file...
+INFO	Running tblastn, writing output to /home/working/run_G_turnbulli/blast_output/tblastn_G_turnbulli_missing_and_frag_rerun.tsv...
+INFO	[tblastn]	1 of 1 task(s) completed at 12/11/2018 11:10:44
+INFO	Maximum number of candidate contig per BUSCO limited to: 3
+INFO	Getting coordinates for candidate regions...
+INFO	****** Step 2/3, current time: 12/11/2018 11:10:44 ******
+INFO	Training Augustus using Single-Copy Complete BUSCOs:
+INFO	Converting predicted genes to short genbank files at 12/11/2018 11:10:44...
+INFO	All files converted to short genbank files, now running the training scripts at 12/11/2018 11:10:56...
+INFO	Pre-Augustus scaffold extraction...
+INFO	Re-running Augustus with the new metaparameters, number of target BUSCOs: 692
+INFO	[augustus]	60 of 595 task(s) completed at 12/11/2018 11:11:20
+INFO	[augustus]	119 of 595 task(s) completed at 12/11/2018 11:11:45
+INFO	[augustus]	179 of 595 task(s) completed at 12/11/2018 11:12:08
+INFO	[augustus]	238 of 595 task(s) completed at 12/11/2018 11:12:31
+INFO	[augustus]	298 of 595 task(s) completed at 12/11/2018 11:12:53
+INFO	[augustus]	357 of 595 task(s) completed at 12/11/2018 11:13:16
+INFO	[augustus]	417 of 595 task(s) completed at 12/11/2018 11:13:42
+INFO	[augustus]	476 of 595 task(s) completed at 12/11/2018 11:14:04
+INFO	[augustus]	536 of 595 task(s) completed at 12/11/2018 11:14:25
+INFO	[augustus]	595 of 595 task(s) completed at 12/11/2018 11:14:54
+INFO	Extracting predicted proteins...
+INFO	****** Step 3/3, current time: 12/11/2018 11:14:57 ******
+INFO	Running HMMER to confirm orthology of predicted proteins:
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G07N5.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G15N9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0AGM.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0EUU.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0AZ7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G02NO.faa.2 for reading
+INFO	[hmmsearch]	36 of 358 task(s) completed at 12/11/2018 11:14:57
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0H3U.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G090D.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0O4W.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0CMN.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0DVQ.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0J98.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0W1S.faa.2 for reading
+INFO	[hmmsearch]	72 of 358 task(s) completed at 12/11/2018 11:14:57
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0QKK.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0IDG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G060D.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0E7S.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0LO1.faa.1 for reading
+INFO	[hmmsearch]	108 of 358 task(s) completed at 12/11/2018 11:14:57
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0ERU.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G029K.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G08LT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0ZDR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0JU7.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0FH3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G06JJ.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0DWW.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G09BP.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0TZU.faa.1 for reading
+INFO	[hmmsearch]	144 of 358 task(s) completed at 12/11/2018 11:14:57
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G08IJ.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0AYM.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G07D9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0SBR.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0G71.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0EKA.faa.1 for reading
+INFO	[hmmsearch]	179 of 358 task(s) completed at 12/11/2018 11:14:57
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G10SA.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0MP6.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0DYU.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G031X.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G04FV.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0HS8.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0BTX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G05LX.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G09FV.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0F70.faa.1 for reading
+INFO	[hmmsearch]	251 of 358 task(s) completed at 12/11/2018 11:14:57
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0RI9.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G08RU.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0P9B.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0QPG.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G07Z1.faa.1 for reading
+INFO	[hmmsearch]	287 of 358 task(s) completed at 12/11/2018 11:14:58
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0G6Z.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0YUO.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G11CO.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G09J7.faa.2 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0DQT.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G0RR3.faa.1 for reading
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G085U.faa.1 for reading
+INFO	[hmmsearch]	323 of 358 task(s) completed at 12/11/2018 11:14:58
+INFO	[hmmsearch]	Error: Failed to open sequence file /home/working/run_G_turnbulli/augustus_output/extracted_proteins/EOG091G04D1.faa.2 for reading
+INFO	[hmmsearch]	358 of 358 task(s) completed at 12/11/2018 11:14:58
+INFO	Results:
+INFO	C:39.2%[S:38.8%,D:0.4%],F:4.8%,M:56.0%,n:978
+INFO	383 Complete BUSCOs (C)
+INFO	379 Complete and single-copy BUSCOs (S)
+INFO	4 Complete and duplicated BUSCOs (D)
+INFO	47 Fragmented BUSCOs (F)
+INFO	548 Missing BUSCOs (M)
+INFO	978 Total BUSCO groups searched
+INFO	BUSCO analysis done. Total running time: 1028.3134455680847 seconds
+INFO	Results written in /home/working/run_G_turnbulli/
+

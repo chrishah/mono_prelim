@@ -1,7 +1,5 @@
-total 1010M
-drwxrwxrwx 1  4,0K Feb 13  2017 metazoa_odb9
--rwxrwxrwx 1 1010M Dez 10 09:58 macrostomum_lignano.PRJNA284736.WBPS12.genomic.fa
--rwxrwxrwx 1   617 Dez 10 10:00 HOWTO
-drwxrwxrwx 1  4,0K Dez 10 10:57 tmp
-drwxrwxrwx 1     0 Dez 10 10:57 run_M_lignano
--rwxrwxrwx 1  1,3K Dez 10 10:57 busco.log
+total 288M
+-rwxrwxrwx 1 272M Dez 10 09:58 macrostomum_lignano.PRJNA284736.WBPS12.genomic.fa.gz
+-rwxrwxrwx 1  617 Dez 10 10:00 HOWTO
+-rwxrwxrwx 1  16K Dez 10 12:51 busco.log
+-rwxrwxrwx 1  16M Dez 16 00:36 run_M_lignano.tar.gz

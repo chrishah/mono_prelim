@@ -1,0 +1,12 @@
+#Celera assembly
+cp -p ~/WORKING/turn/2-assembly/CELERA/G14-ec-G4-filtered-k31-kgt15-pgt0.9/genome_size_UNKNOWN/G14-ec-G4-filtered-k31-kgt15-pgt0.9.assembly/9-terminator/G14-ec-G4-filtered-k31-kgt15-pgt0.9.scf.fasta .
+
+#download metazoa reference set
+wget -qO- https://busco.ezlab.org/datasets/metazoa_odb9.tar.gz | tar -xvz
+
+#run BUSCO
+fasta=G14-ec-G4-filtered-k31-kgt15-pgt0.9.scf.fasta
+prefix=G_turnbulli
+docker run -it --rm --net=host -v $(pwd):/home/working -w /home/working chrishah/busco-docker:v3.0.2 run_BUSCO.py --in $fasta --out $prefix -l ./metazoa_odb9 --mode genome -c 6 2>&1 | tee busco.log
+
+

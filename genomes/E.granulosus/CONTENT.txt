@@ -1,4 +1,5 @@
 total 41M
+drwxrwxrwx 1 4,0K Dez  9 01:26 run_E_granulosus
 -rwxrwxrwx 1 6,7M Dez 10 00:23 run_E_granulosus.tar.gz
 -rwxrwxrwx 1  35M Dez 10 00:23 echinococcus_granulosus.PRJEB121.WBPS12.genomic.fa.gz
 -rwxrwxrwx 1  625 Dez 10 09:15 HOWTO

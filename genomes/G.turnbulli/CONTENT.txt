@@ -1,1 +1,5 @@
-total 512
+total 27M
+-rwxrwxrwx 1  21M Jun  2  2018 G14-ec-G4-filtered-k31-kgt15-pgt0.9.scf.fasta.gz
+-rwxrwxrwx 1  608 Dez 11 10:57 HOWTO
+-rwxrwxrwx 1  15K Dez 11 11:14 busco.log
+-rwxrwxrwx 1 5,6M Dez 16 00:34 run_G_turnbulli.tar.gz
