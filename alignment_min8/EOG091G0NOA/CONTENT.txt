@@ -1,4 +1,4 @@
-total 1001K
+total 997K
 -rwxrwxrwx 1 2,3K Dez 11 15:10 EOG091G0NOA.ingroup.fasta
 -rwxrwxrwx 1 170K Dez 11 15:10 EOG091G0NOA.orthodb.fasta
 -rwxrwxrwx 1 1,1K Dez 11 15:10 orthodb.download.log

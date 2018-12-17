@@ -1,9 +1,6 @@
 total 597K
 -rwxrwxrwx 1   87 Dez 11 10:19 taxids.txt
 -rwxrwxrwx 1 1,5K Dez 11 11:53 genes_min8.txt
--rwxrwxrwx 1 7,2K Dez 12 15:45 HOWTO
-drwxrwxrwx 1 4,0K Dez 12 16:33 RAxML
-drwxrwxrwx 1  76K Dez 12 16:33 concat
 drwxrwxrwx 1 4,0K Dez 12 16:35 EOG091G15HV
 drwxrwxrwx 1 4,0K Dez 12 16:37 EOG091G05OW
 drwxrwxrwx 1 4,0K Dez 12 16:37 EOG091G06J6
@@ -130,3 +127,6 @@ drwxrwxrwx 1 4,0K Dez 12 16:37 EOG091G05AA
 drwxrwxrwx 1 4,0K Dez 12 16:37 EOG091G05AH
 drwxrwxrwx 1 4,0K Dez 12 16:37 EOG091G05K5
 drwxrwxrwx 1 4,0K Dez 12 16:37 EOG091G05KR
+drwxrwxrwx 1  76K Dez 12 16:43 concat
+-rwxrwxrwx 1 7,3K Dez 12 16:49 HOWTO
+drwxrwxrwx 1 4,0K Dez 12 19:23 RAxML
