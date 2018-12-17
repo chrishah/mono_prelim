@@ -1,5 +1,4 @@
 total 172M
-drwxrwxrwx 1 4,0K Dez  9 18:48 run_C_sinensis
 -rwxrwxrwx 1 8,5M Dez 10 00:18 run_C_sinensis.tar.gz
 -rwxrwxrwx 1 163M Dez 10 00:20 clonorchis_sinensis.PRJDA72781.WBPS12.genomic.fa.gz
 -rwxrwxrwx 1  615 Dez 10 09:15 HOWTO

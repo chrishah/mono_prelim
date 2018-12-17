@@ -1,4 +1,10 @@
-total 9,0K
+total 353K
 -rwxrwxrwx 1   13 Dez 10 00:16 README.md
 -rwxrwxrwx 1  827 Dez 10 00:16 cleanup.sh
-drwxrwxrwx 1 4,0K Dez 10 10:55 genomes
+drwxrwxrwx 1 4,0K Dez 11 11:58 genomes
+drwxrwxrwx 1  64K Dez 14 09:19 alignment_min8
+drwxrwxrwx 1  72K Dez 14 21:18 alignment_min6
+drwxrwxrwx 1  68K Dez 14 21:22 alignment_min6b
+drwxrwxrwx 1  68K Dez 15 22:13 alignment_min6c
+drwxrwxrwx 1  72K Dez 17 23:17 alignment_min6d
+drwxrwxrwx 1    0 Dez 17 23:25 genomes_alternative

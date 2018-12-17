@@ -1,17 +1,17 @@
-total 176K
-drwxrwxrwx 1 4,0K Dez 10 10:58 M.lignano
-drwxrwxrwx 1 4,0K Dez 10 11:02 E.granulosus
-drwxrwxrwx 1 4,0K Dez 10 11:02 E.nipponicum
-drwxrwxrwx 1 4,0K Dez 10 11:02 G.salaris
-drwxrwxrwx 1 4,0K Dez 10 11:02 H.microstoma
-drwxrwxrwx 1 4,0K Dez 10 11:02 O.viverrini
-drwxrwxrwx 1 4,0K Dez 10 11:02 P.xenopodis
-drwxrwxrwx 1 4,0K Dez 10 11:02 S.mansoni
-drwxrwxrwx 1 4,0K Dez 10 11:02 S.mediterranea
-drwxrwxrwx 1 4,0K Dez 10 11:02 T.solium
-drwxrwxrwx 1 4,0K Dez 11 11:48 G.turnbulli
+total 180K
 -rwxrwxrwx 1 4,1K Dez 11 11:51 create_summary_table.sh
 -rwxrwxrwx 1 112K Dez 11 11:51 summary.tsv
 -rwxrwxrwx 1 1,5K Dez 11 11:51 genes_min8.txt
 -rwxrwxrwx 1  908 Dez 11 11:58 HOWTO
-drwxrwxrwx 1 4,0K Dez 12 16:39 C.sinensis
+drwxrwxrwx 1 4,0K Dez 17 23:19 C.sinensis
+drwxrwxrwx 1 4,0K Dez 17 23:19 E.granulosus
+drwxrwxrwx 1 4,0K Dez 17 23:19 E.nipponicum
+drwxrwxrwx 1 4,0K Dez 17 23:19 G.salaris
+drwxrwxrwx 1 4,0K Dez 17 23:19 G.turnbulli
+drwxrwxrwx 1 4,0K Dez 17 23:19 H.microstoma
+drwxrwxrwx 1 4,0K Dez 17 23:19 O.viverrini
+drwxrwxrwx 1 4,0K Dez 17 23:19 P.xenopodis
+drwxrwxrwx 1 4,0K Dez 17 23:19 S.mansoni
+drwxrwxrwx 1 4,0K Dez 17 23:19 S.mediterranea
+drwxrwxrwx 1 4,0K Dez 17 23:19 T.solium
+drwxrwxrwx 1 4,0K Dez 17 23:24 M.lignano

@@ -1,5 +1,4 @@
 total 27M
-drwxrwxrwx 1 4,0K Dez  9 01:03 run_G_salaris
 -rwxrwxrwx 1 6,6M Dez 10 00:22 run_G_salaris.tar.gz
 -rwxrwxrwx 1  20M Dez 10 00:23 gyrodactylus_salaris.PRJNA244375.WBPS12.genomic.fa.gz
 -rwxrwxrwx 1  623 Dez 10 09:15 HOWTO
