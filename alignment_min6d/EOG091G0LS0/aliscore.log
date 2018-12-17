@@ -1,0 +1,307 @@
+
+	reading taxa from FASTA ...
+
+
+	M.lignano            -> sites: 438   
+	H.robusta            -> sites: 438   
+	S.mansoni            -> sites: 438   
+	G.salaris            -> sites: 438   
+	R.norvegicus         -> sites: 438   
+	P.xenopodis          -> sites: 438   
+	O.viverrini          -> sites: 438   
+	S.mediterranea       -> sites: 438   
+	E.granulosus         -> sites: 438   
+	H.microstoma         -> sites: 438   
+	E.nipponicum         -> sites: 438   
+	T.solium             -> sites: 438   
+	D.rerio              -> sites: 438   
+	C.sinensis           -> sites: 438   
+	D.melanogaster       -> sites: 438   
+	C.intestinalis       -> sites: 438   
+
+
+	data type             : amino acid sequences
+
+	input ...
+
+	infile		: EOG091G0LS0.clustalo.aln.fasta
+	random pairs	: 200000000000000000
+	window size	: 6
+	indels		: ambiguous
+	tree file	: -
+	node level	: -
+	strict profile	: -
+	outgroup	: -
+	matrix          : BLOSUM62
+
+	number of taxa        : 16
+	random number of pairs: 200000000000000000
+
+	generates threshhold value for amino acid data
+	using BLOSUM62
+
+	checks for (potential) identical taxa
+
+
+	scores site patterns ...
+
+
+	max number of different pairs is 120
+	max random pairs are scored!
+
+	pair: 1      ->	taxon1: M.lignano 	taxon2: H.robusta 
+	            	positions below base line: 249
+	pair: 2      ->	taxon1: M.lignano 	taxon2: S.mansoni 
+	            	positions below base line: 217
+	pair: 3      ->	taxon1: M.lignano 	taxon2: G.salaris 
+	            	positions below base line: 301
+	pair: 4      ->	taxon1: M.lignano 	taxon2: R.norvegic
+	            	positions below base line: 256
+	pair: 5      ->	taxon1: M.lignano 	taxon2: P.xenopodi
+	            	positions below base line: 231
+	pair: 6      ->	taxon1: M.lignano 	taxon2: O.viverrin
+	            	positions below base line: 227
+	pair: 7      ->	taxon1: M.lignano 	taxon2: S.mediterr
+	            	positions below base line: 307
+	pair: 8      ->	taxon1: M.lignano 	taxon2: E.granulos
+	            	positions below base line: 224
+	pair: 9      ->	taxon1: M.lignano 	taxon2: H.microsto
+	            	positions below base line: 304
+	pair: 10     ->	taxon1: M.lignano 	taxon2: E.nipponic
+	            	positions below base line: 311
+	pair: 11     ->	taxon1: M.lignano 	taxon2: T.solium  
+	            	positions below base line: 218
+	pair: 12     ->	taxon1: M.lignano 	taxon2: D.rerio   
+	            	positions below base line: 222
+	pair: 13     ->	taxon1: M.lignano 	taxon2: C.sinensis
+	            	positions below base line: 227
+	pair: 14     ->	taxon1: M.lignano 	taxon2: D.melanoga
+	            	positions below base line: 223
+	pair: 15     ->	taxon1: M.lignano 	taxon2: C.intestin
+	            	positions below base line: 229
+	pair: 16     ->	taxon1: H.robusta 	taxon2: S.mansoni 
+	            	positions below base line: 252
+	pair: 17     ->	taxon1: H.robusta 	taxon2: G.salaris 
+	            	positions below base line: 300
+	pair: 18     ->	taxon1: H.robusta 	taxon2: R.norvegic
+	            	positions below base line: 263
+	pair: 19     ->	taxon1: H.robusta 	taxon2: P.xenopodi
+	            	positions below base line: 239
+	pair: 20     ->	taxon1: H.robusta 	taxon2: O.viverrin
+	            	positions below base line: 248
+	pair: 21     ->	taxon1: H.robusta 	taxon2: S.mediterr
+	            	positions below base line: 296
+	pair: 22     ->	taxon1: H.robusta 	taxon2: E.granulos
+	            	positions below base line: 245
+	pair: 23     ->	taxon1: H.robusta 	taxon2: H.microsto
+	            	positions below base line: 308
+	pair: 24     ->	taxon1: H.robusta 	taxon2: E.nipponic
+	            	positions below base line: 326
+	pair: 25     ->	taxon1: H.robusta 	taxon2: T.solium  
+	            	positions below base line: 244
+	pair: 26     ->	taxon1: H.robusta 	taxon2: D.rerio   
+	            	positions below base line: 226
+	pair: 27     ->	taxon1: H.robusta 	taxon2: C.sinensis
+	            	positions below base line: 248
+	pair: 28     ->	taxon1: H.robusta 	taxon2: D.melanoga
+	            	positions below base line: 234
+	pair: 29     ->	taxon1: H.robusta 	taxon2: C.intestin
+	            	positions below base line: 237
+	pair: 30     ->	taxon1: S.mansoni 	taxon2: G.salaris 
+	            	positions below base line: 301
+	pair: 31     ->	taxon1: S.mansoni 	taxon2: R.norvegic
+	            	positions below base line: 271
+	pair: 32     ->	taxon1: S.mansoni 	taxon2: P.xenopodi
+	            	positions below base line: 219
+	pair: 33     ->	taxon1: S.mansoni 	taxon2: O.viverrin
+	            	positions below base line: 224
+	pair: 34     ->	taxon1: S.mansoni 	taxon2: S.mediterr
+	            	positions below base line: 295
+	pair: 35     ->	taxon1: S.mansoni 	taxon2: E.granulos
+	            	positions below base line: 219
+	pair: 36     ->	taxon1: S.mansoni 	taxon2: H.microsto
+	            	positions below base line: 263
+	pair: 37     ->	taxon1: S.mansoni 	taxon2: E.nipponic
+	            	positions below base line: 297
+	pair: 38     ->	taxon1: S.mansoni 	taxon2: T.solium  
+	            	positions below base line: 218
+	pair: 39     ->	taxon1: S.mansoni 	taxon2: D.rerio   
+	            	positions below base line: 234
+	pair: 40     ->	taxon1: S.mansoni 	taxon2: C.sinensis
+	            	positions below base line: 224
+	pair: 41     ->	taxon1: S.mansoni 	taxon2: D.melanoga
+	            	positions below base line: 237
+	pair: 42     ->	taxon1: S.mansoni 	taxon2: C.intestin
+	            	positions below base line: 254
+	pair: 43     ->	taxon1: G.salaris 	taxon2: R.norvegic
+	            	positions below base line: 331
+	pair: 44     ->	taxon1: G.salaris 	taxon2: P.xenopodi
+	            	positions below base line: 296
+	pair: 45     ->	taxon1: G.salaris 	taxon2: O.viverrin
+	            	positions below base line: 299
+	pair: 46     ->	taxon1: G.salaris 	taxon2: S.mediterr
+	            	positions below base line: 305
+	pair: 47     ->	taxon1: G.salaris 	taxon2: E.granulos
+	            	positions below base line: 305
+	pair: 48     ->	taxon1: G.salaris 	taxon2: H.microsto
+	            	positions below base line: 314
+	pair: 49     ->	taxon1: G.salaris 	taxon2: E.nipponic
+	            	positions below base line: 374
+	pair: 50     ->	taxon1: G.salaris 	taxon2: T.solium  
+	            	positions below base line: 304
+	pair: 51     ->	taxon1: G.salaris 	taxon2: D.rerio   
+	            	positions below base line: 297
+	pair: 52     ->	taxon1: G.salaris 	taxon2: C.sinensis
+	            	positions below base line: 299
+	pair: 53     ->	taxon1: G.salaris 	taxon2: D.melanoga
+	            	positions below base line: 292
+	pair: 54     ->	taxon1: G.salaris 	taxon2: C.intestin
+	            	positions below base line: 297
+	pair: 55     ->	taxon1: R.norvegic	taxon2: P.xenopodi
+	            	positions below base line: 276
+	pair: 56     ->	taxon1: R.norvegic	taxon2: O.viverrin
+	            	positions below base line: 280
+	pair: 57     ->	taxon1: R.norvegic	taxon2: S.mediterr
+	            	positions below base line: 324
+	pair: 58     ->	taxon1: R.norvegic	taxon2: E.granulos
+	            	positions below base line: 274
+	pair: 59     ->	taxon1: R.norvegic	taxon2: H.microsto
+	            	positions below base line: 333
+	pair: 60     ->	taxon1: R.norvegic	taxon2: E.nipponic
+	            	positions below base line: 326
+	pair: 61     ->	taxon1: R.norvegic	taxon2: T.solium  
+	            	positions below base line: 272
+	pair: 62     ->	taxon1: R.norvegic	taxon2: D.rerio   
+	            	positions below base line: 243
+	pair: 63     ->	taxon1: R.norvegic	taxon2: C.sinensis
+	            	positions below base line: 280
+	pair: 64     ->	taxon1: R.norvegic	taxon2: D.melanoga
+	            	positions below base line: 264
+	pair: 65     ->	taxon1: R.norvegic	taxon2: C.intestin
+	            	positions below base line: 252
+	pair: 66     ->	taxon1: P.xenopodi	taxon2: O.viverrin
+	            	positions below base line: 222
+	pair: 67     ->	taxon1: P.xenopodi	taxon2: S.mediterr
+	            	positions below base line: 310
+	pair: 68     ->	taxon1: P.xenopodi	taxon2: E.granulos
+	            	positions below base line: 208
+	pair: 69     ->	taxon1: P.xenopodi	taxon2: H.microsto
+	            	positions below base line: 305
+	pair: 70     ->	taxon1: P.xenopodi	taxon2: E.nipponic
+	            	positions below base line: 300
+	pair: 71     ->	taxon1: P.xenopodi	taxon2: T.solium  
+	            	positions below base line: 207
+	pair: 72     ->	taxon1: P.xenopodi	taxon2: D.rerio   
+	            	positions below base line: 237
+	pair: 73     ->	taxon1: P.xenopodi	taxon2: C.sinensis
+	            	positions below base line: 222
+	pair: 74     ->	taxon1: P.xenopodi	taxon2: D.melanoga
+	            	positions below base line: 224
+	pair: 75     ->	taxon1: P.xenopodi	taxon2: C.intestin
+	            	positions below base line: 257
+	pair: 76     ->	taxon1: O.viverrin	taxon2: S.mediterr
+	            	positions below base line: 306
+	pair: 77     ->	taxon1: O.viverrin	taxon2: E.granulos
+	            	positions below base line: 223
+	pair: 78     ->	taxon1: O.viverrin	taxon2: H.microsto
+	            	positions below base line: 316
+	pair: 79     ->	taxon1: O.viverrin	taxon2: E.nipponic
+	            	positions below base line: 306
+	pair: 80     ->	taxon1: O.viverrin	taxon2: T.solium  
+	            	positions below base line: 223
+	pair: 81     ->	taxon1: O.viverrin	taxon2: D.rerio   
+	            	positions below base line: 238
+	pair: 82     ->	taxon1: O.viverrin	taxon2: C.sinensis
+	            	positions below base line: 206
+	pair: 83     ->	taxon1: O.viverrin	taxon2: D.melanoga
+	            	positions below base line: 223
+	pair: 84     ->	taxon1: O.viverrin	taxon2: C.intestin
+	            	positions below base line: 240
+	pair: 85     ->	taxon1: S.mediterr	taxon2: E.granulos
+	            	positions below base line: 314
+	pair: 86     ->	taxon1: S.mediterr	taxon2: H.microsto
+	            	positions below base line: 310
+	pair: 87     ->	taxon1: S.mediterr	taxon2: E.nipponic
+	            	positions below base line: 386
+	pair: 88     ->	taxon1: S.mediterr	taxon2: T.solium  
+	            	positions below base line: 314
+	pair: 89     ->	taxon1: S.mediterr	taxon2: D.rerio   
+	            	positions below base line: 290
+	pair: 90     ->	taxon1: S.mediterr	taxon2: C.sinensis
+	            	positions below base line: 306
+	pair: 91     ->	taxon1: S.mediterr	taxon2: D.melanoga
+	            	positions below base line: 293
+	pair: 92     ->	taxon1: S.mediterr	taxon2: C.intestin
+	            	positions below base line: 291
+	pair: 93     ->	taxon1: E.granulos	taxon2: H.microsto
+	            	positions below base line: 301
+	pair: 94     ->	taxon1: E.granulos	taxon2: E.nipponic
+	            	positions below base line: 299
+	pair: 95     ->	taxon1: E.granulos	taxon2: T.solium  
+	            	positions below base line: 206
+	pair: 96     ->	taxon1: E.granulos	taxon2: D.rerio   
+	            	positions below base line: 239
+	pair: 97     ->	taxon1: E.granulos	taxon2: C.sinensis
+	            	positions below base line: 223
+	pair: 98     ->	taxon1: E.granulos	taxon2: D.melanoga
+	            	positions below base line: 218
+	pair: 99     ->	taxon1: E.granulos	taxon2: C.intestin
+	            	positions below base line: 257
+	pair: 100    ->	taxon1: H.microsto	taxon2: E.nipponic
+	            	positions below base line: 382
+	pair: 101    ->	taxon1: H.microsto	taxon2: T.solium  
+	            	positions below base line: 301
+	pair: 102    ->	taxon1: H.microsto	taxon2: D.rerio   
+	            	positions below base line: 307
+	pair: 103    ->	taxon1: H.microsto	taxon2: C.sinensis
+	            	positions below base line: 316
+	pair: 104    ->	taxon1: H.microsto	taxon2: D.melanoga
+	            	positions below base line: 286
+	pair: 105    ->	taxon1: H.microsto	taxon2: C.intestin
+	            	positions below base line: 311
+	pair: 106    ->	taxon1: E.nipponic	taxon2: T.solium  
+	            	positions below base line: 299
+	pair: 107    ->	taxon1: E.nipponic	taxon2: D.rerio   
+	            	positions below base line: 327
+	pair: 108    ->	taxon1: E.nipponic	taxon2: C.sinensis
+	            	positions below base line: 306
+	pair: 109    ->	taxon1: E.nipponic	taxon2: D.melanoga
+	            	positions below base line: 312
+	pair: 110    ->	taxon1: E.nipponic	taxon2: C.intestin
+	            	positions below base line: 340
+	pair: 111    ->	taxon1: T.solium  	taxon2: D.rerio   
+	            	positions below base line: 238
+	pair: 112    ->	taxon1: T.solium  	taxon2: C.sinensis
+	            	positions below base line: 223
+	pair: 113    ->	taxon1: T.solium  	taxon2: D.melanoga
+	            	positions below base line: 216
+	pair: 114    ->	taxon1: T.solium  	taxon2: C.intestin
+	            	positions below base line: 246
+	pair: 115    ->	taxon1: D.rerio   	taxon2: C.sinensis
+	            	positions below base line: 238
+	pair: 116    ->	taxon1: D.rerio   	taxon2: D.melanoga
+	            	positions below base line: 226
+	pair: 117    ->	taxon1: D.rerio   	taxon2: C.intestin
+	            	positions below base line: 221
+	pair: 118    ->	taxon1: C.sinensis	taxon2: D.melanoga
+	            	positions below base line: 223
+	pair: 119    ->	taxon1: C.sinensis	taxon2: C.intestin
+	            	positions below base line: 240
+	pair: 120    ->	taxon1: D.melanoga	taxon2: C.intestin
+	            	positions below base line: 229
+
+	generates quality profile from collected scores ...
+
+
+	scoring done ...
+
+
+	generates vector plot from collected scores ...
+
+
+Argument "-" treated as 0 in increment (++) at /usr/bin/Aliscore.pl line 1213.
+	Profile written to EOG091G0LS0.clustalo.aln.fasta_Profile_random.txt
+	List   written to EOG091G0LS0.clustalo.aln.fasta_List_random.txt
+
+	time used: 4.88 sec
+

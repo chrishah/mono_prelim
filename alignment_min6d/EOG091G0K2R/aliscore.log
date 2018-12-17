@@ -1,0 +1,132 @@
+
+	reading taxa from FASTA ...
+
+
+	H.robusta            -> sites: 1061  
+	O.viverrini          -> sites: 1061  
+	D.melanogaster       -> sites: 1061  
+	H.microstoma         -> sites: 1061  
+	C.sinensis           -> sites: 1061  
+	G.turnbulli          -> sites: 1061  
+	M.lignano            -> sites: 1061  
+	G.salaris            -> sites: 1061  
+	S.mediterranea       -> sites: 1061  
+
+
+	data type             : amino acid sequences
+
+	input ...
+
+	infile		: EOG091G0K2R.clustalo.aln.fasta
+	random pairs	: 200000000000000000
+	window size	: 6
+	indels		: ambiguous
+	tree file	: -
+	node level	: -
+	strict profile	: -
+	outgroup	: -
+	matrix          : BLOSUM62
+
+	number of taxa        : 9
+	random number of pairs: 200000000000000000
+
+	generates threshhold value for amino acid data
+	using BLOSUM62
+
+	checks for (potential) identical taxa
+
+
+	scores site patterns ...
+
+
+	max number of different pairs is 36
+	max random pairs are scored!
+
+	pair: 1      ->	taxon1: H.robusta 	taxon2: O.viverrin
+	            	positions below base line: 914
+	pair: 2      ->	taxon1: H.robusta 	taxon2: D.melanoga
+	            	positions below base line: 815
+	pair: 3      ->	taxon1: H.robusta 	taxon2: H.microsto
+	            	positions below base line: 881
+	pair: 4      ->	taxon1: H.robusta 	taxon2: C.sinensis
+	            	positions below base line: 963
+	pair: 5      ->	taxon1: H.robusta 	taxon2: G.turnbull
+	            	positions below base line: 941
+	pair: 6      ->	taxon1: H.robusta 	taxon2: M.lignano 
+	            	positions below base line: 893
+	pair: 7      ->	taxon1: H.robusta 	taxon2: G.salaris 
+	            	positions below base line: 882
+	pair: 8      ->	taxon1: H.robusta 	taxon2: S.mediterr
+	            	positions below base line: 858
+	pair: 9      ->	taxon1: O.viverrin	taxon2: D.melanoga
+	            	positions below base line: 914
+	pair: 10     ->	taxon1: O.viverrin	taxon2: H.microsto
+	            	positions below base line: 946
+	pair: 11     ->	taxon1: O.viverrin	taxon2: C.sinensis
+	            	positions below base line: 616
+	pair: 12     ->	taxon1: O.viverrin	taxon2: G.turnbull
+	            	positions below base line: 691
+	pair: 13     ->	taxon1: O.viverrin	taxon2: M.lignano 
+	            	positions below base line: 924
+	pair: 14     ->	taxon1: O.viverrin	taxon2: G.salaris 
+	            	positions below base line: 930
+	pair: 15     ->	taxon1: O.viverrin	taxon2: S.mediterr
+	            	positions below base line: 900
+	pair: 16     ->	taxon1: D.melanoga	taxon2: H.microsto
+	            	positions below base line: 878
+	pair: 17     ->	taxon1: D.melanoga	taxon2: C.sinensis
+	            	positions below base line: 952
+	pair: 18     ->	taxon1: D.melanoga	taxon2: G.turnbull
+	            	positions below base line: 946
+	pair: 19     ->	taxon1: D.melanoga	taxon2: M.lignano 
+	            	positions below base line: 843
+	pair: 20     ->	taxon1: D.melanoga	taxon2: G.salaris 
+	            	positions below base line: 887
+	pair: 21     ->	taxon1: D.melanoga	taxon2: S.mediterr
+	            	positions below base line: 859
+	pair: 22     ->	taxon1: H.microsto	taxon2: C.sinensis
+	            	positions below base line: 966
+	pair: 23     ->	taxon1: H.microsto	taxon2: G.turnbull
+	            	positions below base line: 955
+	pair: 24     ->	taxon1: H.microsto	taxon2: M.lignano 
+	            	positions below base line: 901
+	pair: 25     ->	taxon1: H.microsto	taxon2: G.salaris 
+	            	positions below base line: 913
+	pair: 26     ->	taxon1: H.microsto	taxon2: S.mediterr
+	            	positions below base line: 896
+	pair: 27     ->	taxon1: C.sinensis	taxon2: G.turnbull
+	            	positions below base line: 771
+	pair: 28     ->	taxon1: C.sinensis	taxon2: M.lignano 
+	            	positions below base line: 957
+	pair: 29     ->	taxon1: C.sinensis	taxon2: G.salaris 
+	            	positions below base line: 971
+	pair: 30     ->	taxon1: C.sinensis	taxon2: S.mediterr
+	            	positions below base line: 964
+	pair: 31     ->	taxon1: G.turnbull	taxon2: M.lignano 
+	            	positions below base line: 960
+	pair: 32     ->	taxon1: G.turnbull	taxon2: G.salaris 
+	            	positions below base line: 915
+	pair: 33     ->	taxon1: G.turnbull	taxon2: S.mediterr
+	            	positions below base line: 948
+	pair: 34     ->	taxon1: M.lignano 	taxon2: G.salaris 
+	            	positions below base line: 906
+	pair: 35     ->	taxon1: M.lignano 	taxon2: S.mediterr
+	            	positions below base line: 889
+	pair: 36     ->	taxon1: G.salaris 	taxon2: S.mediterr
+	            	positions below base line: 889
+
+	generates quality profile from collected scores ...
+
+
+	scoring done ...
+
+
+	generates vector plot from collected scores ...
+
+
+Argument "-" treated as 0 in increment (++) at /usr/bin/Aliscore.pl line 1213.
+	Profile written to EOG091G0K2R.clustalo.aln.fasta_Profile_random.txt
+	List   written to EOG091G0K2R.clustalo.aln.fasta_List_random.txt
+
+	time used: 3.93 sec
+
